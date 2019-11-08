@@ -4,7 +4,7 @@ let Nightmare = require('nightmare');
   nightmare = Nightmare();
 
 
-nightmare.goto('http://ensabahnur.free.fr/BastonNew/index.php?id=1')
+nightmare.goto('http://ensabahnur.free.fr/BastonNew/index.php?id=20')
   .wait(2000)
   .evaluate(function(){
     
@@ -61,10 +61,7 @@ nightmare.goto('http://ensabahnur.free.fr/BastonNew/index.php?id=1')
   })
   .end()
   .then(function(res){
-    for(normals in res) {
-      console.log[res[normals]];
-      // fs.writeFile('Alex.json', JSON.stringify(res[normals]), err => {
-      //   if(err) throw err;
-      })
-    }
+    fs.writeFile('Remy.json', JSON.stringify(res, null, 2), err => {
+      if(err) throw err;
+    })
   })

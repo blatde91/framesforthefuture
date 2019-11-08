@@ -1,0 +1,302 @@
+[
+  {
+    "Jab": {
+      "blockAdv": "4",
+      "crHitAdv": "4",
+      "hit": "2",
+      "hitAdv": "4",
+      "recovery": "6",
+      "startup": "3"
+    }
+  },
+  {
+    "Strong": {
+      "blockAdv": "6",
+      "crHitAdv": "8",
+      "hit": "3",
+      "hitAdv": "7",
+      "recovery": "7",
+      "startup": "4"
+    }
+  },
+  {
+    "Fierce": {
+      "blockAdv": "-2",
+      "crHitAdv": "0",
+      "hit": "6",
+      "hitAdv": "-1",
+      "recovery": "13",
+      "startup": "6"
+    }
+  },
+  {
+    "Far Jab": {
+      "blockAdv": "1",
+      "crHitAdv": "1",
+      "hit": "2",
+      "hitAdv": "1",
+      "recovery": "9",
+      "startup": "4"
+    }
+  },
+  {
+    "Far Strong": {
+      "blockAdv": "-3",
+      "crHitAdv": "-1",
+      "hit": "4",
+      "hitAdv": "-2",
+      "recovery": "12",
+      "startup": "5"
+    }
+  },
+  {
+    "Far Fierce": {
+      "blockAdv": "-5",
+      "crHitAdv": "-1",
+      "hit": "2",
+      "hitAdv": "-3",
+      "recovery": "23",
+      "startup": "9"
+    }
+  },
+  {
+    "Crouching Jab": {
+      "blockAdv": "4",
+      "crHitAdv": "4",
+      "hit": "2",
+      "hitAdv": "4",
+      "recovery": "6",
+      "startup": "4"
+    }
+  },
+  {
+    "Crouching Strong": {
+      "blockAdv": "5",
+      "crHitAdv": "7",
+      "hit": "5",
+      "hitAdv": "6",
+      "recovery": "6",
+      "startup": "4"
+    }
+  },
+  {
+    "Crouching Fierce": {
+      "blockAdv": "1",
+      "crHitAdv": "5",
+      "hit": "4",
+      "hitAdv": "3",
+      "recovery": "15",
+      "startup": "5"
+    }
+  },
+  {
+    "Neutral Jumping Fierce": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "hit": "5",
+      "hitAdv": "-",
+      "recovery": "-",
+      "startup": "8"
+    }
+  },
+  {
+    "Jumping Jab": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "hit": "-",
+      "hitAdv": "-",
+      "recovery": "-",
+      "startup": "2"
+    }
+  },
+  {
+    "Jumping Strong": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "hit": "6",
+      "hitAdv": "-",
+      "recovery": "-",
+      "startup": "3"
+    }
+  },
+  {
+    "Jumping Fierce": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "hit": "4",
+      "hitAdv": "-",
+      "recovery": "-",
+      "startup": "5"
+    }
+  },
+  {
+    "Short": {
+      "blockAdv": "2",
+      "crHitAdv": "2",
+      "hit": "3",
+      "hitAdv": "2",
+      "recovery": "6",
+      "startup": "3"
+    }
+  },
+  {
+    "Forward": {
+      "blockAdv": "-2",
+      "crHitAdv": "D",
+      "hit": "4",
+      "hitAdv": "D",
+      "recovery": "15",
+      "startup": "7"
+    }
+  },
+  {
+    "Far Forward": {
+      "blockAdv": "-4",
+      "crHitAdv": "-2",
+      "hit": "3",
+      "hitAdv": "-3",
+      "recovery": "15",
+      "startup": "9"
+    }
+  },
+  {
+    "Roundhouse": {
+      "blockAdv": "-5",
+      "crHitAdv": "D",
+      "hit": "4",
+      "hitAdv": "D",
+      "recovery": "22",
+      "startup": "14"
+    }
+  },
+  {
+    "Crouching Short": {
+      "blockAdv": "2",
+      "crHitAdv": "2",
+      "hit": "1",
+      "hitAdv": "2",
+      "recovery": "8",
+      "startup": "4"
+    }
+  },
+  {
+    "Crouching Forward": {
+      "blockAdv": "-1",
+      "crHitAdv": "1",
+      "hit": "3",
+      "hitAdv": "0",
+      "recovery": "12",
+      "startup": "6"
+    }
+  },
+  {
+    "Crouching Roundhouse": {
+      "blockAdv": "-5",
+      "crHitAdv": "D",
+      "hit": "2",
+      "hitAdv": "D",
+      "recovery": "19",
+      "startup": "13"
+    }
+  },
+  {
+    "Jumping Short": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "hit": "12",
+      "hitAdv": "-",
+      "recovery": "-",
+      "startup": "4"
+    }
+  },
+  {
+    "Jumping Forward": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "hit": "7",
+      "hitAdv": "-",
+      "recovery": "-",
+      "startup": "6"
+    }
+  },
+  {
+    "Jumping Roundhouse": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "hit": "5",
+      "hitAdv": "-",
+      "recovery": "-",
+      "startup": "5"
+    }
+  },
+  {
+    "Towards + Forward": {
+      "blockAdv": "-1",
+      "crHitAdv": "1",
+      "hit": "6",
+      "hitAdv": "0",
+      "recovery": "8",
+      "startup": "19"
+    }
+  },
+  {
+    "Towards + Fierce": {
+      "blockAdv": "-7",
+      "crHitAdv": "D",
+      "hit": "5",
+      "hitAdv": "D",
+      "recovery": "19",
+      "startup": "17"
+    }
+  },
+  {
+    "Dive Kicks": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "hit": "-",
+      "hitAdv": "-",
+      "recovery": "-",
+      "startup": "6/8/6"
+    }
+  },
+  {
+    "Neutral Throw": {
+      "blockAdv": "0",
+      "crHitAdv": "D",
+      "hit": "1",
+      "hitAdv": "D",
+      "recovery": "21",
+      "startup": "2"
+    }
+  },
+  {
+    "Throw": {
+      "blockAdv": "0",
+      "crHitAdv": "D",
+      "hit": "1",
+      "hitAdv": "D",
+      "recovery": "21",
+      "startup": "2"
+    }
+  },
+  {
+    "Universal Overhead": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "hit": "9",
+      "hitAdv": "-",
+      "recovery": "6",
+      "startup": "15"
+    }
+  },
+  {
+    "Taunt": {
+      "blockAdv": "-24",
+      "crHitAdv": "-",
+      "hit": "6",
+      "hitAdv": "-24",
+      "recovery": "28",
+      "startup": "28"
+    }
+  }
+]
