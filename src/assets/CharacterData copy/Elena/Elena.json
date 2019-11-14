@@ -1,0 +1,352 @@
+[
+  {
+    "move": {
+      "blockAdv": "0",
+      "crHitAdv": "0",
+      "damage": "7",
+      "hit": "4",
+      "hitAdv": "0",
+      "name": "Jab",
+      "parry": "H+L",
+      "recovery": "10",
+      "startup": "5",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "crHitAdv": "0",
+      "damage": "15",
+      "hit": "5",
+      "hitAdv": "-1",
+      "name": "Strong",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "6",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "crHitAdv": "0",
+      "damage": "24",
+      "hit": "4",
+      "hitAdv": "-2",
+      "name": "Fierce",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "13",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-1",
+      "crHitAdv": "-1",
+      "damage": "7",
+      "hit": "4",
+      "hitAdv": "-1",
+      "name": "Cr. Jab",
+      "parry": "H+L",
+      "recovery": "7",
+      "startup": "4",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "crHitAdv": "-1",
+      "damage": "16",
+      "hit": "6",
+      "hitAdv": "-2",
+      "name": "Cr. Strong",
+      "parry": "H+L",
+      "recovery": "10",
+      "startup": "6",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "crHitAdv": "-3",
+      "damage": "19",
+      "hit": "2",
+      "hitAdv": "-5",
+      "name": "Cr. Fierce",
+      "parry": "H",
+      "recovery": "23",
+      "startup": "7",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "8",
+      "hit": "10",
+      "hitAdv": "-",
+      "name": "J. Jab",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "5",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "17",
+      "hit": "5",
+      "hitAdv": "-",
+      "name": "J. Strong",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "7",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "21",
+      "hit": "3",
+      "hitAdv": "-",
+      "name": "J. Fierce",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "8",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "4",
+      "crHitAdv": "4",
+      "damage": "7",
+      "hit": "4",
+      "hitAdv": "4",
+      "name": "Short",
+      "parry": "H+L",
+      "recovery": "6",
+      "startup": "3",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "crHitAdv": "0",
+      "damage": "16",
+      "hit": "2",
+      "hitAdv": "-1",
+      "name": "Forward",
+      "parry": "H+L",
+      "recovery": "17",
+      "startup": "7",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "crHitAdv": "0",
+      "damage": "23",
+      "hit": "7",
+      "hitAdv": "-1",
+      "name": "Roundhouse",
+      "parry": "H",
+      "recovery": "11",
+      "startup": "10",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "crHitAdv": "-2",
+      "damage": "7",
+      "hit": "4",
+      "hitAdv": "-2",
+      "name": "Cr. Short",
+      "parry": "L",
+      "recovery": "8",
+      "startup": "4",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "crHitAdv": "-1",
+      "damage": "12",
+      "hit": "3",
+      "hitAdv": "-2",
+      "name": "Cr. Forward",
+      "parry": "L",
+      "recovery": "13",
+      "startup": "8",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-9",
+      "crHitAdv": "34",
+      "damage": "17",
+      "hit": "2",
+      "hitAdv": "34",
+      "name": "Cr. Roundhouse",
+      "parry": "L",
+      "recovery": "26",
+      "startup": "11",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "8",
+      "hit": "8",
+      "hitAdv": "-",
+      "name": "J. Short",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "6",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "16",
+      "hit": "6",
+      "hitAdv": "-",
+      "name": "J. Forward",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "8",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "24",
+      "hit": "6",
+      "hitAdv": "-",
+      "name": "J. Roundhouse",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "10",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "crHitAdv": "2",
+      "damage": "17",
+      "hit": "4",
+      "hitAdv": "0",
+      "name": "Twd. + Strong",
+      "parry": "H",
+      "recovery": "18",
+      "startup": "15",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-14",
+      "crHitAdv": "29",
+      "damage": "17",
+      "hit": "6",
+      "hitAdv": "29",
+      "name": "Down-Twd. + Roundhouse",
+      "parry": "L",
+      "recovery": "24",
+      "startup": "12",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "crHitAdv": "-2",
+      "damage": "14",
+      "hit": "8",
+      "hitAdv": "-4",
+      "name": "Twd. + Forward",
+      "parry": "H",
+      "recovery": "16",
+      "startup": "11",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "4",
+      "crHitAdv": "8",
+      "damage": "24",
+      "hit": "6",
+      "hitAdv": "6",
+      "name": "Back + Roundhouse",
+      "parry": "H",
+      "recovery": "12",
+      "startup": "12",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "crHitAdv": "0",
+      "damage": "21",
+      "hit": "1",
+      "hitAdv": "70",
+      "name": "Throw",
+      "parry": "-",
+      "recovery": "21",
+      "startup": "2",
+      "stun": "12"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "7",
+      "hit": "10",
+      "hitAdv": "-",
+      "name": "Universal Overhead",
+      "parry": "H",
+      "recovery": "5",
+      "startup": "15",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-68",
+      "crHitAdv": "-",
+      "damage": "2",
+      "hit": "5",
+      "hitAdv": "-",
+      "name": "Taunt",
+      "parry": "L*H",
+      "recovery": "62",
+      "startup": "18",
+      "stun": "0"
+    }
+  }
+]

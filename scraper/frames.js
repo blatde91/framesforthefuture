@@ -1,13 +1,13 @@
-const jquery = require('jquery')
-const fs = require('fs')
-let Nightmare = require('nightmare');
-  nightmare = Nightmare();
+const jquery = require('jquery');
+const fs = require('fs');
+const Nightmare = require('nightmare');
 
+nightmare = Nightmare();
 
-nightmare.goto('http://ensabahnur.free.fr/BastonNew/index.php?id=20')
+nightmare
+  .goto('http://ensabahnur.free.fr/BastonNew/index.php?id=18')
   .wait(2000)
-  .evaluate(function(){
-    
+  .evaluate(() => {
     const names = [];
     const startup = [];
     const hit = [];
@@ -15,53 +15,73 @@ nightmare.goto('http://ensabahnur.free.fr/BastonNew/index.php?id=20')
     const block = [];
     const onHit = [];
     const crHit = [];
+    const parry = [];
+    const damage = [];
+    const stun = [];
 
-    $('tr.fd_tr_hover > td:nth-child(2)').each(function(){
-      const item = $(this).text()
-      names.push(item)
-    })
-    $('tr.fd_tr_hover > td:nth-child(3)').each(function(){
-      const item = $(this).text()
-      startup.push(item)
-    })
-    $('tr.fd_tr_hover > td:nth-child(4)').each(function(){
-      const item = $(this).text()
-      hit.push(item)
-    })
-    $('tr.fd_tr_hover > td:nth-child(5)').each(function(){
-      const item = $(this).text()
-      recovery.push(item)
-    })
-    $('tr.fd_tr_hover > td:nth-child(6)').each(function(){
-      const item = $(this).text()
-      block.push(item)
-    })
-    $('tr.fd_tr_hover > td:nth-child(7)').each(function(){
-      const item = $(this).text()
-      onHit.push(item)
-    })
-    $('tr.fd_tr_hover > td:nth-child(8)').each(function(){
-      const item = $(this).text()
-      crHit.push(item)
-    })
-    const normals = names.map((name, i) => {
-      return {
-        [name]: {
-          startup: startup[i],
-          hit: hit[i],
-          recovery: recovery[i],
-          blockAdv: block[i],
-          hitAdv: onHit[i],
-          crHitAdv: crHit[i],
-        }
-      }
-    })
+    $('tr.fd_tr_hover > td:nth-child(2)').each(function () {
+      let item = $(this).text();
+      item = item.replace('Crouching', 'Cr.');
+      item = item.replace('Jumping', 'J.');
+      item = item.replace('Towards', 'Twd.');
+      names.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(3)').each(function () {
+      const item = $(this).text();
+      startup.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(4)').each(function () {
+      const item = $(this).text();
+      hit.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(5)').each(function () {
+      const item = $(this).text();
+      recovery.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(6)').each(function () {
+      const item = $(this).text();
+      block.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(7)').each(function () {
+      const item = $(this).text();
+      onHit.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(8)').each(function () {
+      const item = $(this).text();
+      crHit.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(10)').each(function () {
+      const item = $(this).text();
+      parry.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(13)').each(function () {
+      const item = $(this).text();
+      damage.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(14)').each(function () {
+      const item = $(this).text();
+      stun.push(item);
+    });
+    const normals = names.map((name, i) => ({
+      move: {
+        name,
+        startup: startup[i],
+        hit: hit[i],
+        recovery: recovery[i],
+        blockAdv: block[i],
+        hitAdv: onHit[i],
+        crHitAdv: crHit[i],
+        parry: parry[i],
+        damage: damage[i],
+        stun: stun[i],
+      },
+    }));
+
     return normals;
-
   })
   .end()
-  .then(function(res){
-    fs.writeFile('Remy.json', JSON.stringify(res, null, 2), err => {
-      if(err) throw err;
-    })
-  })
+  .then((res) => {
+    fs.writeFile('Q.json', JSON.stringify(res, null, 2), (err) => {
+      if (err) throw err;
+    });
+  });
