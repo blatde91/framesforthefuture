@@ -5,9 +5,10 @@ import { CSS, CharData } from '../screens/index';
 const MainViewStack = createStackNavigator({
   CSS: {
     screen: CSS,
-    // navigationOptions: {
-    //   header: () => null,
-    // },
+
+    navigationOptions: {
+      header: () => null,
+    },
   },
   CharData: {
     screen: CharData,
@@ -29,6 +30,7 @@ const AppStack = createStackNavigator(
 
 const AppStackNavigator = createSwitchNavigator({
   App: AppStack,
+
 });
 
 export default createAppContainer(AppStackNavigator);

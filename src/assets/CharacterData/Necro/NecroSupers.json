@@ -1,0 +1,41 @@
+[
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "40",
+      "hit": "18",
+      "motion": "QCF x 2 + Punch",
+      "name": "Magnetic Storm",
+      "parry": "H+L",
+      "recovery": "22",
+      "startup": "1",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "80",
+      "hit": "6",
+      "motion": "QCF x 2 + Punch",
+      "name": "Slam Dance",
+      "parry": "-",
+      "recovery": "8",
+      "startup": "2",
+      "stun": "18"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "47",
+      "hit": "-",
+      "motion": "QCF x 2 + Punch",
+      "name": "Electric Snake",
+      "parry": "L",
+      "recovery": "39",
+      "startup": "3",
+      "stun": "24"
+    }
+  }
+]

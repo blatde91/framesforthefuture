@@ -1,0 +1,236 @@
+[
+  {
+    "move": {
+      "blockAdv": "5",
+      "damage": "10",
+      "hit": "-",
+      "motion": "Hold B...F + Jab",
+      "name": "Light of Virtue (Jab)",
+      "parry": "H",
+      "recovery": "22",
+      "startup": "9",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "5",
+      "damage": "10",
+      "hit": "-",
+      "motion": "Hold B...F + Strong",
+      "name": "Light of Virtue (Strong)",
+      "parry": "H",
+      "recovery": "22",
+      "startup": "10",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "5",
+      "damage": "10",
+      "hit": "-",
+      "motion": "Hold B...F + Fierce",
+      "name": "Light of Virtue (Fierce)",
+      "parry": "H",
+      "recovery": "22",
+      "startup": "11",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "4",
+      "damage": "20",
+      "hit": "-",
+      "motion": "Hold B...F + 2 Punches",
+      "name": "Light of Virtue (EX High)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "8",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "4",
+      "damage": "20",
+      "hit": "-",
+      "motion": "Hold B...F + 2 Punches",
+      "name": "Light of Virtue (EX Low)",
+      "parry": "H+L",
+      "recovery": "24",
+      "startup": "8",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "1",
+      "damage": "10",
+      "hit": "-",
+      "motion": "Hold B...F + Short",
+      "name": "Light of Virtue (Short)",
+      "parry": "H",
+      "recovery": "26",
+      "startup": "11",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "1",
+      "damage": "10",
+      "hit": "-",
+      "motion": "Hold B...F + Forward",
+      "name": "Light of Virtue (Forward)",
+      "parry": "H",
+      "recovery": "26",
+      "startup": "12",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "1",
+      "damage": "10",
+      "hit": "-",
+      "motion": "Hold B...F + RH",
+      "name": "Light of Virtue (RH)",
+      "parry": "H",
+      "recovery": "26",
+      "startup": "13",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "20",
+      "hit": "-",
+      "motion": "Hold B...F + 2 Kicks",
+      "name": "Light of Virtue (EX High)",
+      "parry": "H",
+      "recovery": "28",
+      "startup": "8",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "20",
+      "hit": "-",
+      "motion": "Hold B...F + 2 Kicks",
+      "name": "Light of Virtue (EX Low)",
+      "parry": "H+L",
+      "recovery": "28",
+      "startup": "8",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-17",
+      "damage": "21",
+      "hit": "3",
+      "motion": "Hold D...U + Short",
+      "name": "Rising Rage Flash (Short)",
+      "parry": "H+L",
+      "recovery": "32",
+      "startup": "3",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-23",
+      "damage": "23",
+      "hit": "4",
+      "motion": "Hold D...U + Forward",
+      "name": "Rising Rage Flash (Forward)",
+      "parry": "H+L",
+      "recovery": "39",
+      "startup": "3",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-26",
+      "damage": "24",
+      "hit": "7",
+      "motion": "Hold D...U + RH",
+      "name": "Rising Rage Flash (RH)",
+      "parry": "H+L",
+      "recovery": "44",
+      "startup": "2",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-21",
+      "damage": "32",
+      "hit": "5",
+      "motion": "Hold D...U + 2 Kicks",
+      "name": "Rising Rage Flash (EX)",
+      "parry": "H+L",
+      "recovery": "41",
+      "startup": "6",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "21",
+      "hit": "10",
+      "motion": "QCB + Short",
+      "name": "Cold Blue Kick (Short)",
+      "parry": "H",
+      "recovery": "10",
+      "startup": "17",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "21",
+      "hit": "10",
+      "motion": "QCB + Forward",
+      "name": "Cold Blue Kick (Forward)",
+      "parry": "H",
+      "recovery": "10",
+      "startup": "18",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "21",
+      "hit": "12",
+      "motion": "QCB + RH",
+      "name": "Cold Blue Kick (RH)",
+      "parry": "H",
+      "recovery": "10",
+      "startup": "19",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-1",
+      "damage": "27",
+      "hit": "9",
+      "motion": "QCB + 2 Kicks",
+      "name": "Cold Blue Kick (EX)",
+      "parry": "H",
+      "recovery": "10",
+      "startup": "18",
+      "stun": "11"
+    }
+  }
+]

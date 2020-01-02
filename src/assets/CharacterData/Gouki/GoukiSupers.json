@@ -1,0 +1,93 @@
+[
+  {
+    "move": {
+      "blockAdv": "-13",
+      "damage": "47",
+      "hit": "42",
+      "motion": "QCF x 2 + Punch",
+      "name": "Messatsu Gou Hadou",
+      "parry": "H",
+      "recovery": "N/A",
+      "startup": "2",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "53",
+      "hit": "32",
+      "motion": "QCF x 2 + Punch (Air)",
+      "name": "Tenma Gou Zankuu",
+      "parry": "H",
+      "recovery": "N/A",
+      "startup": "7",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-25",
+      "damage": "66",
+      "hit": "24",
+      "motion": "QCF x 2 + Punch",
+      "name": "Messatsu Gou Shoryuu",
+      "parry": "H+L",
+      "recovery": "37",
+      "startup": "0",
+      "stun": "16"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-76",
+      "damage": "65",
+      "hit": "22",
+      "motion": "QCF x 2 + Kick",
+      "name": "Messatsu Gou Rasen (Ground)",
+      "parry": "H+L",
+      "recovery": "51",
+      "startup": "3",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-56",
+      "damage": "67",
+      "hit": "27",
+      "motion": "QCF x 2 + Kick (Air)",
+      "name": "Messatsu Gou Rasen (Air)",
+      "parry": "-",
+      "recovery": "45",
+      "startup": "1",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "87",
+      "hit": "39",
+      "motion": "Jab, Jab, Towards, Short, Fierce",
+      "name": "Shun Goku Sastu",
+      "parry": "-",
+      "recovery": "2",
+      "startup": "4",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-28",
+      "damage": "107",
+      "hit": "24",
+      "motion": "Down, Down, Down + 3 Punches",
+      "name": "Kongou Kokuretsu Zan",
+      "parry": "-",
+      "recovery": "64",
+      "startup": "15",
+      "stun": "28"
+    }
+  }
+]

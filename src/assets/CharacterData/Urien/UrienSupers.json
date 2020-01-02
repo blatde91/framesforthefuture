@@ -1,0 +1,81 @@
+[
+  {
+    "move": {
+      "blockAdv": "-18",
+      "damage": "69",
+      "hit": "55",
+      "motion": "QCF x 2 + Punch",
+      "name": "Tyrant Punish",
+      "parry": "-",
+      "recovery": "23",
+      "startup": "0",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-36",
+      "damage": "48",
+      "hit": "75",
+      "motion": "QCF x 2 + Punch",
+      "name": "Temporal Thunder",
+      "parry": "-",
+      "recovery": "91",
+      "startup": "1",
+      "stun": "33"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "65",
+      "damage": "23",
+      "hit": "-",
+      "motion": "QCF x 2 + Jab",
+      "name": "Aegis Reflector (Jab)",
+      "parry": "H+L",
+      "recovery": "12",
+      "startup": "13 (9)",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "65",
+      "damage": "23",
+      "hit": "-",
+      "motion": "QCF x 2 + Strong",
+      "name": "Aegis Reflector (Strong)",
+      "parry": "H+L",
+      "recovery": "12",
+      "startup": "25 (9)",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "65",
+      "damage": "23",
+      "hit": "-",
+      "motion": "QCF x 2 + Fierce",
+      "name": "Aegis Reflector (Fierce)",
+      "parry": "H+L",
+      "recovery": "12",
+      "startup": "32 (9)",
+      "stun": "0"
+    }
+  },
+
+  {
+    "move": {
+      "blockAdv": "46",
+      "damage": "23",
+      "hit": "-",
+      "motion": "QCF x 2 + 2 Punches",
+      "name": "Aegis Reflector (EX)",
+      "parry": "H+L",
+      "recovery": "12",
+      "startup": "-2 (9)",
+      "stun": "0"
+    }
+  }
+]

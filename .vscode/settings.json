@@ -1,6 +1,4 @@
 {
-  "prettier.eslintIntegration": true,
-  // set the default
   "editor.formatOnSave": true,
   "workbench.colorCustomizations": {}
 }

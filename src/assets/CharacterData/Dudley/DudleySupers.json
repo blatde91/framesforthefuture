@@ -1,0 +1,41 @@
+[
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "63",
+      "hit": "40",
+      "motion": "QCF x 2 + Punch",
+      "name": "Rocket Uppercut",
+      "parry": "H+L",
+      "recovery": "31",
+      "startup": "0",
+      "stun": "10"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "60",
+      "hit": "17",
+      "motion": "QCF x 2 + Punch (Rapidly)",
+      "name": "Rolling Thunder",
+      "parry": "H",
+      "recovery": "20",
+      "startup": "1",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "46",
+      "hit": "10",
+      "motion": "QCF x 2 + Punch",
+      "name": "Corkscrew Blow",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "0",
+      "stun": "0"
+    }
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "10",
+      "hit": "-",
+      "motion": "QCF + Jab",
+      "name": "Hadouken (Jab)",
+      "parry": "H",
+      "recovery": "38",
+      "startup": "11",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "1",
+      "hit": "-",
+      "motion": "QCF + Strong",
+      "name": "Hadouken (Strong)",
+      "parry": "H",
+      "recovery": "38",
+      "startup": "11",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "10",
+      "hit": "-",
+      "motion": "QCF + Fierce",
+      "name": "Hadouken (Fierce)",
+      "parry": "H",
+      "recovery": "38",
+      "startup": "11",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "20",
+      "hit": "-",
+      "motion": "QCF + 2 Punches",
+      "name": "Hadouken (EX)",
+      "parry": "H",
+      "recovery": "38",
+      "startup": "11",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-17",
+      "damage": "26",
+      "hit": "8",
+      "motion": "DPM + Jab",
+      "name": "Shoryuken (Jab)",
+      "parry": "H+L",
+      "recovery": "26",
+      "startup": "2",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-24",
+      "damage": "28",
+      "hit": "14",
+      "motion": "DPM + Strong",
+      "name": "Shoryuken (Strong)",
+      "parry": "H+L",
+      "recovery": "28",
+      "startup": "3",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-31",
+      "damage": "32",
+      "hit": "21",
+      "motion": "DPM + Fierce",
+      "name": "Shoryuken (Fierce)",
+      "parry": "H+L",
+      "recovery": "32",
+      "startup": "3",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-36",
+      "damage": "34",
+      "hit": "20",
+      "motion": "DPM + 2 Punches",
+      "name": "Shoryuken (EX)",
+      "parry": "H+L",
+      "recovery": "38",
+      "startup": "1",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "19",
+      "hit": "7",
+      "motion": "QCB + Short",
+      "name": "Tatsumaki Senpuu Kyaku (Short)",
+      "parry": "H",
+      "recovery": "14",
+      "startup": "6",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "23",
+      "hit": "14",
+      "motion": "QCB + Forward",
+      "name": "Tatsumaki Senpuu Kyaku (Fwd)",
+      "parry": "H",
+      "recovery": "15",
+      "startup": "6",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "damage": "27",
+      "hit": "17",
+      "motion": "QCB + RH",
+      "name": "Tatsumaki Senpuu Kyaku (RH)",
+      "parry": "H",
+      "recovery": "15",
+      "startup": "6",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "34",
+      "hit": "21",
+      "motion": "QCB + 2 Kicks",
+      "name": "Tatsumaki Senpuu Kyaku (EX)",
+      "parry": "H",
+      "recovery": "13",
+      "startup": "4",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "27",
+      "hit": "4",
+      "motion": "QCB + Short (Air)",
+      "name": "Air Tatsumaki Senpuu Kyaku (Short)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "7",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "40",
+      "hit": "6",
+      "motion": "QCB + Forward (Air)",
+      "name": "Air Tatsumaki Senpuu Kyaku (Fwd)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "7",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "40",
+      "hit": "8",
+      "motion": "QCB + RH (Air)",
+      "name": "Air Tatsumaki Senpuu Kyaku (RH)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "7",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "2",
+      "damage": "52",
+      "hit": "13",
+      "motion": "QCB + 2 Kicks (Air)",
+      "name": "Air Tatsumaki Senpuu Kyaku (EX)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "6",
+      "stun": "17"
+    }
+  }
+]

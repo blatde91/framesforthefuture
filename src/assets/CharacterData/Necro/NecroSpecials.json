@@ -1,0 +1,236 @@
+[
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "10",
+      "hit": "6",
+      "motion": "DPM + Jab",
+      "name": "Electric Shock (Jab)",
+      "parry": "H",
+      "recovery": "16",
+      "startup": "6",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-26",
+      "damage": "29",
+      "hit": "6",
+      "motion": "DPM + Strong",
+      "name": "Electric Shock (Strong)",
+      "parry": "H",
+      "recovery": "33",
+      "startup": "8",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-28",
+      "damage": "38",
+      "hit": "10",
+      "motion": "DPM + Fierce",
+      "name": "Electric Shock (Fierce)",
+      "parry": "H",
+      "recovery": "35",
+      "startup": "10",
+      "stun": "21"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-13",
+      "damage": "24",
+      "hit": "1",
+      "motion": "HCF + Short",
+      "name": "Snake Fang (Short)",
+      "parry": "-",
+      "recovery": "28",
+      "startup": "12",
+      "stun": "10"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "26",
+      "hit": "1",
+      "motion": "HCF + Forward",
+      "name": "Snake Fang (Forward)",
+      "parry": "-",
+      "recovery": "30",
+      "startup": "12",
+      "stun": "12"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-17",
+      "damage": "28",
+      "hit": "1",
+      "motion": "HCF + RH",
+      "name": "Snake Fang (RH)",
+      "parry": "-",
+      "recovery": "32",
+      "startup": "12",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "1",
+      "damage": "19",
+      "hit": "8",
+      "motion": "HCF + Jab",
+      "name": "Spinning Punch (Jab)",
+      "parry": "H",
+      "recovery": "13",
+      "startup": "6",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "21",
+      "hit": "7",
+      "motion": "HCF + Strong",
+      "name": "Spinning Punch (Strong)",
+      "parry": "H",
+      "recovery": "18",
+      "startup": "10",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-18",
+      "damage": "24",
+      "hit": "11",
+      "motion": "HCF + Fierce",
+      "name": "Spinning Punch (Fierce)",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "17",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-9",
+      "damage": "39",
+      "hit": "17",
+      "motion": "HCF + 2 Punches",
+      "name": "Spinning Punch (EX)",
+      "parry": "H",
+      "recovery": "23",
+      "startup": "8",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "21",
+      "hit": "5",
+      "motion": "QCB + Jab",
+      "name": "Flying Viper (Jab)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "26",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "24",
+      "hit": "6",
+      "motion": "QCB + Strong",
+      "name": "Flying Viper (Strong)",
+      "parry": "H",
+      "recovery": "15",
+      "startup": "26",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "28",
+      "hit": "7",
+      "motion": "QCB + Fierce",
+      "name": "Flying Viper (Fierce)",
+      "parry": "H",
+      "recovery": "14",
+      "startup": "28",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "2",
+      "damage": "34",
+      "hit": "5",
+      "motion": "QCB + 2 Punches",
+      "name": "Flying Viper (EX)",
+      "parry": "H",
+      "recovery": "14",
+      "startup": "24",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "23",
+      "hit": "4",
+      "motion": "QCB + Short",
+      "name": "Raging Cobra (Short)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "23",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "26",
+      "hit": "4",
+      "motion": "QCB + Forward",
+      "name": "Raging Cobra (Forward)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "25",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "30",
+      "hit": "4",
+      "motion": "QCB + RH",
+      "name": "Raging Cobra (RH)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "27",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "35",
+      "hit": "4",
+      "motion": "QCB + 2 Kicks",
+      "name": "Raging Cobra (EX)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "25",
+      "stun": "13"
+    }
+  }
+]

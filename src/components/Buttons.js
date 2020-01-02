@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  StyleSheet, View, Text, TouchableOpacity, Image,
+  StyleSheet, View, Text, TouchableOpacity, Image, Platform,
 } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -8,32 +8,68 @@ const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     flex: 1,
-    borderColor: '#d4e4ef',
-    borderLeftWidth: 2,
-    borderRightWidth: 1,
-    borderTopWidth: 2,
-    borderBottomWidth: 2,
-    backgroundColor: 'red',
+    borderColor: 'black',
+    backgroundColor: '#1d1d1d',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+  lowButtonContainer: {
+    height: '100%',
+    width: '100%',
+    flex: 1,
+    borderColor: 'black',
     justifyContent: 'center',
+    padding: 3,
   },
   buttonText: {
     color: 'white',
-    fontWeight: '600',
-    fontSize: 16,
-    textAlign: 'center',
+    fontWeight: '400',
+    fontSize: 22,
+    marginTop: Platform.OS === 'ios' ? 10 : 5,
+    marginBottom: Platform.OS === 'ios' ? 0 : 10,
+    opacity: 0.5,
   },
   charButton: {
-    height: 63,
-    width: 90,
+    height: 58,
+    width: 85,
+    marginBottom: 1,
   },
   charButtImg: {
     height: '100%',
     width: '100%',
+
   },
 });
 
 const ToggleButton = (props) => (
-  <TouchableOpacity style={[styles.buttonContainer, { backgroundColor: props.active ? 'green' : 'red' }]} onPress={props.onPress}>
+  <TouchableOpacity
+    style={[styles.buttonContainer, props.active ? {
+      borderBottomWidth: 3,
+      borderColor: props.altColor,
+    } : null]}
+    onPress={props.onPress}
+  >
+    <Text style={[styles.buttonText, props.active ? {
+      color: props.altColor,
+      opacity: 1,
+    } : null]}
+    >
+      {props.text}
+    </Text>
+  </TouchableOpacity>
+);
+
+const LowToggleButton = (props) => (
+  <TouchableOpacity
+    style={[styles.lowButtonContainer, {
+      backgroundColor: props.active ? '#ea6204' : '#555555',
+      borderTopWidth: props.active ? 1 : 0,
+      borderLeftWidth: props.active ? 1 : 0,
+      borderRightWidth: props.active ? 1 : 0,
+      borderBottomWidth: props.active ? 0 : 1,
+    }]}
+    onPress={props.onPress}
+  >
     <Text style={styles.buttonText}>{props.text}</Text>
   </TouchableOpacity>
 );
@@ -44,4 +80,4 @@ const CharacterButton = (props) => (
   </TouchableOpacity>
 );
 
-export { ToggleButton, CharacterButton };
+export { ToggleButton, LowToggleButton, CharacterButton };

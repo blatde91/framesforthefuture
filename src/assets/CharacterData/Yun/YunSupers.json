@@ -1,0 +1,41 @@
+[
+  {
+    "move": {
+      "blockAdv": "-27",
+      "damage": "64",
+      "hit": "16",
+      "motion": "QCF x 2 + Punch",
+      "name": "You Hou",
+      "parry": "H",
+      "recovery": "36",
+      "startup": "0",
+      "stun": "22"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-18",
+      "damage": "54",
+      "hit": "5",
+      "motion": "QCF x 2 + Punch",
+      "name": "Sourai Rengeki",
+      "parry": "H",
+      "recovery": "25",
+      "startup": "3",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF x 2 + Punch",
+      "name": "Genei Jin",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "9",
+      "stun": "-"
+    }
+  }
+]

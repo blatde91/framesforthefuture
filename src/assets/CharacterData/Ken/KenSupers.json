@@ -1,0 +1,41 @@
+[
+  {
+    "move": {
+      "blockAdv": "-38",
+      "damage": "69",
+      "hit": "34",
+      "motion": "QCF x 2 + Punch",
+      "name": "Shoryureppa",
+      "parry": "H+L",
+      "recovery": "45",
+      "startup": "0",
+      "stun": "6"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-80",
+      "damage": "67",
+      "hit": "36",
+      "motion": "QCF x 2 + Kick",
+      "name": "Shinryuken",
+      "parry": "H+L",
+      "recovery": "61",
+      "startup": "1",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "51",
+      "hit": "9",
+      "motion": "QCF x 2 + Kick",
+      "name": "Shipuujinrai Kyaku",
+      "parry": "H",
+      "recovery": "27",
+      "startup": "1",
+      "stun": "16"
+    }
+  }
+]

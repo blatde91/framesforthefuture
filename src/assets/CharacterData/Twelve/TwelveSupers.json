@@ -1,0 +1,67 @@
+[
+  {
+    "move": {
+      "blockAdv": "-29",
+      "damage": "57",
+      "hit": "76",
+      "motion": "QCF x 2 + Punch",
+      "name": "X.N.D.L.",
+      "parry": "H+L",
+      "recovery": "35",
+      "startup": "4",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-24",
+      "damage": "74",
+      "hit": "12",
+      "motion": "(Air) QCF x 2 + Kick",
+      "name": "X.F.L.A.T.",
+      "parry": "H",
+      "recovery": "49",
+      "startup": "1",
+      "stun": "25"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "40",
+      "hit": "12",
+      "motion": "(Air) QCF x 2 + Kick",
+      "name": "X.F.L.A.T. (Air hit)",
+      "parry": "H",
+      "recovery": "49",
+      "startup": "1",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF x 2 + Punch",
+      "name": "X.C.O.P.Y.",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "12",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF x 2 + Punch",
+      "name": "X.C.O.P.Y.",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "73",
+      "stun": "-"
+    }
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "12",
+      "hit": "-",
+      "motion": "QCF + Jab",
+      "name": "Metallic Sphere (Jab)",
+      "parry": "H",
+      "recovery": "39",
+      "startup": "14",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "12",
+      "hit": "-",
+      "motion": "QCF + Strong",
+      "name": "Metallic Sphere (Strong)",
+      "parry": "H",
+      "recovery": "35",
+      "startup": "14",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "3",
+      "damage": "12",
+      "hit": "-",
+      "motion": "QCF + Fierce",
+      "name": "Metallic Sphere (Fierce)",
+      "parry": "H",
+      "recovery": "28",
+      "startup": "14",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-16",
+      "damage": "27",
+      "hit": "-",
+      "motion": "QCF + 2 Punches",
+      "name": "Metallic Sphere (EX)",
+      "parry": "H",
+      "recovery": "55",
+      "startup": "14",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-16",
+      "damage": "19",
+      "hit": "12",
+      "motion": "Hold D...U + Kick",
+      "name": "Violence Knee Drop",
+      "parry": "H",
+      "recovery": "7",
+      "startup": "24",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-14",
+      "damage": "23",
+      "hit": "5",
+      "motion": "Hold D...U + 2 Kicks",
+      "name": "Violence Knee Drop (EX)",
+      "parry": "H",
+      "recovery": "7",
+      "startup": "26",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "21",
+      "hit": "10",
+      "motion": "Hold B...F + Short",
+      "name": "Chariot rush (Short)",
+      "parry": "H",
+      "recovery": "25",
+      "startup": "7",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "24",
+      "hit": "12",
+      "motion": "Hold B...F + Forward",
+      "name": "Chariot rush (Forward)",
+      "parry": "H",
+      "recovery": "26",
+      "startup": "10",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "26",
+      "hit": "15",
+      "motion": "Hold B...F + RH",
+      "name": "Chariot rush (RH)",
+      "parry": "H",
+      "recovery": "27",
+      "startup": "13",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-9",
+      "damage": "29",
+      "hit": "34",
+      "motion": "Hold B...F + 2 Kicks",
+      "name": "Chariot rush (EX)",
+      "parry": "H",
+      "recovery": "39",
+      "startup": "6",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "21",
+      "hit": "2",
+      "motion": "Hold D...U + Jab",
+      "name": "Headbutt (Jab)",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "7",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "23",
+      "hit": "4",
+      "motion": "Hold D...U + Strong",
+      "name": "Headbutt (Strong)",
+      "parry": "H",
+      "recovery": "18",
+      "startup": "9",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-9",
+      "damage": "24",
+      "hit": "6",
+      "motion": "Hold D...U + Fierce",
+      "name": "Headbutt (Fierce)",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "12",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-1",
+      "damage": "27",
+      "hit": "4",
+      "motion": "Hold D...U + 2 Punches",
+      "name": "Headbutt (EX)",
+      "parry": "H",
+      "recovery": "15",
+      "startup": "9",
+      "stun": "21"
+    }
+  }
+]

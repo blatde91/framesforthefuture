@@ -1,0 +1,223 @@
+[
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "19",
+      "motion": "QCB + Jab",
+      "name": "Sean Roll (Jab)",
+      "parry": "-",
+      "recovery": "7",
+      "startup": "2",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "29",
+      "motion": "QCB + Strong",
+      "name": "Sean Roll (Strong)",
+      "parry": "-",
+      "recovery": "7",
+      "startup": "2",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "43",
+      "motion": "QCB + Fierce",
+      "name": "Sean Roll (Fierce)",
+      "parry": "-",
+      "recovery": "7",
+      "startup": "2",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "21",
+      "hit": "8",
+      "motion": "QCF + Short",
+      "name": "Ryuubi Kyaku (Short)",
+      "parry": "H",
+      "recovery": "15",
+      "startup": "25",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "21",
+      "hit": "8",
+      "motion": "QCF + Forward",
+      "name": "Ryuubi Kyaku (Forward)",
+      "parry": "H",
+      "recovery": "15",
+      "startup": "25",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "21",
+      "hit": "8",
+      "motion": "QCF + RH",
+      "name": "Ryuubi Kyaku (RH)",
+      "parry": "H",
+      "recovery": "15",
+      "startup": "25",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-1",
+      "damage": "32",
+      "hit": "8",
+      "motion": "QCF + 2 Kicks",
+      "name": "Ryuubi Kyaku (EX)",
+      "parry": "H",
+      "recovery": "15",
+      "startup": "25",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "damage": "16",
+      "hit": "4",
+      "motion": "QCB + Short",
+      "name": "Tornado Kick (Short)",
+      "parry": "H",
+      "recovery": "21",
+      "startup": "11",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "24",
+      "hit": "8",
+      "motion": "QCB + Forward",
+      "name": "Tornado Kick (Forward)",
+      "parry": "H",
+      "recovery": "21",
+      "startup": "14",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "26",
+      "hit": "13",
+      "motion": "QCB + RH",
+      "name": "Tornado Kick (RH)",
+      "parry": "H",
+      "recovery": "21",
+      "startup": "16",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "28",
+      "hit": "11",
+      "motion": "QCB + 2 Kicks",
+      "name": "Tornado Kick (EX)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "9",
+      "stun": "21"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-14",
+      "damage": "30",
+      "hit": "2",
+      "motion": "HCF + Punch, Tap Punch",
+      "name": "Tackle (All Versions)",
+      "parry": "L",
+      "recovery": "28",
+      "startup": "18/22/26",
+      "stun": "16"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-14",
+      "damage": "40",
+      "hit": "2",
+      "motion": "HCF + 2 Punches, Tap Punch",
+      "name": "Tackle (EX)",
+      "parry": "L",
+      "recovery": "28",
+      "startup": "28",
+      "stun": "28"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-24",
+      "damage": "23",
+      "hit": "6",
+      "motion": "DPM + Jab",
+      "name": "Dragon Smash (Jab)",
+      "parry": "H+L",
+      "recovery": "36",
+      "startup": "5",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-24",
+      "damage": "23",
+      "hit": "6",
+      "motion": "DPM + Forward",
+      "name": "Dragon Smash (Strong)",
+      "parry": "H+L",
+      "recovery": "36",
+      "startup": "5",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-34",
+      "damage": "23",
+      "hit": "9",
+      "motion": "DPM + Fierce",
+      "name": "Dragon Smash (Fierce)",
+      "parry": "H+L",
+      "recovery": "42",
+      "startup": "9",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-37",
+      "damage": "31",
+      "hit": "12",
+      "motion": "DPM + 2 Punches",
+      "name": "Dragon Smash (EX)",
+      "parry": "H+L",
+      "recovery": "42",
+      "startup": "8",
+      "stun": "17"
+    }
+  }
+]

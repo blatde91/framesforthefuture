@@ -18,6 +18,8 @@ nightmare
     const parry = [];
     const damage = [];
     const stun = [];
+    const meter = [];
+    const oppMeter = [];
 
     $('tr.fd_tr_hover > td:nth-child(2)').each(function () {
       let item = $(this).text();
@@ -61,6 +63,14 @@ nightmare
     $('tr.fd_tr_hover > td:nth-child(14)').each(function () {
       const item = $(this).text();
       stun.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(15)').each(function () {
+      const item = $(this).text();
+      meter.push(item);
+    });
+    $('tr.fd_tr_hover > td:nth-child(16)').each(function () {
+      const item = $(this).text();
+      oppMeter.push(item);
     });
     const normals = names.map((name, i) => ({
       move: {

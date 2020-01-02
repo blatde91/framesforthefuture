@@ -1,0 +1,210 @@
+[
+  {
+    "move": {
+      "blockAdv": "-17",
+      "damage": "8",
+      "hit": "36",
+      "motion": "HCF + Jab",
+      "name": "Kikkoken (Jab)",
+      "parry": "H",
+      "recovery": "45",
+      "startup": "14",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "8",
+      "hit": "17",
+      "motion": "HCF + Strong",
+      "name": "Kikkoken (Strong)",
+      "parry": "H",
+      "recovery": "38",
+      "startup": "13",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "8",
+      "hit": "7",
+      "motion": "HCF + Fierce",
+      "name": "Kikkoken (Fierce)",
+      "parry": "H",
+      "recovery": "32",
+      "startup": "11",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "damage": "14",
+      "hit": "-",
+      "motion": "HCF + 2 Punches",
+      "name": "Kikkoken (EX)",
+      "parry": "H",
+      "recovery": "41",
+      "startup": "15",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "17",
+      "hit": "7",
+      "motion": "Short (rapidly)",
+      "name": "Hyakuretsu Kyaku (Short)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "6",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "18",
+      "hit": "4",
+      "motion": "Forward (rapidly)",
+      "name": "Hyakuretsu Kyaku (Forward)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "6",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "21",
+      "hit": "4",
+      "motion": "RH (rapidly)",
+      "name": "Hyakuretsu Kyaku (RH)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "5",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "28",
+      "hit": "4",
+      "motion": "2 Kicks (rapidly)",
+      "name": "Hyakuretsu Kyaku (EX)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "3",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "21",
+      "hit": "4",
+      "motion": "Hold D...U + Short",
+      "name": "Spinning Bird Kick (Short)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "12",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "27",
+      "hit": "6",
+      "motion": "Hold D...U + Forward",
+      "name": "Spinning Bird Kick (Forward)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "14",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "32",
+      "hit": "8",
+      "motion": "Hold D...U + RH",
+      "name": "Spinning Bird Kick (RH)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "17",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "35",
+      "hit": "10",
+      "motion": "Hold D...U + 2 Kicks",
+      "name": "Spinning Bird Kick (EX)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "12",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "17",
+      "hit": "3",
+      "motion": "HCB + Short",
+      "name": "Hazan Shu (Short)",
+      "parry": "H",
+      "recovery": "18",
+      "startup": "22",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "19",
+      "hit": "3",
+      "motion": "HCB + Forward",
+      "name": "Hazan Shu (Forward)",
+      "parry": "H",
+      "recovery": "18",
+      "startup": "24",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-1",
+      "damage": "21",
+      "hit": "3",
+      "motion": "HCB + RH",
+      "name": "Hazan Shu (RH)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "29",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "28",
+      "hit": "1",
+      "motion": "HCB + 2 Kicks",
+      "name": "Hazan Shu (EX)",
+      "parry": "H",
+      "recovery": "18",
+      "startup": "31",
+      "stun": "17"
+    }
+  }
+]

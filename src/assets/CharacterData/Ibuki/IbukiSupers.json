@@ -1,0 +1,54 @@
+[
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "45",
+      "hit": "87",
+      "motion": "(Air) QCF x 2 + Punch",
+      "name": "Kasumi Suzaku",
+      "parry": "H",
+      "recovery": "N/A",
+      "startup": "3",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "77",
+      "hit": "15",
+      "motion": "QCF x 2 + Punch",
+      "name": "Yoroi Doushi",
+      "parry": "-",
+      "recovery": "65",
+      "startup": "0",
+      "stun": "12"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-54",
+      "damage": "48",
+      "hit": "15",
+      "motion": "-",
+      "name": "Whiffed Yoroi Doushi (Chi Blast)",
+      "parry": "H+L",
+      "recovery": "65",
+      "startup": "0",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10 ~ -6",
+      "damage": "55",
+      "hit": "3",
+      "motion": "QCF x 2 + Punch",
+      "name": "Yami Shigure",
+      "parry": "-",
+      "recovery": "30",
+      "startup": "2",
+      "stun": "23"
+    }
+  }
+]

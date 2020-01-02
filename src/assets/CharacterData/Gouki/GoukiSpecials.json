@@ -1,0 +1,249 @@
+[
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "17",
+      "hit": "-",
+      "motion": "QCF + Punch",
+      "name": "Gou Hadouken",
+      "parry": "H",
+      "recovery": "38",
+      "startup": "8",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-24",
+      "damage": "23",
+      "hit": "14",
+      "motion": "DPM + Jab",
+      "name": "Gou Shoryuken (Jab)",
+      "parry": "H+L",
+      "recovery": "26",
+      "startup": "3",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-30",
+      "damage": "25",
+      "hit": "7",
+      "motion": "DPM + Strong",
+      "name": "Gou Shoryuken (Strong)",
+      "parry": "H+L",
+      "recovery": "41",
+      "startup": "2",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-34",
+      "damage": "29",
+      "hit": "23",
+      "motion": "DPM + Fierce",
+      "name": "Gou Shoryuken (Fierce)",
+      "parry": "H+L",
+      "recovery": "35",
+      "startup": "1",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "DPM + 3 Punches/Kicks",
+      "name": "Ashura Senkuu",
+      "parry": "-",
+      "recovery": "9",
+      "startup": "-",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "2",
+      "damage": "10",
+      "hit": "24",
+      "motion": "QCF + Punch (Air)",
+      "name": "Zankuu Hadouken",
+      "parry": "H",
+      "recovery": "N/A",
+      "startup": "12",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "17",
+      "hit": "4",
+      "motion": "QCB + Short",
+      "name": "Tatsumaki Zankuu Kyaku (Short)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "11",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "21",
+      "hit": "10",
+      "motion": "QCB + Forward",
+      "name": "Tatsumaki Zankuu Kyaku (Forward)",
+      "parry": "H",
+      "recovery": "16",
+      "startup": "2",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "25",
+      "hit": "18",
+      "motion": "QCB + RH",
+      "name": "Tatsumaki Zankuu Kyaku (RH)",
+      "parry": "H",
+      "recovery": "10",
+      "startup": "2",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-23",
+      "damage": "8",
+      "hit": "44",
+      "motion": "HCB + Jab",
+      "name": "Shakunetsu Hadouken (Jab)",
+      "parry": "H",
+      "recovery": "42",
+      "startup": "14",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-18",
+      "damage": "16",
+      "hit": "45",
+      "motion": "HCB + Strong",
+      "name": "Shakunetsu Hadouken (Strong)",
+      "parry": "H",
+      "recovery": "43",
+      "startup": "18",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "24",
+      "hit": "46",
+      "motion": "HCB + Fierce",
+      "name": "Shakunetsu Hadouken (Fierce)",
+      "parry": "H",
+      "recovery": "44",
+      "startup": "22",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "14",
+      "hit": "3",
+      "motion": "QCB + Short (Air)",
+      "name": "Air Tatsumaki Zankuu Kyaku (Short)",
+      "parry": "H",
+      "recovery": "40",
+      "startup": "5",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "damage": "27",
+      "hit": "6",
+      "motion": "QCB + Forward (Air)",
+      "name": "Air Tatsumaki Zankuu Kyaku (Fwd)",
+      "parry": "H",
+      "recovery": "31",
+      "startup": "5",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "40",
+      "hit": "12",
+      "motion": "QCB + RH (Air)",
+      "name": "Air Tatsumaki Zankuu Kyaku (RH)",
+      "parry": "H",
+      "recovery": "16",
+      "startup": "5",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "17",
+      "hit": "15",
+      "motion": "DPM + kick",
+      "name": "Hyakki Shuu",
+      "parry": "L",
+      "recovery": "13",
+      "startup": "40",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "23",
+      "hit": "3",
+      "motion": "Hyakki Shuu then Punch",
+      "name": "Hyakki Goushou",
+      "parry": "H",
+      "recovery": "20",
+      "startup": "10",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "17",
+      "hit": "10",
+      "motion": "Hyakki Shuu then Kick",
+      "name": "Hyakki Goujin",
+      "parry": "H",
+      "recovery": "7",
+      "startup": "9",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "19",
+      "hit": "2",
+      "motion": "Hyakki Shuu then Jab+Short",
+      "name": "Hyakki Gousai",
+      "parry": "-",
+      "recovery": "34",
+      "startup": "3",
+      "stun": "14"
+    }
+  }
+]

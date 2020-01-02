@@ -1,0 +1,301 @@
+[
+  {
+    "move": {
+      "blockAdv": "-23",
+      "damage": "24",
+      "hit": "8",
+      "motion": "DPM + Jab",
+      "name": "Jet Uppercut (Jab)",
+      "parry": "H+L",
+      "recovery": "29",
+      "startup": "4",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-30",
+      "damage": "28",
+      "hit": "16",
+      "motion": "DPM + Strong",
+      "name": "Jet Uppercut (Strong)",
+      "parry": "H+L",
+      "recovery": "28",
+      "startup": "4",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-38",
+      "damage": "31",
+      "hit": "21",
+      "motion": "DPM + Fierce",
+      "name": "Jet Uppercut (Fierce)",
+      "parry": "H+L",
+      "recovery": "32",
+      "startup": "3",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-37",
+      "damage": "37",
+      "hit": "21",
+      "motion": "DPM + 2 Punches",
+      "name": "Jet Uppercut (EX)",
+      "parry": "H+L",
+      "recovery": "34",
+      "startup": "3",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "19",
+      "hit": "8",
+      "motion": "HCF + Jab",
+      "name": "Machine Gun Blow (Jab)",
+      "parry": "H",
+      "recovery": "18",
+      "startup": "8",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-9",
+      "damage": "22",
+      "hit": "10",
+      "motion": "HCF + Strong",
+      "name": "Machine Gun Blow (Strong)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "15",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "27",
+      "hit": "13",
+      "motion": "HCF + Fierce",
+      "name": "Machine Gun Blow (Fierce)",
+      "parry": "H",
+      "recovery": "30",
+      "startup": "17",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "32",
+      "hit": "17",
+      "motion": "HCF + 2 Punches",
+      "name": "Machine Gun Blow (EX)",
+      "parry": "H",
+      "recovery": "28",
+      "startup": "16",
+      "stun": "10"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "HCF + K",
+      "name": "Ducking Rush",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "-",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "damage": "28",
+      "hit": "4",
+      "motion": "Punch",
+      "name": "Ducking Straight (Jab)",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "21",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "damage": "28",
+      "hit": "4",
+      "motion": "Punch",
+      "name": "Ducking Straight (Strong)",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "20",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "damage": "28",
+      "hit": "4",
+      "motion": "Punch",
+      "name": "Ducking Straight (Fierce)",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "22",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "30",
+      "hit": "4",
+      "motion": "Kick",
+      "name": "Ducking Upper (Short)",
+      "parry": "H",
+      "recovery": "25",
+      "startup": "20",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "30",
+      "hit": "4",
+      "motion": "Kick",
+      "name": "Ducking Upper (Forward)",
+      "parry": "H",
+      "recovery": "25",
+      "startup": "19",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "30",
+      "hit": "4",
+      "motion": "Kick",
+      "name": "Ducking Upper (RH)",
+      "parry": "H",
+      "recovery": "25",
+      "startup": "21",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "HCB + Jab",
+      "name": "Cross Counter (Jab)",
+      "parry": "H+L",
+      "recovery": "-",
+      "startup": "-",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "HCB + Strong",
+      "name": "Cross Counter (Strong)",
+      "parry": "H+L",
+      "recovery": "-",
+      "startup": "-",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "HCB + Fierce",
+      "name": "Cross Counter (Fierce)",
+      "parry": "H+L",
+      "recovery": "-",
+      "startup": "-",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "HCB + 2 Punches",
+      "name": "Cross Counter (EX)",
+      "parry": "H+L",
+      "recovery": "-",
+      "startup": "-",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "33",
+      "hit": "3",
+      "motion": "HCB + Short",
+      "name": "Short Swing Blow (Short)",
+      "parry": "H",
+      "recovery": "13",
+      "startup": "17",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "33",
+      "hit": "3",
+      "motion": "HCB + Forward",
+      "name": "Short Swing Blow (Forward)",
+      "parry": "H",
+      "recovery": "13",
+      "startup": "20",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "33",
+      "hit": "3",
+      "motion": "HCB + RH",
+      "name": "Short Swing Blow (RH)",
+      "parry": "H",
+      "recovery": "13",
+      "startup": "23",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "33",
+      "hit": "10",
+      "motion": "HCB + 2 Kicks",
+      "name": "Short Swing Blow (EX)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "17",
+      "stun": "22"
+    }
+  }
+]

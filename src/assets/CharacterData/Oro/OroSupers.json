@@ -1,0 +1,93 @@
+[
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF x 2 + Punch",
+      "name": "Kishin Riki",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "-",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "58",
+      "hit": "1",
+      "motion": "Punch",
+      "name": "Ground Grab",
+      "parry": "-",
+      "recovery": "18",
+      "startup": "4",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "52",
+      "hit": "4",
+      "motion": "Punch (Air)",
+      "name": "Air Grab",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "5",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "71",
+      "hit": "1",
+      "motion": "QCF x 2 + 2 Punches",
+      "name": "EX Kishin Riki",
+      "parry": "-",
+      "recovery": "25",
+      "startup": "11",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "33",
+      "hit": "21",
+      "motion": "QCF x 2 + Punch",
+      "name": "Yagyou Dama",
+      "parry": "H+L",
+      "recovery": "-",
+      "startup": "28",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "96",
+      "hit": "52",
+      "motion": "QCF x 2 + 2 Punches",
+      "name": "EX Yagyou Dama",
+      "parry": "H+L",
+      "recovery": "-",
+      "startup": "27",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF x 2 + Punch (2)",
+      "name": "Tengu Stones (Both Versions)",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "16",
+      "stun": "-"
+    }
+  }
+]

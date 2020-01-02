@@ -1,0 +1,41 @@
+[
+  {
+    "move": {
+      "blockAdv": "-39",
+      "damage": "57",
+      "hit": "20",
+      "motion": "QCF x2 + Punch",
+      "name": "Kikoshou",
+      "parry": "H+L",
+      "recovery": "48",
+      "startup": "0",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-23",
+      "damage": "67",
+      "hit": "19",
+      "motion": "QCF x2 + Kick",
+      "name": "Houyoku Sen",
+      "parry": "H",
+      "recovery": "35",
+      "startup": "2",
+      "stun": "24"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-30",
+      "damage": "49",
+      "hit": "16",
+      "motion": "QCF x2 + Kick",
+      "name": "Tensei Ranka",
+      "parry": "H+L",
+      "recovery": "46",
+      "startup": "2",
+      "stun": "19"
+    }
+  }
+]

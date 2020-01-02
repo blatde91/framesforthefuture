@@ -1,0 +1,262 @@
+[
+  {
+    "move": {
+      "blockAdv": "-19",
+      "damage": "23",
+      "hit": "4",
+      "motion": "DPM + Short",
+      "name": "Scratch Wheel (Short)",
+      "parry": "H+L",
+      "recovery": "31",
+      "startup": "6",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-22",
+      "damage": "26",
+      "hit": "5",
+      "motion": "DPM + Forward",
+      "name": "Scratch Wheel (Forward)",
+      "parry": "H+L",
+      "recovery": "36",
+      "startup": "4",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-27",
+      "damage": "28",
+      "hit": "7",
+      "motion": "DPM + RH",
+      "name": "Scratch Wheel (RH)",
+      "parry": "H+L",
+      "recovery": "40",
+      "startup": "3",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-26",
+      "damage": "35",
+      "hit": "8",
+      "motion": "DPM + 2 Kicks",
+      "name": "Scratch Wheel (EX)",
+      "parry": "H+L",
+      "recovery": "42",
+      "startup": "3",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "31",
+      "hit": "9",
+      "motion": "HCF + Short",
+      "name": "Rhino Horn (Short)",
+      "parry": "H+L",
+      "recovery": "14",
+      "startup": "14",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "36",
+      "hit": "10",
+      "motion": "HCF + Forward",
+      "name": "Rhino Horn (Forward)",
+      "parry": "H+L",
+      "recovery": "15",
+      "startup": "18",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "34",
+      "hit": "10",
+      "motion": "HCF + RH",
+      "name": "Rhino Horn (RH)",
+      "parry": "H+L",
+      "recovery": "17",
+      "startup": "23",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "38",
+      "hit": "13",
+      "motion": "HCF + 2 Kicks",
+      "name": "Rhino Horn (EX)",
+      "parry": "H+L",
+      "recovery": "15",
+      "startup": "11",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "1",
+      "damage": "27",
+      "hit": "8",
+      "motion": "HCB + Jab",
+      "name": "Mallet Smash (Jab)",
+      "parry": "H",
+      "recovery": "13",
+      "startup": "21",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "2",
+      "damage": "29",
+      "hit": "7",
+      "motion": "HCB + Strong",
+      "name": "Mallet Smash (Strong)",
+      "parry": "H",
+      "recovery": "12",
+      "startup": "24",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "5",
+      "damage": "30",
+      "hit": "6",
+      "motion": "HCB + Fierce",
+      "name": "Mallet Smash (Fierce)",
+      "parry": "H",
+      "recovery": "11",
+      "startup": "27",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "5",
+      "damage": "31",
+      "hit": "4",
+      "motion": "HCB + 2 Punches",
+      "name": "Mallet Smash (EX)",
+      "parry": "H",
+      "recovery": "10",
+      "startup": "21",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "20",
+      "hit": "4",
+      "motion": "QCB + Short",
+      "name": "Spinning Scythe (Short)",
+      "parry": "H",
+      "recovery": "18",
+      "startup": "15",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "21",
+      "hit": "4",
+      "motion": "QCB + Forward",
+      "name": "Spinning Scythe (Forward)",
+      "parry": "H",
+      "recovery": "22",
+      "startup": "16",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "22",
+      "hit": "4",
+      "motion": "QCB + RH",
+      "name": "Spinning Scythe (RH)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "17",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "35",
+      "hit": "8",
+      "motion": "QCB + 2 Kicks",
+      "name": "Spinning Scythe (EX)",
+      "parry": "H",
+      "recovery": "31",
+      "startup": "10",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-17",
+      "damage": "10",
+      "hit": "6",
+      "motion": "RDP + Short",
+      "name": "Lynx Tail (Short)",
+      "parry": "L",
+      "recovery": "35",
+      "startup": "11",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "22",
+      "hit": "6",
+      "motion": "RDP + Forward",
+      "name": "Lynx Tail (Forward)",
+      "parry": "L",
+      "recovery": "33",
+      "startup": "14",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "22",
+      "hit": "12",
+      "motion": "RDP + RH",
+      "name": "Lynx Tail (RH)",
+      "parry": "L",
+      "recovery": "33",
+      "startup": "16",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "23",
+      "hit": "22",
+      "motion": "RDP + 2 Kicks",
+      "name": "Lynx Tail (EX)",
+      "parry": "L",
+      "recovery": "25",
+      "startup": "10",
+      "stun": "12"
+    }
+  }
+]

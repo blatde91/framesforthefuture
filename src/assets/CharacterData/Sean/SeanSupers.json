@@ -1,0 +1,41 @@
+[
+  {
+    "move": {
+      "blockAdv": "-29",
+      "damage": "39",
+      "hit": "-",
+      "motion": "QCF x 2 + Punch",
+      "name": "Hadou Burst",
+      "parry": "H",
+      "recovery": "61",
+      "startup": "2",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-43",
+      "damage": "38",
+      "hit": "36",
+      "motion": "QCF x 2 + Punch",
+      "name": "Shoryuu Cannon",
+      "parry": "H+L",
+      "recovery": "36",
+      "startup": "0",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-31",
+      "damage": "76",
+      "hit": "14",
+      "motion": "QCF x 2 + Punch",
+      "name": "Hyper Tornado",
+      "parry": "H+L",
+      "recovery": "53",
+      "startup": "1",
+      "stun": "14"
+    }
+  }
+]

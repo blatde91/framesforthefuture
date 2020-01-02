@@ -1,0 +1,210 @@
+[
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "10",
+      "hit": "11",
+      "motion": "QCF + Jab",
+      "name": "N.D.L. (Jab)",
+      "parry": "H+L",
+      "recovery": "14",
+      "startup": "15",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-9",
+      "damage": "10",
+      "hit": "13",
+      "motion": "QCF + Strong",
+      "name": "N.D.L. (Strong)",
+      "parry": "H+L",
+      "recovery": "16",
+      "startup": "15",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-13",
+      "damage": "10",
+      "hit": "13",
+      "motion": "QCF + Fierce",
+      "name": "N.D.L. (Fierce)",
+      "parry": "H+L",
+      "recovery": "20",
+      "startup": "16",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "13",
+      "hit": "13",
+      "motion": "QCF + 2 Punches",
+      "name": "N.D.L. (EX)",
+      "parry": "H+L",
+      "recovery": "15",
+      "startup": "14",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "10",
+      "hit": "11",
+      "motion": "QCB + Jab",
+      "name": "A.X.E. (Jab)",
+      "parry": "H",
+      "recovery": "15",
+      "startup": "6",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "17",
+      "hit": "11",
+      "motion": "QCB + Strong",
+      "name": "A.X.E. (Strong)",
+      "parry": "H",
+      "recovery": "16",
+      "startup": "10",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "damage": "20",
+      "hit": "11",
+      "motion": "QCB + Fierce",
+      "name": "A.X.E. (Fierce)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "14",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "22",
+      "hit": "11",
+      "motion": "QCB + 2 Punches",
+      "name": "A.X.E. (EX)",
+      "parry": "H",
+      "recovery": "14",
+      "startup": "8",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "13",
+      "hit": "10",
+      "motion": "QCB + Jab (Air)",
+      "name": "Air A.X.E. (Jab)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "9",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "16",
+      "hit": "10",
+      "motion": "QCB + Strong (Air)",
+      "name": "Air A.X.E. (Strong)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "11",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "18",
+      "hit": "10",
+      "motion": "QCB + Fierce (Air)",
+      "name": "Air A.X.E. (Fierce)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "13",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "20",
+      "hit": "10",
+      "motion": "QCB + 2 Punches (Air)",
+      "name": "Air A.X.E. (EX)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "6",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-14",
+      "damage": "19",
+      "hit": "14",
+      "motion": "QCB + Short (Air)",
+      "name": "D.R.A. (Short)",
+      "parry": "H",
+      "recovery": "20",
+      "startup": "14",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-13",
+      "damage": "19",
+      "hit": "19",
+      "motion": "QCB + Forward (Air)",
+      "name": "D.R.A. (Forward)",
+      "parry": "H",
+      "recovery": "20",
+      "startup": "14",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-13",
+      "damage": "19",
+      "hit": "19",
+      "motion": "QCB + RH (Air)",
+      "name": "D.R.A. (RH)",
+      "parry": "H",
+      "recovery": "20",
+      "startup": "14",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "20",
+      "hit": "15",
+      "motion": "QCB + 2 Kicks (Air)",
+      "name": "D.R.A. (EX)",
+      "parry": "H",
+      "recovery": "21",
+      "startup": "6",
+      "stun": "9"
+    }
+  }
+]

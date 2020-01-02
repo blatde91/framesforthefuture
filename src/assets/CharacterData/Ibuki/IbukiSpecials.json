@@ -1,0 +1,340 @@
+[
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "8",
+      "hit": "-",
+      "motion": "(Air) QCF + Jab",
+      "name": "Kunai (Jab)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "9",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "8",
+      "hit": "-",
+      "motion": "(Air) QCF + Strong",
+      "name": "Kunai (Strong)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "10",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "8",
+      "hit": "-",
+      "motion": "(Air) QCF + Fierce",
+      "name": "Kunai (Fierce)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "11",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "18",
+      "hit": "-",
+      "motion": "(Air) QCF + 2 Punches",
+      "name": "Kunai (EX)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "8",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "28",
+      "hit": "3",
+      "motion": "HCB + Jab",
+      "name": "Raida (Jab)",
+      "parry": "-",
+      "recovery": "28",
+      "startup": "4",
+      "stun": "8"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "30",
+      "hit": "5",
+      "motion": "HCB + Strong",
+      "name": "Raida (Strong)",
+      "parry": "-",
+      "recovery": "30",
+      "startup": "5",
+      "stun": "10"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "damage": "32",
+      "hit": "7",
+      "motion": "HCB + Fierce",
+      "name": "Raida (Fierce)",
+      "parry": "-",
+      "recovery": "32",
+      "startup": "6",
+      "stun": "12"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-32",
+      "damage": "19",
+      "hit": "3",
+      "motion": "RDP + Short",
+      "name": "Hien (Short)",
+      "parry": "H",
+      "recovery": "23",
+      "startup": "22",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-39",
+      "damage": "22",
+      "hit": "3",
+      "motion": "RDP + Forward",
+      "name": "Hien (Forward)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "25",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-36",
+      "damage": "25",
+      "hit": "4",
+      "motion": "RDP + RH",
+      "name": "Hien (RH)",
+      "parry": "H",
+      "recovery": "16",
+      "startup": "28",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-32",
+      "damage": "32",
+      "hit": "4",
+      "motion": "RDP + 2 Kicks",
+      "name": "Hien (EX)",
+      "parry": "H",
+      "recovery": "13",
+      "startup": "26",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "26",
+      "hit": "11",
+      "motion": "QCF + Jab",
+      "name": "Kubiori (Jab)",
+      "parry": "L",
+      "recovery": "15",
+      "startup": "14",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-16",
+      "damage": "26",
+      "hit": "12",
+      "motion": "QCF + Strong",
+      "name": "Kubiori (Strong)",
+      "parry": "L",
+      "recovery": "18",
+      "startup": "15",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-19",
+      "damage": "26",
+      "hit": "14",
+      "motion": "QCF + Punch",
+      "name": "Kubiori (Fierce)",
+      "parry": "L",
+      "recovery": "19",
+      "startup": "17",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-27",
+      "damage": "32",
+      "hit": "10",
+      "motion": "QCF + 2 Punches",
+      "name": "Kubiori (EX)",
+      "parry": "L",
+      "recovery": "19",
+      "startup": "15",
+      "stun": "18"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-20",
+      "damage": "19",
+      "hit": "12",
+      "motion": "DPM + Short",
+      "name": "Kazekiri (Short)",
+      "parry": "H+L",
+      "recovery": "26",
+      "startup": "4",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-19",
+      "damage": "23",
+      "hit": "10",
+      "motion": "DPM + Forward",
+      "name": "Kazekiri (Forward)",
+      "parry": "H+L",
+      "recovery": "29",
+      "startup": "6",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-20",
+      "damage": "30",
+      "hit": "11",
+      "motion": "DPM + RH",
+      "name": "Kazekiri (RH)",
+      "parry": "H+L",
+      "recovery": "29",
+      "startup": "8",
+      "stun": "16"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-21",
+      "damage": "28",
+      "hit": "11",
+      "motion": "DPM + 2 Kicks",
+      "name": "Kazekiri (EX)",
+      "parry": "H+L",
+      "recovery": "33",
+      "startup": "4",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "18",
+      "hit": "2",
+      "motion": "QCB + Short",
+      "name": "Tsumuji (Short)",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "11",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "18",
+      "hit": "2",
+      "motion": "QCB + Forward",
+      "name": "Tsumuji (Forward)",
+      "parry": "H",
+      "recovery": "21",
+      "startup": "13",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "31",
+      "hit": "3",
+      "motion": "QCB + RH",
+      "name": "Tsumuji (RH)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "14",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "35",
+      "hit": "4",
+      "motion": "QCB + 2 Kicks",
+      "name": "Tsumuji (EX)",
+      "parry": "H",
+      "recovery": "28",
+      "startup": "7",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF + Short",
+      "name": "Kasumi Gake (Short)",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "20",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF + Forward",
+      "name": "Kasumi Gake (Forward)",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "22",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF + Roundhouse",
+      "name": "Kasumi Gake (RH)",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "25",
+      "stun": "-"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "88",
+      "hit": "2",
+      "motion": "Rotate 360 + Punch",
+      "name": "Hyper Bomb",
+      "parry": "-",
+      "recovery": "33",
+      "startup": "1",
+      "stun": "18"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "99",
+      "hit": "2",
+      "motion": "Rotate 360 + Punch",
+      "name": "Reverse Hyper Bomb",
+      "parry": "-",
+      "recovery": "33",
+      "startup": "1",
+      "stun": "26"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "59",
+      "hit": "14",
+      "motion": "QCF x 2 + Punch",
+      "name": "Boomerang Raid",
+      "parry": "H",
+      "recovery": "41",
+      "startup": "0",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "31",
+      "hit": "3",
+      "motion": "QCF x 2 + Punch",
+      "name": "Stun Gun Headbutt",
+      "parry": "-",
+      "recovery": "17",
+      "startup": "24",
+      "stun": "57"
+    }
+  }
+]

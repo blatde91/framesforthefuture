@@ -1,0 +1,262 @@
+[
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "32",
+      "hit": "9",
+      "motion": "DPM + Short",
+      "name": "Shootdown Backbreaker (Short)",
+      "parry": "-",
+      "recovery": "30",
+      "startup": "5",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "32",
+      "hit": "10",
+      "motion": "DPM + Forward",
+      "name": "Shootdown Backbreaker (Forward)",
+      "parry": "-",
+      "recovery": "25",
+      "startup": "17",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "32",
+      "hit": "12",
+      "motion": "DPM + RH",
+      "name": "Shootdown Backbreaker (RH)",
+      "parry": "-",
+      "recovery": "29",
+      "startup": "12",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "42",
+      "hit": "2",
+      "motion": "360 + Jab",
+      "name": "Moonsault Press (Jab)",
+      "parry": "-",
+      "recovery": "36",
+      "startup": "2",
+      "stun": "18"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "45",
+      "hit": "2",
+      "motion": "360 + Strong",
+      "name": "Moonsault Press (Strong)",
+      "parry": "-",
+      "recovery": "36",
+      "startup": "2",
+      "stun": "18"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "49",
+      "hit": "2",
+      "motion": "360 + Fierce",
+      "name": "Moonsault Press (Fierce)",
+      "parry": "-",
+      "recovery": "36",
+      "startup": "2",
+      "stun": "18"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "28",
+      "hit": "2",
+      "motion": "360 + Short",
+      "name": "Meat Squasher (Short)",
+      "parry": "-",
+      "recovery": "30",
+      "startup": "21 ~ 24",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "28",
+      "hit": "2",
+      "motion": "360 + Forward",
+      "name": "Meat Squasher (Forward)",
+      "parry": "-",
+      "recovery": "33",
+      "startup": "31 ~ 52",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "28",
+      "hit": "2",
+      "motion": "360 + RH",
+      "name": "Meat Squasher (RH)",
+      "parry": "-",
+      "recovery": "36",
+      "startup": "44 ~ 67",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "11",
+      "damage": "19",
+      "hit": "2",
+      "motion": "QCB + Jab",
+      "name": "Giant Palm Bomber (Jab)",
+      "parry": "H",
+      "recovery": "9",
+      "startup": "17",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "16",
+      "damage": "22",
+      "hit": "2",
+      "motion": "QCB + Strong",
+      "name": "Giant Palm Bomber (Strong)",
+      "parry": "H",
+      "recovery": "7",
+      "startup": "19",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "19",
+      "damage": "24",
+      "hit": "2",
+      "motion": "QCB + Fierce",
+      "name": "Giant Palm Bomber (Fierce)",
+      "parry": "H",
+      "recovery": "6",
+      "startup": "22",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "10",
+      "damage": "36",
+      "hit": "3",
+      "motion": "QCB + 2 Punches",
+      "name": "Giant Palm Bomber (EX)",
+      "parry": "H",
+      "recovery": "10",
+      "startup": "22",
+      "stun": "12"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "26",
+      "hit": "5",
+      "motion": "QCF + Short",
+      "name": "Monster Lariat (Short)",
+      "parry": "H",
+      "recovery": "21 ~ 25",
+      "startup": "11",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "28",
+      "hit": "5",
+      "motion": "QCF + Forward",
+      "name": "Monster Lariat (Forward)",
+      "parry": "H",
+      "recovery": "23 ~ 27",
+      "startup": "15",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "30",
+      "hit": "5",
+      "motion": "QCF + RH",
+      "name": "Monster Lariat (RH)",
+      "parry": "H",
+      "recovery": "24 ~ 28",
+      "startup": "24",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-22",
+      "damage": "24",
+      "hit": "6",
+      "motion": "QCF + 2 Kick",
+      "name": "Monster Lariat (EX)",
+      "parry": "H",
+      "recovery": "31 ~ 35",
+      "startup": "6",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "12",
+      "hit": "2",
+      "motion": "HCB + Short",
+      "name": "Ultra Throw (Short)",
+      "parry": "-",
+      "recovery": "36",
+      "startup": "7",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "12",
+      "hit": "2",
+      "motion": "HCB + Forward",
+      "name": "Ultra Throw (Forward)",
+      "parry": "-",
+      "recovery": "36",
+      "startup": "7",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "12",
+      "hit": "2",
+      "motion": "HCB + RH",
+      "name": "Ultra Throw (RH)",
+      "parry": "-",
+      "recovery": "36",
+      "startup": "7",
+      "stun": "7"
+    }
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "move": {
+      "blockAdv": "-1",
+      "damage": "5",
+      "hit": "5",
+      "motion": "QCF + Jab",
+      "name": "Tourou Zan (Jab)",
+      "parry": "H",
+      "recovery": "22",
+      "startup": "8",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "6",
+      "hit": "5",
+      "motion": "QCF + Strong",
+      "name": "Tourou Zan (Strong)",
+      "parry": "H",
+      "recovery": "26",
+      "startup": "8",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-9",
+      "damage": "7",
+      "hit": "5",
+      "motion": "QCF + Fierce",
+      "name": "Tourou Zan (Fierce)",
+      "parry": "H",
+      "recovery": "30",
+      "startup": "8",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "7",
+      "hit": "2",
+      "motion": "QCF + 2 Punches",
+      "name": "Tourou Zan (EX)",
+      "parry": "H",
+      "recovery": "26",
+      "startup": "7",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-35",
+      "damage": "22",
+      "hit": "8",
+      "motion": "QCF + Short",
+      "name": "Senkyuutai (Short)",
+      "parry": "H+L",
+      "recovery": "34",
+      "startup": "8",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-29",
+      "damage": "24",
+      "hit": "8",
+      "motion": "QCF + Forward",
+      "name": "Senkyuutai (Forward)",
+      "parry": "H+L",
+      "recovery": "28",
+      "startup": "16",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-26",
+      "damage": "25",
+      "hit": "8",
+      "motion": "QCF + RH",
+      "name": "Senkyuutai (RH)",
+      "parry": "H+L",
+      "recovery": "25",
+      "startup": "29",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-26",
+      "damage": "33",
+      "hit": "8",
+      "motion": "QCF + 2 Kicks",
+      "name": "Senkyuutai (EX)",
+      "parry": "H+L",
+      "recovery": "25",
+      "startup": "29",
+      "stun": "16"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "26",
+      "hit": "13",
+      "motion": "QCB + Punch",
+      "name": "Byakko Soushouda",
+      "parry": "H",
+      "recovery": "10",
+      "startup": "21",
+      "stun": "21"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "5",
+      "motion": "DPM + Short",
+      "name": "Kaihou (Short)",
+      "parry": "-",
+      "recovery": "13",
+      "startup": "11",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "8",
+      "motion": "DPM + Forward",
+      "name": "Kaihou (Forward)",
+      "parry": "-",
+      "recovery": "14",
+      "startup": "13",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "12",
+      "motion": "DPM + RH",
+      "name": "Kaihou (RH)",
+      "parry": "-",
+      "recovery": "16",
+      "startup": "15",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "2",
+      "motion": "HCB + Kick",
+      "name": "Zenpou Tenshin",
+      "parry": "-",
+      "recovery": "26",
+      "startup": "7",
+      "stun": "-"
+    }
+  }
+]

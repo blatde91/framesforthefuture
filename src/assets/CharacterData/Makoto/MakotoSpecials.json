@@ -1,0 +1,262 @@
+[
+  {
+    "move": {
+      "blockAdv": "2",
+      "damage": "24",
+      "hit": "6",
+      "motion": "QCF + Punch (hold)",
+      "name": "Hayate (full charge)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "126",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "17",
+      "hit": "6",
+      "motion": "QCF + Jab",
+      "name": "Hayate (Jab)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "6",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "17",
+      "hit": "6",
+      "motion": "QCF + Strong",
+      "name": "Hayate (Strong)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "9",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "17",
+      "hit": "6",
+      "motion": "QCF + Fierce",
+      "name": "Hayate (Fierce)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "11",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "2",
+      "damage": "28",
+      "hit": "6",
+      "motion": "QCF + 2 Punches",
+      "name": "Hayate (EX)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "17",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "21",
+      "hit": "8",
+      "motion": "DPM + Jab",
+      "name": "Fukiage (Jab)",
+      "parry": "H+L",
+      "recovery": "26",
+      "startup": "7",
+      "stun": "29"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "24",
+      "hit": "8",
+      "motion": "DPM + Strong",
+      "name": "Fukiage (Strong)",
+      "parry": "H+L",
+      "recovery": "26",
+      "startup": "10",
+      "stun": "31"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "28",
+      "hit": "8",
+      "motion": "DPM + Fierce",
+      "name": "Fukiage (Fierce)",
+      "parry": "H+L",
+      "recovery": "26",
+      "startup": "14",
+      "stun": "31"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "24",
+      "hit": "8",
+      "motion": "DPM + 2 Punches",
+      "name": "Fukiage (EX)",
+      "parry": "H+L",
+      "recovery": "26",
+      "startup": "11",
+      "stun": "21"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "17",
+      "hit": "7",
+      "motion": "QCB + Jab",
+      "name": "Oroshi (Jab)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "19",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "19",
+      "hit": "7",
+      "motion": "QCB + Strong",
+      "name": "Oroshi (Strong)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "23",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "24",
+      "hit": "7",
+      "motion": "QCB + Fierce",
+      "name": "Oroshi (Fierce)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "28",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "4",
+      "damage": "28",
+      "hit": "7",
+      "motion": "QCB + 2 Punches",
+      "name": "Oroshi (EX)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "13",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "1",
+      "damage": "24",
+      "hit": "4",
+      "motion": "QCB + Short (Air)",
+      "name": "Tsurugi (Short)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "14",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "1",
+      "damage": "26",
+      "hit": "4",
+      "motion": "QCB + Forward (Air)",
+      "name": "Tsurugi (Forward)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "15",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "1",
+      "damage": "28",
+      "hit": "4",
+      "motion": "QCB + RH (Air)",
+      "name": "Tsurugi (Roundhouse)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "16",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "3",
+      "damage": "17",
+      "hit": "4",
+      "motion": "QCB + 2 Kicks (Air)",
+      "name": "Tsurugi (EX)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "15",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "5",
+      "hit": "3",
+      "motion": "HCB + Short",
+      "name": "Karakusa (Short)",
+      "parry": "-",
+      "recovery": "28",
+      "startup": "7",
+      "stun": "8"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "5",
+      "hit": "4",
+      "motion": "HCB + Forward",
+      "name": "Karakusa (Forward)",
+      "parry": "-",
+      "recovery": "29",
+      "startup": "8",
+      "stun": "8"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "5",
+      "hit": "4",
+      "motion": "HCB + RH",
+      "name": "Karakusa (Roundhouse)",
+      "parry": "-",
+      "recovery": "30",
+      "startup": "9",
+      "stun": "8"
+    }
+  }
+]

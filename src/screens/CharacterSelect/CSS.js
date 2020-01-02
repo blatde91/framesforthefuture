@@ -4,6 +4,7 @@ import {
   View,
   ImageBackground,
   StyleSheet,
+  Image,
 } from 'react-native';
 import { CharacterButton } from '../../components/Buttons';
 import * as character from '../../assets/CharacterData/index';
@@ -13,13 +14,14 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
     flex: 1,
+    backgroundColor: '#555555',
   },
   cssContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
-    marginHorizontal: 60,
+    marginHorizontal: 80,
   },
   column: {
     flex: 1,
@@ -28,6 +30,12 @@ const styles = StyleSheet.create({
 });
 
 class CSS extends Component {
+  static navigationOptions = ({ navigation }) => {
+    const headerStyle = { backgroundColor: '#555555', height: 80 };
+    const headerTitle = (<Image source={require('../../assets/logo.png')} style={{ width: 100, height: 80, marginBottom: 10 }} />);
+    return { headerStyle, headerTitle };
+  };
+
   render() {
     const { navigation } = this.props;
     return (
@@ -44,6 +52,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Gouki',
                 directory: character.Gouki,
+                color: '#414152',
+                textColor: '#ffffff',
+                altColor: '#F03A2E',
               })}
               img={require('../../assets/CSSAssets/CSS-Gouki.png')}
             />
@@ -53,6 +64,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Urien',
                 directory: character.Urien,
+                color: '#c3cbcb',
+                textColor: '#000000',
+                altColor: '#bd6a10',
               })}
               img={require('../../assets/CSSAssets/CSS-Urien.png')}
             />
@@ -62,6 +76,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Necro',
                 directory: character.Necro,
+                altColor: '#A3CBFF',
+                textColor: '#121212',
+                color: '#C19AFC',
               })}
               img={require('../../assets/CSSAssets/CSS-Necro.png')}
             />
@@ -71,6 +88,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Ibuki',
                 directory: character.Ibuki,
+                color: '#eac483',
+                textColor: '#121212',
+                altColor: '#f6c462',
               })}
               img={require('../../assets/CSSAssets/CSS-Ibuki.png')}
             />
@@ -80,6 +100,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Sean',
                 directory: character.Sean,
+                color: '#ffcd02',
+                textColor: '#121212',
+                altColor: '#ff0200',
               })}
               img={require('../../assets/CSSAssets/CSS-Sean.png')}
             />
@@ -89,6 +112,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Alex',
                 directory: character.Alex,
+                color: '#669933',
+                textColor: '#ffffff',
+                altColor: '#ff0200',
               })}
               img={require('../../assets/CSSAssets/CSS-Alex.png')}
             />
@@ -101,6 +127,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Yun',
                 directory: character.Yun,
+                color: '#037bcd',
+                textColor: '#ffffff',
+                altColor: '#FFFF00',
               })}
               img={require('../../assets/CSSAssets/CSS-Yun.png')}
             />
@@ -110,6 +139,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Remy',
                 directory: character.Remy,
+                color: '#8bc5ac',
+                textColor: '#000000',
+                altColor: '#ff0200',
               })}
               img={require('../../assets/CSSAssets/CSS-Remy.png')}
             />
@@ -119,6 +151,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Q',
                 directory: character.Q,
+                color: '#dec4a4',
+                textColor: '#000000',
+                altColor: '#ff0200',
               })}
               img={require('../../assets/CSSAssets/CSS-Q.png')}
             />
@@ -128,6 +163,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Chun-Li',
                 directory: character.Chun,
+                color: '#63b4f6',
+                textColor: '#ffffff',
+                altColor: '#ffcd02',
               })}
               img={require('../../assets/CSSAssets/CSS-ChunLi.png')}
             />
@@ -137,6 +175,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Makoto',
                 directory: character.Makoto,
+                color: '#eddeb5',
+                textColor: '#000000',
+                altColor: '#fef538',
               })}
               img={require('../../assets/CSSAssets/CSS-Makoto.png')}
             />
@@ -146,6 +187,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Twelve',
                 directory: character.Twelve,
+                color: '#d4cde6',
+                textColor: '#000000',
+                altColor: '#e6eec5',
               })}
               img={require('../../assets/CSSAssets/CSS-Twelve.png')}
             />
@@ -155,6 +199,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Yang',
                 directory: character.Yang,
+                color: '#ff5952',
+                textColor: '#ffffff',
+                altColor: '#FFFF00',
               })}
               img={require('../../assets/CSSAssets/CSS-Yang.png')}
             />
@@ -166,6 +213,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Ryu',
                 directory: character.Ryu,
+                color: '#fffafa',
+                textColor: '#121212',
+                altColor: '#ff0200',
               })}
               img={require('../../assets/CSSAssets/CSS-Ryu.png')}
             />
@@ -175,6 +225,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Oro',
                 directory: character.Oro,
+                color: '#E3A739',
+                textColor: '#121212',
+                altColor: '#FF6459',
               })}
               img={require('../../assets/CSSAssets/CSS-Oro.png')}
             />
@@ -184,6 +237,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Dudley',
                 directory: character.Dudley,
+                color: '#738c4a',
+                textColor: '#ffffff',
+                altColor: '#68a5fe',
               })}
               img={require('../../assets/CSSAssets/CSS-Dudley.png')}
             />
@@ -193,6 +249,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Elena',
                 directory: character.Elena,
+                color: '#d16062',
+                textColor: '#ffffff',
+                altColor: '#68a5fe',
               })}
               img={require('../../assets/CSSAssets/CSS-Elena.png')}
             />
@@ -202,6 +261,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Hugo',
                 directory: character.Hugo,
+                color: '#ff6273',
+                textColor: '#ffffff',
+                altColor: '#d58251',
               })}
               img={require('../../assets/CSSAssets/CSS-Hugo.png')}
             />
@@ -211,6 +273,9 @@ class CSS extends Component {
               onPress={() => navigation.navigate('CharData', {
                 char: 'Ken',
                 directory: character.Ken,
+                color: '#FF383B',
+                textColor: '#ffffff',
+                altColor: '#FFFF00',
               })}
               img={require('../../assets/CSSAssets/CSS-Ken.png')}
             />

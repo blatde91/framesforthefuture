@@ -5,13 +5,15 @@ import {
   TouchableOpacity,
   Button,
   ScrollView,
-  ImageBackground,
+  Modal,
   Image,
   StyleSheet,
   Platform,
 } from 'react-native';
-import { ToggleButton } from '../../components/Buttons';
+import { ToggleButton, LowToggleButton } from '../../components/Buttons';
 import CharacterHeader from '../../components/CharacterHeader';
+import MoveCard from '../../components/MoveCard';
+import BasicModal from '../../components/BasicModal';
 
 const styles = StyleSheet.create({
   cells: {
@@ -26,7 +28,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginRight: 5,
     fontWeight: '600',
-    fontSize: 15,
+    fontSize: 13,
   },
   cellRow: {
     flex: 1,
@@ -67,52 +69,145 @@ const styles = StyleSheet.create({
     flex: 1,
     marginBottom: Platform.OS === 'ios' ? 40 : 0,
   },
+  cardContainer: {
+    flexDirection: 'column',
+    flex: 1,
+    backgroundColor: '#1d1d1d',
+    marginHorizontal: 10,
+    paddingTop: 5,
+    paddingBottom: 30,
+    marginBottom: Platform.OS === 'ios' ? 40 : 0,
+  },
   buttonRow: {
     flex: 1,
     flexDirection: 'row',
     backgroundColor: 'white',
   },
+  tabRow: {
+    height: '100%',
+    width: '100%',
+    flex: 1,
+    flexDirection: 'row',
+    // alignItems: 'flex-end',
+    // justifyContent: 'flex-end',
+  },
   mainContainer: {
     flex: 1,
     flexDirection: 'column',
-    backgroundColor: '#282c33',
+    backgroundColor: '#1d1d1d',
+  },
+  optionContainer: {
+    flex: 0.35,
+    flexDirection: 'column',
   },
 
 });
 
 class CharData extends Component {
+  static navigationOptions = ({ navigation }) => {
+    const headerStyle = { backgroundColor: '#282c33', height: 60 };
+    const headerTitle = (<Image source={require('../../assets/logo.png')} style={{ width: 100, height: 80, marginBottom: 10 }} />);
+    return { headerStyle, headerTitle };
+  };
+
   constructor(props) {
     super(props);
     this.state = {
-      topActive: 'first',
+      topActive: 'normals',
       lowActive: 'first',
+      displayOption: 'card',
+      basicModal: false,
+      jumps: [],
+      wakeups: [],
+      dashes: [],
     };
   }
 
-  renderHeaders = (data) => {
+  componentDidMount() {
+    this.createBasicArrays();
+  }
+
+  toggleModal = () => {
+    const { basicModal } = this.state;
+    this.setState({
+      basicModal: !basicModal,
+    });
+  }
+
+  createBasicArrays = () => {
+    const { navigation } = this.props;
+    const directory = navigation.getParam('directory');
+    const { basics } = directory;
+    const jumps = [];
+    const wakeups = [];
+    const dashes = [];
+
+    basics.map((item, id) => {
+      const { type } = item.move;
+      if (type === 'Jump') {
+        console.log(item);
+        jumps.push(item);
+      } if (type === 'Dash') {
+        console.log(item);
+        dashes.push(item);
+      } if (type === 'Wakeup') {
+        console.log(item);
+        wakeups.push(item);
+      }
+    });
+    this.setState({
+      jumps,
+      dashes,
+      wakeups,
+    }, () => console.log(this.state));
+  }
+
+
+  renderHeaders = () => {
     const { topActive, lowActive } = this.state;
     const frameHeaders = ['Move', 'Startup', 'Hit', 'Recovery'];
     const advHeaders = ['Move', 'Blk Adv', 'Hit Adv', 'CrHit Adv'];
     const otherHeaders = ['Move', 'Parry', 'Dmg', 'Stun'];
+    const specSupHeadersOne = ['Move', 'Motion', 'S', 'H', 'R'];
+    const specSupHeadersTwo = ['Move', 'Blk', 'Parry', 'Dmg', 'Stun'];
     let items;
-    if (lowActive === 'first') {
-      items = frameHeaders.map((item) => (
-        <View style={styles.headerCell}>
-          <Text style={styles.headerText}>{item}</Text>
-        </View>
-      ));
-    } if (lowActive === 'second') {
-      items = advHeaders.map((item) => (
-        <View style={styles.headerCell}>
-          <Text style={styles.headerText}>{item}</Text>
-        </View>
-      ));
-    } if (lowActive === 'third') {
-      items = otherHeaders.map((item) => (
-        <View style={styles.headerCell}>
-          <Text style={styles.headerText}>{item}</Text>
-        </View>
-      ));
+
+    if (topActive === 'normals') {
+      if (lowActive === 'first') {
+        items = frameHeaders.map((item) => (
+          <View style={styles.headerCell}>
+            <Text style={styles.headerText}>{item}</Text>
+          </View>
+        ));
+      } if (lowActive === 'second') {
+        items = advHeaders.map((item) => (
+          <View style={styles.headerCell}>
+            <Text style={styles.headerText}>{item}</Text>
+          </View>
+        ));
+      } if (lowActive === 'third') {
+        items = otherHeaders.map((item) => (
+          <View style={styles.headerCell}>
+            <Text style={styles.headerText}>{item}</Text>
+          </View>
+        ));
+      }
+    }
+
+    if (topActive === 'specials' || topActive === 'supers') {
+      if (lowActive === 'first') {
+        items = specSupHeadersOne.map((item) => (
+          <View style={styles.headerCell}>
+            <Text style={styles.headerText}>{item}</Text>
+          </View>
+        ));
+      } if (lowActive === 'second') {
+        items = specSupHeadersTwo.map((item) => (
+          <View style={styles.headerCell}>
+            <Text style={styles.headerText}>{item}</Text>
+          </View>
+        ));
+      }
     }
     return <View style={styles.headerRow}>{items}</View>;
   };
@@ -121,22 +216,27 @@ class CharData extends Component {
     const { topActive, lowActive } = this.state;
     let rows;
     if (lowActive === 'first') {
-      rows = data.map((item, id) => (
-        <View style={id % 2 === 0 ? styles.cellRow : styles.cellRowAlt}>
-          <View style={styles.cells}>
-            <Text style={styles.cellText}>{item.move.name}</Text>
+      rows = data.map((item, id) => {
+        const {
+          name, startup, hit, recovery,
+        } = item.move;
+        return (
+          <View style={id % 2 === 0 ? styles.cellRow : styles.cellRowAlt}>
+            <View style={styles.cells}>
+              <Text style={styles.cellText}>{name}</Text>
+            </View>
+            <View style={styles.cells}>
+              <Text style={styles.cellText}>{startup}</Text>
+            </View>
+            <View style={styles.cells}>
+              <Text style={styles.cellText}>{hit}</Text>
+            </View>
+            <View style={styles.cells}>
+              <Text style={styles.cellText}>{recovery}</Text>
+            </View>
           </View>
-          <View style={styles.cells}>
-            <Text style={styles.cellText}>{item.move.startup}</Text>
-          </View>
-          <View style={styles.cells}>
-            <Text style={styles.cellText}>{item.move.hit}</Text>
-          </View>
-          <View style={styles.cells}>
-            <Text style={styles.cellText}>{item.move.recovery}</Text>
-          </View>
-        </View>
-      ));
+        );
+      });
     } if (lowActive === 'second') {
       rows = data.map((item, id) => {
         const {
@@ -189,6 +289,67 @@ class CharData extends Component {
     );
   };
 
+  renderSpecSup = (data) => {
+    const { topActive, lowActive } = this.state;
+    let rows;
+    if (lowActive === 'first') {
+      rows = data.map((item, id) => (
+        <View style={id % 2 === 0 ? styles.cellRow : styles.cellRowAlt}>
+          <View style={styles.cells}>
+            <Text style={styles.cellText}>{item.move.name}</Text>
+          </View>
+          <View style={styles.cells}>
+            <Text style={styles.cellText}>{item.move.motion}</Text>
+          </View>
+          <View style={styles.cells}>
+            <Text style={styles.cellText}>{item.move.startup}</Text>
+          </View>
+          <View style={styles.cells}>
+            <Text style={styles.cellText}>{item.move.hit}</Text>
+          </View>
+          <View style={styles.cells}>
+            <Text style={styles.cellText}>{item.move.recovery}</Text>
+          </View>
+        </View>
+      ));
+    } if (lowActive === 'second') {
+      rows = data.map((item, id) => {
+        const {
+          name, blockAdv, parry, damage, stun,
+        } = item.move;
+        return (
+          <View style={id % 2 === 0 ? styles.cellRow : styles.cellRowAlt}>
+            <View style={styles.cells}>
+              <Text style={styles.cellText}>{name}</Text>
+            </View>
+            <View style={styles.cells}>
+              <Text style={[styles.cellText, this.determineColor(blockAdv)]}>{this.addPlusSign(blockAdv)}</Text>
+            </View>
+            <View style={styles.cells}>
+              <Text style={styles.cellText}>{parry}</Text>
+            </View>
+            <View style={styles.cells}>
+              <Text style={styles.cellText}>{damage}</Text>
+            </View>
+            <View style={styles.cells}>
+              <Text style={styles.cellText}>{stun}</Text>
+            </View>
+          </View>
+        );
+      });
+    }
+    return (
+      <ScrollView style={styles.dataContainer}>
+        {rows}
+      </ScrollView>
+    );
+  }
+
+  toggleDisplayOption = (option) => {
+    this.setState({
+      displayOption: option,
+    });
+  }
 
   toggleData = (active) => {
     this.setState({
@@ -199,6 +360,7 @@ class CharData extends Component {
   toggleMoves = (active) => {
     this.setState({
       topActive: active,
+      lowActive: 'first',
     });
   }
 
@@ -220,37 +382,200 @@ class CharData extends Component {
     } return str;
   }
 
+  moveTypeRender = () => {
+    const { navigation } = this.props;
+    const directory = navigation.getParam('directory');
+    const {
+      data, specials, supers,
+    } = directory;
+    const { topActive } = this.state;
+    if (topActive === 'normals') {
+      return this.renderFrameData(data);
+    } if (topActive === 'specials') {
+      return this.renderSpecSup(specials);
+    } if (topActive === 'supers') {
+      return this.renderSpecSup(supers);
+    }
+  }
+
+  renderSecondButtonRow = () => {
+    const { topActive, lowActive } = this.state;
+
+    if (topActive === 'normals') {
+      return (
+        <View style={styles.tabRow}>
+          <LowToggleButton text="Frame Data" active={lowActive === 'first'} onPress={() => this.toggleData('first')} />
+          <LowToggleButton text="Frame Adv" active={lowActive === 'second'} onPress={() => this.toggleData('second')} />
+          <LowToggleButton text="Other" active={lowActive === 'third'} onPress={() => this.toggleData('third')} />
+        </View>
+      );
+    } return (
+      <View style={styles.tabRow}>
+        <LowToggleButton text="Frame Data" active={lowActive === 'first'} onPress={() => this.toggleData('first')} />
+        <LowToggleButton text="Other" active={lowActive === 'second'} onPress={() => this.toggleData('second')} />
+      </View>
+    );
+  }
+
+  renderCardView = () => {
+    const { topActive, basicModal } = this.state;
+    const { navigation } = this.props;
+    const directory = navigation.getParam('directory');
+    const charColor = navigation.getParam('color');
+    const textColor = navigation.getParam('textColor');
+    const altColor = navigation.getParam('altColor');
+    const {
+      data, specials, supers,
+    } = directory;
+    let cards;
+    if (topActive === 'normals') {
+      cards = data.map((item, id) => {
+        const {
+          name, startup, hit, recovery, blockAdv, hitAdv, crHitAdv, parry, damage, stun,
+        } = item.move;
+        return (
+          <MoveCard
+            key={`${name}${id}`}
+            name={name}
+            startup={startup}
+            hit={hit}
+            recovery={recovery}
+            onBlock={blockAdv}
+            onHit={hitAdv}
+            onCrHit={crHitAdv}
+            parry={parry}
+            damage={damage}
+            stun={stun}
+            type={topActive}
+            motion={false}
+            color={charColor}
+            textColor={textColor}
+            altColor={altColor}
+          />
+        );
+      });
+    } if (topActive === 'specials') {
+      cards = specials.map((item, id) => {
+        const {
+          name, startup, hit, recovery, blockAdv, hitAdv, crHitAdv, parry, damage, stun, motion,
+        } = item.move;
+        return (
+          <MoveCard
+            key={`${name}${id}`}
+            name={name}
+            startup={startup}
+            hit={hit}
+            recovery={recovery}
+            onBlock={blockAdv}
+            onHit={hitAdv}
+            onCrHit={crHitAdv}
+            parry={parry}
+            damage={damage}
+            stun={stun}
+            type={topActive}
+            motion={motion}
+            color={charColor}
+            textColor={textColor}
+          />
+        );
+      });
+    } if (topActive === 'supers') {
+      cards = supers.map((item, id) => {
+        const {
+          name, startup, hit, recovery, blockAdv, hitAdv, crHitAdv, parry, damage, stun, motion,
+        } = item.move;
+        return (
+          <MoveCard
+            key={`${name}${id}`}
+            name={name}
+            startup={startup}
+            hit={hit}
+            recovery={recovery}
+            onBlock={blockAdv}
+            onHit={hitAdv}
+            onCrHit={crHitAdv}
+            parry={parry}
+            damage={damage}
+            stun={stun}
+            type={topActive}
+            motion={motion}
+            color={charColor}
+            textColor={textColor}
+          />
+        );
+      });
+    }
+    return (
+      <ScrollView style={styles.cardContainer}>
+        {cards}
+      </ScrollView>
+    );
+  }
+
   render() {
     const { navigation } = this.props;
-    const { lowActive, topActive } = this.state;
+    const {
+      jumps,
+      dashes,
+      wakeups,
+      topActive,
+      displayOption,
+      basicModal,
+    } = this.state;
     const char = navigation.getParam('char');
     const directory = navigation.getParam('directory');
+    const altColor = navigation.getParam('altColor');
     const capChar = char.toUpperCase();
-    const { stage, data, idle } = directory;
+    const { stage, idle } = directory;
     return (
       <View style={styles.mainContainer}>
         <CharacterHeader
           character={capChar}
           stage={stage}
           idle={idle}
+          onPress={this.toggleModal}
         />
-        <View style={{ flex: 0.5, flexDirection: 'column' }}>
+        <View style={styles.optionContainer}>
           {/* <View style={styles.buttonRow}>
-            <ToggleButton text="Normals" active={topActive === 'first'} onPress={() => this.toggleMoves('first')} />
-            <ToggleButton text="Specials" active={topActive === 'second'} onPress={() => this.toggleMoves('second')} />
-            <ToggleButton text="Supers" active={topActive === 'third'} onPress={() => this.toggleMoves('third')} />
-            <ToggleButton text="Basics" active={topActive === 'fourth'} onPress={() => this.toggleMoves('fourth')} />
+            <ToggleButton text="List" active={displayOption === 'list'} onPress={() => this.toggleDisplayOption('list')} />
+            <ToggleButton text="Card" active={displayOption === 'card'} onPress={() => this.toggleDisplayOption('card')} />
           </View> */}
           <View style={styles.buttonRow}>
-            <ToggleButton text="Frame Data" active={lowActive === 'first'} onPress={() => this.toggleData('first')} />
-            <ToggleButton text="Frame Adv" active={lowActive === 'second'} onPress={() => this.toggleData('second')} />
-            <ToggleButton text="Other" active={lowActive === 'third'} onPress={() => this.toggleData('third')} />
+            <ToggleButton text="Normals" altColor={altColor} active={topActive === 'normals'} onPress={() => this.toggleMoves('normals')} />
+            <ToggleButton text="Specials" altColor={altColor} active={topActive === 'specials'} onPress={() => this.toggleMoves('specials')} />
+            <ToggleButton text="Supers" altColor={altColor} active={topActive === 'supers'} onPress={() => this.toggleMoves('supers')} />
           </View>
+          {/* {displayOption === 'list'
+          && (
+          <View style={styles.buttonRow}>
+            {this.renderSecondButtonRow()}
+          </View>
+          )} */}
         </View>
         <View style={{ flex: 5, flexDirection: 'column' }}>
-          {this.renderHeaders()}
-          {this.renderFrameData(data)}
+          {/* {displayOption === 'list' && this.renderHeaders()}
+          {displayOption === 'list' && this.moveTypeRender()} */}
+          {displayOption === 'card' && this.renderCardView()}
         </View>
+
+        <Modal
+          animationType="slide"
+          transparent={false}
+          visible={basicModal}
+          onRequestClose={() => {
+            this.setState({
+              basicModal: false,
+            });
+          }}
+        >
+          <BasicModal
+            // data={basics}
+            jumps={jumps}
+            dashes={dashes}
+            wakeups={wakeups}
+            char={capChar}
+          />
+        </Modal>
       </View>
     );
   }

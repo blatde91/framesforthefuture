@@ -1,0 +1,262 @@
+[
+  {
+    "move": {
+      "blockAdv": "-9",
+      "damage": "10",
+      "hit": "-",
+      "motion": "QCF + Jab",
+      "name": "Hadouken (Jab)",
+      "parry": "H",
+      "recovery": "36",
+      "startup": "10",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-9",
+      "damage": "10",
+      "hit": "-",
+      "motion": "QCF + Strong",
+      "name": "Hadouken (Strong)",
+      "parry": "H",
+      "recovery": "36",
+      "startup": "10",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-9",
+      "damage": "10",
+      "hit": "-",
+      "motion": "QCF + Fierce",
+      "name": "Hadouken (Fierce)",
+      "parry": "H",
+      "recovery": "36",
+      "startup": "10",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "20",
+      "hit": "-",
+      "motion": "QCF + 2 Punches",
+      "name": "Hadouken (EX)",
+      "parry": "H",
+      "recovery": "36",
+      "startup": "9",
+      "stun": "5"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-24",
+      "damage": "24",
+      "hit": "11",
+      "motion": "DPM + Jab",
+      "name": "Shoryuken (Jab)",
+      "parry": "H+L",
+      "recovery": "29",
+      "startup": "3",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-32",
+      "damage": "27",
+      "hit": "14",
+      "motion": "DPM + Strong",
+      "name": "Shoryuken (Strong)",
+      "parry": "H+L",
+      "recovery": "34",
+      "startup": "3",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-38",
+      "damage": "30",
+      "hit": "18",
+      "motion": "DPM + Fierce",
+      "name": "Shoryuken (Fierce)",
+      "parry": "H+L",
+      "recovery": "38",
+      "startup": "3",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-37",
+      "damage": "32",
+      "hit": "19",
+      "motion": "DPM + 2 Punches",
+      "name": "Shoryuken (EX)",
+      "parry": "H+L",
+      "recovery": "38",
+      "startup": "2",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "23",
+      "hit": "3",
+      "motion": "QCB + Short",
+      "name": "Tatsumaki Senpuu Kyaku (Short)",
+      "parry": "H",
+      "recovery": "22",
+      "startup": "10",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "26",
+      "hit": "10",
+      "motion": "QCB + Forward",
+      "name": "Tatsumaki Senpuu Kyaku (Fwd)",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "11",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "30",
+      "hit": "10",
+      "motion": "QCB + RH",
+      "name": "Tatsumaki Senpuu Kyaku (RH)",
+      "parry": "H",
+      "recovery": "22",
+      "startup": "11",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "35",
+      "hit": "12",
+      "motion": "QCB + 2 Kicks",
+      "name": "Tatsumaki Senpuu Kyaku (EX)",
+      "parry": "H",
+      "recovery": "11",
+      "startup": "10",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "21",
+      "hit": "3",
+      "motion": "HCF + Short",
+      "name": "Joudan Sokutou Geri (Short)",
+      "parry": "H",
+      "recovery": "28",
+      "startup": "10",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "24",
+      "hit": "3",
+      "motion": "HCF + Forward",
+      "name": "Joudan Sokutou Geri (Forward)",
+      "parry": "H",
+      "recovery": "27",
+      "startup": "13",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "28",
+      "hit": "3",
+      "motion": "HCF + RH",
+      "name": "Joudan Sokutou Geri (RH)",
+      "parry": "H",
+      "recovery": "26",
+      "startup": "16",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "21",
+      "hit": "4",
+      "motion": "HCF + 2 Kicks",
+      "name": "Joudan Sokutou Geri (EX)",
+      "parry": "H",
+      "recovery": "27",
+      "startup": "13",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "17",
+      "hit": "8",
+      "motion": "QCB + Short (Air)",
+      "name": "Air Tatsumaki Senpuu Kyaku (Short)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "7",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "19",
+      "hit": "10",
+      "motion": "QCB + Forward (Air)",
+      "name": "Air Tatsumaki Senpuu Kyaku (Fwd)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "7",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "21",
+      "hit": "10",
+      "motion": "QCB + RH (Air)",
+      "name": "Air Tatsumaki Senpuu Kyaku (RH)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "7",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-30",
+      "damage": "31",
+      "hit": "6",
+      "motion": "QCB + 2 Kicks (Air)",
+      "name": "Air Tatsumaki Senpuu Kyaku (EX)",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "6",
+      "stun": "17"
+    }
+  }
+]

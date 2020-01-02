@@ -1,0 +1,54 @@
+[
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "50",
+      "hit": "-",
+      "motion": "QCF x 2 + Punch",
+      "name": "Shinkuu Hadouken",
+      "parry": "H",
+      "recovery": "49",
+      "startup": "3",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-25",
+      "damage": "94",
+      "hit": "13",
+      "motion": "QCF x 2 + Punch",
+      "name": "Shin Shoryuken",
+      "parry": "H+L",
+      "recovery": "35",
+      "startup": "0",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-27",
+      "damage": "33",
+      "hit": "13",
+      "motion": "QCF x 2 + Punch",
+      "name": "Shin Shoryuken (Far)",
+      "parry": "H+L",
+      "recovery": "35",
+      "startup": "0",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "10",
+      "hit": "-",
+      "motion": "QCF x 2 + Punch",
+      "name": "Denjin Hadouken",
+      "parry": "H",
+      "recovery": "51",
+      "startup": "3",
+      "stun": "17"
+    }
+  }
+]

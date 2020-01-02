@@ -1,0 +1,236 @@
+[
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "24",
+      "hit": "2",
+      "motion": "HCB + Jab",
+      "name": "Human Pillar Driver (Jab)",
+      "parry": "-",
+      "recovery": "29",
+      "startup": "9",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "27",
+      "hit": "2",
+      "motion": "HCB + Strong",
+      "name": "Human Pillar Driver (Strong)",
+      "parry": "-",
+      "recovery": "29",
+      "startup": "10",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "31",
+      "hit": "2",
+      "motion": "HCB + Fierce",
+      "name": "Human Pillar Driver (Fierce)",
+      "parry": "-",
+      "recovery": "29",
+      "startup": "11",
+      "stun": "19"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-34",
+      "damage": "24",
+      "hit": "10",
+      "motion": "Hold D...U + Jab",
+      "name": "Oniyama (Jab)",
+      "parry": "H+L",
+      "recovery": "-29",
+      "startup": "6",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-42",
+      "damage": "28",
+      "hit": "17",
+      "motion": "Hold D...U + Strong",
+      "name": "Oniyama (Strong)",
+      "parry": "H+L",
+      "recovery": "-30",
+      "startup": "6",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-50",
+      "damage": "31",
+      "hit": "23",
+      "motion": "Hold D...U + Fierce",
+      "name": "Oniyama (Fierce)",
+      "parry": "H+L",
+      "recovery": "-33",
+      "startup": "7",
+      "stun": "21"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-60",
+      "damage": "35",
+      "hit": "25",
+      "motion": "Hold D...U + 2 Punches",
+      "name": "Oniyama (EX)",
+      "parry": "H+L",
+      "recovery": "-43",
+      "startup": "5",
+      "stun": "21"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "8",
+      "hit": "-",
+      "motion": "Hold B...F + Jab",
+      "name": "Sun Disk Palm (Jab)",
+      "parry": "H",
+      "recovery": "27",
+      "startup": "15",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-4",
+      "damage": "8",
+      "hit": "-",
+      "motion": "Hold B...F + Strong",
+      "name": "Sun Disk Palm (Strong)",
+      "parry": "H",
+      "recovery": "25",
+      "startup": "15",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "10",
+      "hit": "-",
+      "motion": "Hold B...F + Fierce",
+      "name": "Sun Disk Palm (Fierce)",
+      "parry": "H",
+      "recovery": "23",
+      "startup": "13",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "1",
+      "damage": "16",
+      "hit": "-",
+      "motion": "Hold B...F + 2 Punches",
+      "name": "Sun Disk Palm (EX Low)",
+      "parry": "H",
+      "recovery": "27",
+      "startup": "15",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "16",
+      "hit": "-",
+      "motion": "Hold B...F + 2 Punches",
+      "name": "Sun Disk Palm (EX High)",
+      "parry": "H",
+      "recovery": "37",
+      "startup": "21",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "16",
+      "damage": "16",
+      "hit": "6",
+      "motion": "QCF + Short",
+      "name": "Jinchu Nobori (Short)",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "27",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "16",
+      "damage": "20",
+      "hit": "6",
+      "motion": "QCF + Forward",
+      "name": "Jinchu Nobori (Forward)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "31",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "16",
+      "damage": "22",
+      "hit": "6",
+      "motion": "QCF + RH",
+      "name": "Jinchu Nobori (RH)",
+      "parry": "H",
+      "recovery": "16",
+      "startup": "34",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "16",
+      "damage": "34",
+      "hit": "12",
+      "motion": "QCF + 2 Kicks",
+      "name": "Jinchu Nobori (EX)",
+      "parry": "H",
+      "recovery": "16",
+      "startup": "31",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-19",
+      "damage": "19",
+      "hit": "6",
+      "motion": "QCF + Kick (Air)",
+      "name": "Air Jinchu Nobori",
+      "parry": "H",
+      "recovery": "29",
+      "startup": "8",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-20",
+      "damage": "22",
+      "hit": "7",
+      "motion": "QCF + 2 Kicks (Air)",
+      "name": "Air Jinchu Nobori (EX)",
+      "parry": "H",
+      "recovery": "30",
+      "startup": "8",
+      "stun": "9"
+    }
+  }
+]

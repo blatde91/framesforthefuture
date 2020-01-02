@@ -1,0 +1,86 @@
+[
+  {
+    "move": {
+      "name": "Neutral Jump Startup",
+      "frames": 6,
+      "type": "Jump"
+    }
+  },
+  {
+    "move": {
+      "name": "Backward Jump Startup",
+      "frames": 6,
+      "type": "Jump"
+    }
+  },
+  {
+    "move": {
+      "name": "Forward Jump Startup",
+      "frames": 6,
+      "type": "Jump"
+    }
+  },
+  {
+    "move": {
+      "name": "Neutral Superjump Startup",
+      "frames": 6,
+      "type": "Jump"
+    }
+  },
+  {
+    "move": {
+      "name": "Backward Superjump Startup",
+      "frames": 6,
+      "type": "Jump"
+    }
+  },
+  {
+    "move": {
+      "name": "Forward Superjump Startup",
+      "frames": 6,
+      "type": "Jump"
+    }
+  },
+  {
+    "move": {
+      "name": "Dash Backward (full)",
+      "frames": 34,
+      "type": "Dash"
+    }
+  },
+  {
+    "move": {
+      "name": "Dash Backward (recovery cancel)",
+      "frames": 23,
+      "type": "Dash"
+    }
+  },
+  {
+    "move": {
+      "name": "Dash Forward (full)",
+      "frames": 35,
+      "type": "Dash"
+    }
+  },
+  {
+    "move": {
+      "name": "Dash Forward (recovery cancel)",
+      "frames": 23,
+      "type": "Dash"
+    }
+  },
+  {
+    "move": {
+      "name": "Wakeup",
+      "frames": "69 (35+34)",
+      "type": "Wakeup"
+    }
+  },
+  {
+    "move": {
+      "name": "Wakeup (quick roll)",
+      "frames": "54 (25+29)",
+      "type": "Wakeup"
+    }
+  }
+]

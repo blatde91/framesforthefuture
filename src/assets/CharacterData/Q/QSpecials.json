@@ -1,0 +1,236 @@
+[
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "21",
+      "hit": "3",
+      "motion": "Hold B...F+ Jab",
+      "name": "Dashing Head Attack (Jab)",
+      "parry": "H",
+      "recovery": "",
+      "startup": "13",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "24",
+      "hit": "3",
+      "motion": "Hold B...F + Strong",
+      "name": "Dashing Head Attack (Strong)",
+      "parry": "H",
+      "recovery": "16",
+      "startup": "15",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "27",
+      "hit": "4",
+      "motion": "Hold B...F + Fierce",
+      "name": "Dashing Head Attack (Fierce)",
+      "parry": "H",
+      "recovery": "16",
+      "startup": "19",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-21",
+      "damage": "28",
+      "hit": "3",
+      "motion": "Hold B...F + 2 Punches",
+      "name": "Dashing Head Attack (EX)",
+      "parry": "H",
+      "recovery": "36",
+      "startup": "14",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "17",
+      "hit": "3",
+      "motion": "Hold B...F+ Jab (Hold)",
+      "name": "Dashing Head Attack (Jab)",
+      "parry": "H",
+      "recovery": "23",
+      "startup": "24",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "20",
+      "hit": "3",
+      "motion": "Hold B...F+ Strong (Hold)",
+      "name": "Dashing Head Attack (Strong)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "28",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "23",
+      "hit": "3",
+      "motion": "Hold B...F+ Fierce (Hold)",
+      "name": "Dashing Head Attack (Fierce)",
+      "parry": "H",
+      "recovery": "25",
+      "startup": "32",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-13",
+      "damage": "19",
+      "hit": "2",
+      "motion": "Hold B...F + Short",
+      "name": "Dashing Leg Attack (Short)",
+      "parry": "L",
+      "recovery": "29",
+      "startup": "25",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-14",
+      "damage": "22",
+      "hit": "2",
+      "motion": "Hold B...F + Forward",
+      "name": "Dashing Leg Attack (Forward)",
+      "parry": "L",
+      "recovery": "30",
+      "startup": "28",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-15",
+      "damage": "24",
+      "hit": "2",
+      "motion": "Hold B...F + RH",
+      "name": "Dashing Leg Attack (RH)",
+      "parry": "L",
+      "recovery": "31",
+      "startup": "31",
+      "stun": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-18",
+      "damage": "29",
+      "hit": "4",
+      "motion": "Hold B...F + 2 Kicks",
+      "name": "Dashing Leg Attack (EX)",
+      "parry": "L",
+      "recovery": "34",
+      "startup": "26",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "24",
+      "hit": "3",
+      "motion": "QCB + Jab",
+      "name": "High Speed Barrage (Jab)",
+      "parry": "H",
+      "recovery": "26",
+      "startup": "9",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-9",
+      "damage": "24",
+      "hit": "4",
+      "motion": "QCB + Strong",
+      "name": "High Speed Barrage (Strong)",
+      "parry": "H",
+      "recovery": "28",
+      "startup": "8",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "24",
+      "hit": "3",
+      "motion": "QCB + Fierce",
+      "name": "High Speed Barrage (Fierce)",
+      "parry": "H",
+      "recovery": "28",
+      "startup": "9",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-23",
+      "damage": "40",
+      "hit": "11",
+      "motion": "QCB + 2 Punches",
+      "name": "High Speed Barrage (EX)",
+      "parry": "H",
+      "recovery": "36",
+      "startup": "6",
+      "stun": "24"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "19",
+      "hit": "2",
+      "motion": "HCB + Short",
+      "name": "Capture and Deadly Blow (Short)",
+      "parry": "-",
+      "recovery": "42",
+      "startup": "12",
+      "stun": "10"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "21",
+      "hit": "2",
+      "motion": "HCB + Forward",
+      "name": "Capture and Deadly Blow (Forward)",
+      "parry": "-",
+      "recovery": "44",
+      "startup": "13",
+      "stun": "10"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "23",
+      "hit": "2",
+      "motion": "HCB + RH",
+      "name": "Capture and Deadly Blow (RH)",
+      "parry": "-",
+      "recovery": "46",
+      "startup": "14",
+      "stun": "10"
+    }
+  }
+]

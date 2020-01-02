@@ -1,0 +1,41 @@
+[
+  {
+    "move": {
+      "blockAdv": "-30",
+      "damage": "50",
+      "hit": "17",
+      "motion": "QCF x 2 + Kick",
+      "name": "Spinning Beat",
+      "parry": "H+L",
+      "recovery": "43",
+      "startup": "0",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-12",
+      "damage": "68",
+      "hit": "15",
+      "motion": "QCF x 2 + Kick",
+      "name": "Brave Dance",
+      "parry": "H+L",
+      "recovery": "14",
+      "startup": "0",
+      "stun": "0"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF x 2 + Kick",
+      "name": "Healing",
+      "parry": "-",
+      "recovery": "15",
+      "startup": "-",
+      "stun": "-"
+    }
+  }
+]

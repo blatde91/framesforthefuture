@@ -1,0 +1,67 @@
+[
+  {
+    "move": {
+      "blockAdv": "-19",
+      "damage": "62",
+      "hit": "16",
+      "motion": "QCF x 2 + Punch",
+      "name": "Critical Combo Attack",
+      "parry": "H",
+      "recovery": "31",
+      "startup": "5",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-25",
+      "damage": "80",
+      "hit": "1",
+      "motion": "QCF x 2 + Punch",
+      "name": "Deadly Double Combination",
+      "parry": "H+L",
+      "recovery": "65",
+      "startup": "1",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF x 2 + Punch",
+      "name": "Total Destruction",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "18",
+      "stun": "-"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-17",
+      "damage": "62",
+      "hit": "1",
+      "motion": "QCF + Punch",
+      "name": "Total Destruction Far Grab",
+      "parry": "H+L",
+      "recovery": "39",
+      "startup": "12",
+      "stun": "24"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "83",
+      "hit": "3",
+      "motion": "QCF + Kick",
+      "name": "Total Destruction Close Grab",
+      "parry": "-",
+      "recovery": "59",
+      "startup": "6",
+      "stun": "20"
+    }
+  }
+]

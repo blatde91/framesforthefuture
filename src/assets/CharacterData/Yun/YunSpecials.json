@@ -1,0 +1,184 @@
+[
+  {
+    "move": {
+      "blockAdv": "-1",
+      "damage": "19",
+      "hit": "6",
+      "motion": "DPM + Jab",
+      "name": "Tetsu Zankou (Jab)",
+      "parry": "H+L",
+      "recovery": "13",
+      "startup": "14",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "22",
+      "hit": "6",
+      "motion": "DPM + Strong",
+      "name": "Tetsu Zankou (Strong)",
+      "parry": "H+L",
+      "recovery": "15",
+      "startup": "18",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-5",
+      "damage": "24",
+      "hit": "6",
+      "motion": "DPM + Fierce",
+      "name": "Tetsu Zankou (Fierce)",
+      "parry": "H+L",
+      "recovery": "17",
+      "startup": "22",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-7",
+      "damage": "27",
+      "hit": "13",
+      "motion": "DPM + 2 Punches",
+      "name": "Tetsu Zankou (EX)",
+      "parry": "H+L",
+      "recovery": "19",
+      "startup": "10",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "17",
+      "hit": "5",
+      "motion": "QCF + Jab",
+      "name": "Zesshou Hohou (Jab)",
+      "parry": "H+L",
+      "recovery": "22",
+      "startup": "7",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "19",
+      "hit": "11",
+      "motion": "QCF + Strong",
+      "name": "Zesshou Hohou (Strong)",
+      "parry": "H+L",
+      "recovery": "16",
+      "startup": "10",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-11",
+      "damage": "21",
+      "hit": "15",
+      "motion": "QCF + Fierce",
+      "name": "Zesshou Hohou (Fierce)",
+      "parry": "H+L",
+      "recovery": "12",
+      "startup": "13",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "27",
+      "hit": "15",
+      "motion": "QCF + 2 Punches",
+      "name": "Zesshou Hohou (EX)",
+      "parry": "H",
+      "recovery": "12",
+      "startup": "13",
+      "stun": "10"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-25",
+      "damage": "22",
+      "hit": "6",
+      "motion": "DPM + Short",
+      "name": "Nishou Kyaku (Short)",
+      "parry": "H+L",
+      "recovery": "25",
+      "startup": "4",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-26",
+      "damage": "24",
+      "hit": "6",
+      "motion": "DPM + Forward",
+      "name": "Nishou Kyaku (Forward)",
+      "parry": "H+L",
+      "recovery": "26",
+      "startup": "6",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-28",
+      "damage": "25",
+      "hit": "6",
+      "motion": "DPM + RH",
+      "name": "Nishou Kyaku (RH)",
+      "parry": "H+L",
+      "recovery": "28",
+      "startup": "8",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-28",
+      "damage": "29",
+      "hit": "6",
+      "motion": "DPM + 2 Kicks",
+      "name": "Nishou Kyaku (EX)",
+      "parry": "H+L",
+      "recovery": "29",
+      "startup": "4",
+      "stun": "12"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "32",
+      "hit": "10",
+      "motion": "QCB + Punch",
+      "name": "Kobokushi",
+      "parry": "H+L",
+      "recovery": "4",
+      "startup": "24",
+      "stun": "23"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "2",
+      "motion": "HCB + Kick",
+      "name": "Zenpou Tenshin",
+      "parry": "-",
+      "recovery": "26",
+      "startup": "7",
+      "stun": "-"
+    }
+  }
+]

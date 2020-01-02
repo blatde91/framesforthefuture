@@ -1,0 +1,41 @@
+[
+  {
+    "move": {
+      "blockAdv": "-17",
+      "damage": "83",
+      "hit": "3",
+      "motion": "QCF x2 + Punch",
+      "name": "Seichuusen Godanzuki",
+      "parry": "H+L",
+      "recovery": "65",
+      "startup": "0",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-20",
+      "damage": "59",
+      "hit": "5",
+      "motion": "QCF x2 + Kick",
+      "name": "Abare Tosanami",
+      "parry": "H",
+      "recovery": "25",
+      "startup": "14 + 0",
+      "stun": "22"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "-",
+      "motion": "QCF x2 + Punch",
+      "name": "Tanden Renki",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "-",
+      "stun": "-"
+    }
+  }
+]

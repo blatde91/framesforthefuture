@@ -1,0 +1,327 @@
+[
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "21",
+      "hit": "2",
+      "motion": "QCF + Jab",
+      "name": "Flash Chop (Jab)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "11",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "23",
+      "hit": "3",
+      "motion": "QCF + Strong",
+      "name": "Flash Chop (Strong)",
+      "parry": "H",
+      "recovery": "19",
+      "startup": "15",
+      "stun": "9"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-1",
+      "damage": "24",
+      "hit": "4",
+      "motion": "QCF + Fierce",
+      "name": "Flash Chop (Fierce)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "19",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-1",
+      "damage": "34",
+      "hit": "4",
+      "motion": "QCF + 2 Punches",
+      "name": "Flash Chop (EX)",
+      "parry": "H",
+      "recovery": "15",
+      "startup": "9",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "28",
+      "hit": "2",
+      "motion": "HCB + Jab",
+      "name": "Power Bomb (Jab)",
+      "parry": "-",
+      "recovery": "35",
+      "startup": "6",
+      "stun": "18"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "32",
+      "hit": "2",
+      "motion": "HCB + Strong",
+      "name": "Power Bomb (Strong)",
+      "parry": "-",
+      "recovery": "41",
+      "startup": "7",
+      "stun": "18"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "35",
+      "hit": "2",
+      "motion": "HCB + Fierce",
+      "name": "Power Bomb (Fierce)",
+      "parry": "-",
+      "recovery": "44",
+      "startup": "8",
+      "stun": "18"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "32",
+      "hit": "2",
+      "motion": "HCB + Jab",
+      "name": "Reverse Power Bomb (Jab)",
+      "parry": "-",
+      "recovery": "35",
+      "startup": "6",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "35",
+      "hit": "2",
+      "motion": "HCB + Strong",
+      "name": "Reverse Power Bomb (Strong)",
+      "parry": "-",
+      "recovery": "41",
+      "startup": "7",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "40",
+      "hit": "2",
+      "motion": "HCB + Fierce",
+      "name": "Reverse Power Bomb (Fierce)",
+      "parry": "-",
+      "recovery": "44",
+      "startup": "8",
+      "stun": "20"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "21",
+      "hit": "6",
+      "motion": "DPM + Short",
+      "name": "Air Knee Smash (Short)",
+      "parry": "H",
+      "recovery": "35",
+      "startup": "6",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "24",
+      "hit": "10",
+      "motion": "DPM + Forward",
+      "name": "Air Knee Smash (Forward)",
+      "parry": "H",
+      "recovery": "34",
+      "startup": "7",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "26",
+      "hit": "12",
+      "motion": "DPM + RH",
+      "name": "Air Knee Smash (RH)",
+      "parry": "H",
+      "recovery": "33",
+      "startup": "8",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "26",
+      "hit": "17",
+      "motion": "DPM + 2 Kicks",
+      "name": "Air Knee Smash (EX)",
+      "parry": "H",
+      "recovery": "34",
+      "startup": "3",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "21",
+      "hit": "2",
+      "motion": "Hold D...U + Short",
+      "name": "Air Stampede (Short)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "23",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "24",
+      "hit": "2",
+      "motion": "Hold D...U + Forward",
+      "name": "Air Stampede (Forward)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "25",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "28",
+      "hit": "2",
+      "motion": "Hold D...U + RH",
+      "name": "Air Stampede (RH)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "26",
+      "stun": "11"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-3",
+      "damage": "32",
+      "hit": "2",
+      "motion": "Hold D...U + 2 Kicks",
+      "name": "Air Stampede (EX)",
+      "parry": "H",
+      "recovery": "24",
+      "startup": "26",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-2",
+      "damage": "17",
+      "hit": "1",
+      "motion": "Hold B...F + Short",
+      "name": "Slash Elbow (Short)",
+      "parry": "H",
+      "recovery": "17",
+      "startup": "15",
+      "stun": "13"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "21",
+      "hit": "1",
+      "motion": "Hold B...F + Forward",
+      "name": "Slash Elbow (Forward)",
+      "parry": "H",
+      "recovery": "23",
+      "startup": "18",
+      "stun": "15"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-8",
+      "damage": "24",
+      "hit": "1",
+      "motion": "Hold B...F + RH",
+      "name": "Slash Elbow (RH)",
+      "parry": "H",
+      "recovery": "23",
+      "startup": "20",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-6",
+      "damage": "27",
+      "hit": "6*1",
+      "motion": "Hold B...F + 2 Kicks",
+      "name": "Slash Elbow (EX)",
+      "parry": "H",
+      "recovery": "23",
+      "startup": "9",
+      "stun": "17"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "28",
+      "hit": "3",
+      "motion": "HCB + Short",
+      "name": "Spiral D.D.T. (Short)",
+      "parry": "-",
+      "recovery": "15",
+      "startup": "20",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "28",
+      "hit": "3",
+      "motion": "HCB + Forward",
+      "name": "Spiral D.D.T. (Forward)",
+      "parry": "-",
+      "recovery": "14",
+      "startup": "22",
+      "stun": "14"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "28",
+      "hit": "3",
+      "motion": "HCB + RH",
+      "name": "Spiral D.D.T. (RH)",
+      "parry": "-",
+      "recovery": "13",
+      "startup": "24",
+      "stun": "14"
+    }
+  }
+]

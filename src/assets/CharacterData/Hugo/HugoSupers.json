@@ -1,0 +1,67 @@
+[
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "102",
+      "hit": "2",
+      "motion": "720 + Punch",
+      "name": "Gigas Breaker",
+      "parry": "-",
+      "recovery": "36",
+      "startup": "0",
+      "stun": "18"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "75",
+      "hit": "12",
+      "motion": "QCF x 2 + Short",
+      "name": "Megaton Press (LK)",
+      "parry": "-",
+      "recovery": "30",
+      "startup": "2",
+      "stun": "27"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "75",
+      "hit": "16",
+      "motion": "QCF x 2 + Forward",
+      "name": "Megaton Press (MK)",
+      "parry": "-",
+      "recovery": "34",
+      "startup": "4",
+      "stun": "27"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "0",
+      "damage": "75",
+      "hit": "20",
+      "motion": "QCF x 2 + RH",
+      "name": "Megaton Press (HK)",
+      "parry": "-",
+      "recovery": "36",
+      "startup": "6",
+      "stun": "27"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-29",
+      "damage": "64",
+      "hit": "18",
+      "motion": "QCF x 2 + Punch",
+      "name": "Hammer Frenzy",
+      "parry": "H+L",
+      "recovery": "47",
+      "startup": "4",
+      "stun": "24"
+    }
+  }
+]
