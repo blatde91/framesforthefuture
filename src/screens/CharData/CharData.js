@@ -117,9 +117,6 @@ class CharData extends Component {
       lowActive: 'first',
       displayOption: 'card',
       basicModal: false,
-      jumps: [],
-      wakeups: [],
-      dashes: [],
     };
   }
 
@@ -536,21 +533,11 @@ class CharData extends Component {
           onPress={this.toggleModal}
         />
         <View style={styles.optionContainer}>
-          {/* <View style={styles.buttonRow}>
-            <ToggleButton text="List" active={displayOption === 'list'} onPress={() => this.toggleDisplayOption('list')} />
-            <ToggleButton text="Card" active={displayOption === 'card'} onPress={() => this.toggleDisplayOption('card')} />
-          </View> */}
           <View style={styles.buttonRow}>
             <ToggleButton text="Normals" altColor={altColor} active={topActive === 'normals'} onPress={() => this.toggleMoves('normals')} />
             <ToggleButton text="Specials" altColor={altColor} active={topActive === 'specials'} onPress={() => this.toggleMoves('specials')} />
             <ToggleButton text="Supers" altColor={altColor} active={topActive === 'supers'} onPress={() => this.toggleMoves('supers')} />
           </View>
-          {/* {displayOption === 'list'
-          && (
-          <View style={styles.buttonRow}>
-            {this.renderSecondButtonRow()}
-          </View>
-          )} */}
         </View>
         <View style={{ flex: 5, flexDirection: 'column' }}>
           {/* {displayOption === 'list' && this.renderHeaders()}
@@ -569,10 +556,7 @@ class CharData extends Component {
           }}
         >
           <BasicModal
-            // data={basics}
-            jumps={jumps}
-            dashes={dashes}
-            wakeups={wakeups}
+            data={directory}
             char={capChar}
           />
         </Modal>

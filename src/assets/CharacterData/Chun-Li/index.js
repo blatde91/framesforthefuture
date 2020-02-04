@@ -4,6 +4,7 @@ const data = require('./Chun.json');
 const specials = require('./ChunSpecials.json');
 const supers = require('./ChunSupers.json');
 const basics = require('./ChunBasics.json');
+const stats = require('./ChunStats.json');
 const MP = require('./GIFs/ChunMP.gif');
 const HP = require('./GIFs/ChunHP.gif');
 const LK = require('./GIFs/ChunLK.gif');
@@ -12,5 +13,5 @@ const HK = require('./GIFs/ChunHK.gif');
 const LMH = require('./GIFs/ChunLMH.gif');
 
 export {
-  stage, idle, data, specials, supers, basics, MP, HP, LK, MK, HK, LMH,
+  stage, idle, data, specials, supers, basics, stats, MP, HP, LK, MK, HK, LMH,
 };

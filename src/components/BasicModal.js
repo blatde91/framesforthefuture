@@ -18,6 +18,9 @@ const styles = StyleSheet.create({
   body: {
     flex: 6,
   },
+  gifRow: {
+    flexDirection: 'row',
+  },
 });
 
 class BasicModal extends Component {
@@ -30,98 +33,51 @@ class BasicModal extends Component {
     };
   }
 
-  componentDidMount = () => {
-    // console.log('hello');
-    // console.log(this.props);
-    const { data } = this.props;
-    alert(data);
-  }
-
-  // createBasicArrays = (data) => {
-  //   const jumps = [];
-  //   const wakeups = [];
-  //   const dashes = [];
-
-  //   data.map((item, id) => {
-  //     const { type } = item.move;
-  //     if (type === 'Jump') {
-  //       console.log(item);
-  //       jumps.push(item);
-  //     } if (type === 'Dash') {
-  //       console.log(item);
-  //       dashes.push(item);
-  //     } if (type === 'Wakeup') {
-  //       console.log(item);
-  //       wakeups.push(item);
-  //     }
-  //   });
-  //   this.setState({
-  //     jumps,
-  //     dashes,
-  //     wakeups,
-  //   }, () => console.log(this.state));
-  // }
-
   renderWakeups = (data) => {
-    data.map((item) => {
-      const {
-        name, frames,
-      } = item.move;
-      console.log(name, frames);
-      return (
-        <View>
-          <View style={styles.nameHeader}>
-            <Text>{name}</Text>
-          </View>
-          <View style={styles.frameCell}>
-            <Text>{frames}</Text>
-          </View>
+    const wakeups = data.map((item) => (
+      <View>
+        <View style={styles.nameHeader}>
+          <Text>{item.move.name}</Text>
         </View>
-      );
-    });
+        <View style={styles.frameCell}>
+          <Text>{item.move.frames}</Text>
+        </View>
+      </View>
+    ));
+    return wakeups;
   };
 
   renderDashes = (data) => {
-    data.map((item) => {
-      const {
-        name, frames,
-      } = item.move;
-      console.log(name, frames);
-      return (
-        <View>
-          <View style={styles.nameHeader}>
-            <Text>{name}</Text>
-          </View>
-          <View style={styles.frameCell}>
-            <Text>{frames}</Text>
-          </View>
+    const dashes = data.map((item) => (
+      <View>
+        <View style={styles.nameHeader}>
+          <Text>{item.move.name}</Text>
         </View>
-      );
-    });
+        <View style={styles.frameCell}>
+          <Text>{item.move.frames}</Text>
+        </View>
+      </View>
+    ));
+    return dashes;
   };
 
   renderJumps = (data) => {
-    data.map((item) => {
-      const {
-        name, frames,
-      } = item.move;
-      console.log(name, frames);
-      return (
-        <View>
-          <View style={styles.nameHeader}>
-            <Text>{name}</Text>
-          </View>
-          <View style={styles.frameCell}>
-            <Text>{frames}</Text>
-          </View>
+    const jumps = data.map((item) => (
+      <View>
+        <View style={styles.nameHeader}>
+          <Text>{item.move.name}</Text>
         </View>
-      );
-    });
+        <View style={styles.frameCell}>
+          <Text>{item.move.frames}</Text>
+        </View>
+      </View>
+    ));
+    return jumps;
   };
 
   render() {
     const {
-      char, jumps, dashes, wakeups,
+      char, data,
     } = this.props;
     return (
       <View style={styles.modalContainer}>
@@ -129,7 +85,7 @@ class BasicModal extends Component {
           <Text>{`Hello Im ${char}`}</Text>
         </View>
         <View style={styles.body}>
-          <View style={styles.jumpCard}>
+          {/* <View style={styles.jumpCard}>
             <View style={styles.sectionHeader}>
               <Text styles={styles.headerText}>Jumps</Text>
             </View>
@@ -151,6 +107,42 @@ class BasicModal extends Component {
             </View>
             <View style={styles.sectionBody}>
               {wakeups.length > 0 && this.renderWakeups(wakeups)}
+            </View>
+          </View> */}
+          <View style={styles.paletteContainer}>
+            <View style={styles.gifRow}>
+              <View>
+                <Text>LP</Text>
+                <Image source={data.idle} />
+              </View>
+              <View>
+                <Text>MP</Text>
+                <Image source={data.MP} />
+              </View>
+              <View>
+                <Text>HP</Text>
+                <Image source={data.HP} />
+              </View>
+            </View>
+            <View style={styles.gifRow}>
+              <View>
+                <Text>LK</Text>
+                <Image source={data.LK} />
+              </View>
+              <View>
+                <Text>MK</Text>
+                <Image source={data.MK} />
+              </View>
+              <View>
+                <Text>HK</Text>
+                <Image source={data.HK} />
+              </View>
+            </View>
+            <View style={styles.gifRow}>
+              <View>
+                <Text>LP + MK + HP</Text>
+                <Image source={data.LMH} />
+              </View>
             </View>
           </View>
         </View>

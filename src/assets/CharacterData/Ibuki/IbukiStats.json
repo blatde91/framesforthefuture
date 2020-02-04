@@ -1,0 +1,7 @@
+{
+  "stats": {
+    "life": 1000,
+    "stun": "Average (64 dots)",
+    "stunRecovery": "Slowest (1 dot / 24F)"
+  }
+}

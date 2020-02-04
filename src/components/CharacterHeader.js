@@ -6,11 +6,9 @@ import {
   Image,
   View,
   Platform,
+  TouchableOpacity,
 } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 // import Icon from 'react-native-vector-icons/Octicons';
-
-// import { TouchableOpacity } from 'react-native-gesture-handler';
 
 
 const styles = StyleSheet.create({
@@ -54,11 +52,9 @@ const CharacterHeader = (props) => (
     source={props.stage}
     style={styles.stageContainer}
   >
-    <View style={styles.info}>
-      <TouchableOpacity onPress={props.onPress}>
-        <Image style={styles.img} source={require('../assets/info.png')} />
-      </TouchableOpacity>
-    </View>
+    <TouchableOpacity style={styles.info} onPress={props.onPress}>
+      <Image style={styles.img} source={require('../assets/info.png')} />
+    </TouchableOpacity>
     <View style={styles.contentRow}>
       <Image source={props.idle} />
       <Text

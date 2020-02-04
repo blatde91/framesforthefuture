@@ -82,5 +82,19 @@
       "frames": "46 (16+30)",
       "type": "Wakeup"
     }
+  },
+  {
+    "move": {
+      "name": "Walk Back",
+      "speed": "120 dots/second",
+      "type": "Walk"
+    }
+  },
+  {
+    "move": {
+      "name": "Walk Forward",
+      "speed": "138 dots/second",
+      "type": "Walk"
+    }
   }
 ]
