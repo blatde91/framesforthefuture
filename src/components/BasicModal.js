@@ -6,20 +6,50 @@ import {
   Image,
   View,
   Platform,
+  ScrollView,
 } from 'react-native';
+
 
 const styles = StyleSheet.create({
   modalContainer: {
     flex: 1,
+    backgroundColor: '#1d1d1d',
+    flexDirection: 'column',
   },
   header: {
+    padding: 20,
+    justifyContent: 'flex-end',
+    alignItems: 'flex-start',
+    borderBottomWidth: 1,
+    borderColor: 'white',
     flex: 1,
   },
+  headerText: {
+    color: 'white',
+    fontSize: 42,
+    fontWeight: Platform.OS === 'ios' ? '800' : '1000',
+    fontStyle: 'italic',
+  },
   body: {
+    padding: 10,
     flex: 6,
   },
   gifRow: {
     flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  },
+  htwo: {
+    color: 'white',
+    fontStyle: 'italic',
+    fontWeight: '600',
+    fontSize: 32,
+  },
+  elevatedCard: {
+    backgroundColor: '#373737',
+    padding: 15,
+    borderRadius: 10,
+    marginVertical: 8,
   },
 });
 
@@ -79,72 +109,75 @@ class BasicModal extends Component {
     const {
       char, data,
     } = this.props;
+    const {
+      idle, MP, HP, LK, MK, HK, LMH,
+    } = data;
     return (
       <View style={styles.modalContainer}>
         <View style={styles.header}>
-          <Text>{`Hello Im ${char}`}</Text>
+          <Text style={styles.headerText}>{`${char} Stats`}</Text>
         </View>
         <View style={styles.body}>
-          {/* <View style={styles.jumpCard}>
-            <View style={styles.sectionHeader}>
-              <Text styles={styles.headerText}>Jumps</Text>
-            </View>
-            <View style={styles.sectionBody}>
-              {jumps.length > 0 && this.renderJumps(jumps)}
-            </View>
-          </View>
-          <View style={styles.dashCard}>
-            <View style={styles.sectionHeader}>
-              <Text styles={styles.headerText}>Dashes</Text>
-            </View>
-            <View style={styles.sectionBody}>
-              {dashes.length > 0 && this.renderDashes(dashes)}
-            </View>
-          </View>
-          <View style={styles.wakeupCard}>
-            <View style={styles.sectionHeader}>
-              <Text styles={styles.headerText}>Wakeups</Text>
-            </View>
-            <View style={styles.sectionBody}>
-              {wakeups.length > 0 && this.renderWakeups(wakeups)}
-            </View>
-          </View> */}
-          <View style={styles.paletteContainer}>
-            <View style={styles.gifRow}>
-              <View>
-                <Text>LP</Text>
-                <Image source={data.idle} />
-              </View>
-              <View>
-                <Text>MP</Text>
-                <Image source={data.MP} />
-              </View>
-              <View>
-                <Text>HP</Text>
-                <Image source={data.HP} />
+          <ScrollView>
+            <View style={styles.elevatedCard}>
+              <View style={styles.cardHead}>
+                <Text style={styles.htwo}>Life and Stun</Text>
               </View>
             </View>
-            <View style={styles.gifRow}>
-              <View>
-                <Text>LK</Text>
-                <Image source={data.LK} />
-              </View>
-              <View>
-                <Text>MK</Text>
-                <Image source={data.MK} />
-              </View>
-              <View>
-                <Text>HK</Text>
-                <Image source={data.HK} />
+            <View style={styles.elevatedCard}>
+              <View style={styles.cardHead}>
+                <Text style={styles.htwo}>Basic Movement</Text>
               </View>
             </View>
-            <View style={styles.gifRow}>
-              <View>
-                <Text>LP + MK + HP</Text>
-                <Image source={data.LMH} />
+            <View style={styles.elevatedCard}>
+              <View style={styles.cardHead}>
+                <Text style={styles.htwo}>Super Arts</Text>
               </View>
             </View>
-          </View>
+            <View style={styles.elevatedCard}>
+              <View style={styles.cardHead}>
+                <Text style={styles.htwo}>Pallete Swaps</Text>
+              </View>
+              <View>
+                <View style={styles.gifRow}>
+                  <View style={styles.imgContainer}>
+                    <Text>LP</Text>
+                    <Image source={idle} />
+                  </View>
+                  <View style={styles.imgContainer}>
+                    <Text>MP</Text>
+                    <Image source={MP} />
+                  </View>
+                </View>
+                <View style={styles.gifRow}>
+                  <View style={styles.imgContainer}>
+                    <Text>HP</Text>
+                    <Image source={HP} />
+                  </View>
+                  <View style={styles.imgContainer}>
+                    <Text>LK</Text>
+                    <Image source={LK} />
+                  </View>
+                </View>
+                <View style={styles.gifRow}>
+                  <View style={styles.imgContainer}>
+                    <Text>MK</Text>
+                    <Image source={MK} />
+                  </View>
+                  <View style={styles.imgContainer}>
+                    <Text>HK</Text>
+                    <Image source={HK} />
+                  </View>
+                </View>
+                <View style={styles.gifRow}>
+                  <View style={styles.imgContainer}>
+                    <Text>LP + MK + HP</Text>
+                    <Image source={LMH} />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </ScrollView>
         </View>
       </View>
     );

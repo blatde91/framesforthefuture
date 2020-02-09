@@ -3,39 +3,50 @@
     "move": {
       "blockAdv": "-27",
       "damage": "64",
-      "hit": "16",
+      "hit": "10",
       "motion": "QCF x 2 + Punch",
       "name": "You Hou",
       "parry": "H",
       "recovery": "36",
-      "startup": "0",
-      "stun": "22"
+      "startup": "1",
+      "stun": "22",
+      "super": "SA2",
+      "gauge": "128 dots",
+      "stock": "1",
+      "multiHit": true
     }
   },
   {
     "move": {
-      "blockAdv": "-18",
+      "blockAdv": "-27",
       "damage": "54",
-      "hit": "5",
+      "hit": "3",
       "motion": "QCF x 2 + Punch",
       "name": "Sourai Rengeki",
       "parry": "H",
-      "recovery": "25",
-      "startup": "3",
-      "stun": "11"
+      "recovery": "33",
+      "startup": "4",
+      "stun": "11",
+      "super": "SA2",
+      "gauge": "128 dots",
+      "stock": "1",
+      "multiHit": true
     }
   },
   {
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
+      "hit": "270 (4.5 seconds)",
       "motion": "QCF x 2 + Punch",
       "name": "Genei Jin",
       "parry": "-",
       "recovery": "-",
-      "startup": "9",
-      "stun": "-"
+      "startup": "10",
+      "stun": "-",
+      "super": "SA3",
+      "gauge": "72 dots",
+      "stock": "1"
     }
   }
 ]

@@ -8,34 +8,43 @@
       "name": "Raishin Mahhaken",
       "parry": "H",
       "recovery": "36",
-      "startup": "6",
-      "stun": "0"
+      "startup": "7",
+      "stun": "0",
+      "super": "SA1",
+      "gauge": "120 dots",
+      "stock": "1"
     }
   },
   {
     "move": {
       "blockAdv": "-69",
       "damage": "53",
-      "hit": "59",
+      "hit": "67",
       "motion": "QCF x 2 + Kick",
       "name": "Tenshin Senkyuutai",
       "parry": "H+L",
-      "recovery": "57",
-      "startup": "0",
-      "stun": "12"
+      "recovery": "36",
+      "startup": "1",
+      "stun": "12",
+      "super": "SA2",
+      "gauge": "104 dots",
+      "stock": "2"
     }
   },
   {
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
+      "hit": "300 (5 Seconds)",
       "motion": "QCF x 2 + Punch",
       "name": "Sei-ei Enbu",
       "parry": "-",
       "recovery": "-",
-      "startup": "15",
-      "stun": "-"
+      "startup": "16",
+      "stun": "-",
+      "super": "SA3",
+      "gauge": "64 dots",
+      "stock": "1"
     }
   }
 ]

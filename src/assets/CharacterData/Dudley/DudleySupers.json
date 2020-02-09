@@ -1,41 +1,56 @@
 [
   {
     "move": {
-      "blockAdv": "-",
+      "blockAdv": "-31",
       "damage": "63",
-      "hit": "40",
+      "hitArray": "3,5,3,8,3,2,3,3,3,3,3,3,1",
+      "hit": "3",
       "motion": "QCF x 2 + Punch",
       "name": "Rocket Uppercut",
       "parry": "H+L",
       "recovery": "31",
-      "startup": "0",
-      "stun": "10"
+      "startup": "1",
+      "startupArray": "1, 4, 21, 24, 50, 53, 56, 59, 62, 65, 67, 70",
+      "stun": "10",
+      "multiHit": true,
+      "super": "SA1",
+      "stock": "2",
+      "gauge": "96 dots"
     }
   },
   {
     "move": {
-      "blockAdv": "-",
+      "blockAdv": "-9",
       "damage": "60",
-      "hit": "17",
+      "hit": "2",
       "motion": "QCF x 2 + Punch (Rapidly)",
       "name": "Rolling Thunder",
       "parry": "H",
       "recovery": "20",
-      "startup": "1",
-      "stun": "13"
+      "startup": "2",
+      "stun": "13",
+      "super": "SA2",
+      "stock": "1",
+      "gauge": "112 dots"
     }
   },
   {
     "move": {
-      "blockAdv": "-",
+      "blockAdv": "-10",
       "damage": "46",
-      "hit": "10",
+      "hitArray": "2 × 5",
+      "hit": "2",
       "motion": "QCF x 2 + Punch",
       "name": "Corkscrew Blow",
       "parry": "H",
       "recovery": "24",
-      "startup": "0",
-      "stun": "0"
+      "startupArray": "1, 3, 5, 7, 9",
+      "startup": "1",
+      "stun": "0",
+      "multiHit": true,
+      "super": "SA3",
+      "stock": "3",
+      "gauge": "80 dots"
     }
   }
 ]

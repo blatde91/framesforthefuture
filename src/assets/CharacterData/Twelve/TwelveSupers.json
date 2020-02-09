@@ -1,67 +1,66 @@
 [
   {
     "move": {
-      "blockAdv": "-29",
+      "blockAdv": "-31",
       "damage": "57",
-      "hit": "76",
+      "hit": "34",
       "motion": "QCF x 2 + Punch",
       "name": "X.N.D.L.",
       "parry": "H+L",
-      "recovery": "35",
-      "startup": "4",
-      "stun": "14"
+      "recovery": "33",
+      "startup": "3",
+      "stun": "14",
+      "super": "SA1",
+      "gauge": "96 dots",
+      "stock": "2"
     }
   },
   {
     "move": {
-      "blockAdv": "-24",
+      "blockAdv": "-26",
       "damage": "74",
-      "hit": "12",
+      "hit": "Until Landing",
       "motion": "(Air) QCF x 2 + Kick",
       "name": "X.F.L.A.T.",
       "parry": "H",
       "recovery": "49",
-      "startup": "1",
-      "stun": "25"
+      "startup": "2",
+      "stun": "25",
+      "super": "SA2",
+      "gauge": "112 dots",
+      "stock": "1"
     }
   },
   {
     "move": {
-      "blockAdv": "-",
+      "blockAdv": "-26",
       "damage": "40",
-      "hit": "12",
+      "hit": "Until Landing",
       "motion": "(Air) QCF x 2 + Kick",
       "name": "X.F.L.A.T. (Air hit)",
       "parry": "H",
       "recovery": "49",
-      "startup": "1",
-      "stun": "17"
+      "startup": "2",
+      "stun": "17",
+      "super": "SA2",
+      "gauge": "112 dots",
+      "stock": "1"
     }
   },
   {
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
+      "hit": "1440 (24 Seconds)",
       "motion": "QCF x 2 + Punch",
       "name": "X.C.O.P.Y.",
       "parry": "-",
-      "recovery": "-",
-      "startup": "12",
-      "stun": "-"
-    }
-  },
-  {
-    "move": {
-      "blockAdv": "-",
-      "damage": "-",
-      "hit": "-",
-      "motion": "QCF x 2 + Punch",
-      "name": "X.C.O.P.Y.",
-      "parry": "-",
-      "recovery": "-",
-      "startup": "73",
-      "stun": "-"
+      "recovery": "2",
+      "startup": "0",
+      "stun": "-",
+      "super": "SA3",
+      "gauge": "120 dots",
+      "stock": "1"
     }
   }
 ]

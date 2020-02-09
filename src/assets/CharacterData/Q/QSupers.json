@@ -3,13 +3,17 @@
     "move": {
       "blockAdv": "-19",
       "damage": "62",
-      "hit": "16",
+      "hit": "3",
       "motion": "QCF x 2 + Punch",
       "name": "Critical Combo Attack",
       "parry": "H",
       "recovery": "31",
-      "startup": "5",
-      "stun": "14"
+      "startup": "6",
+      "stun": "14",
+      "super": "SA1",
+      "gauge": "96 dots",
+      "stock": "2",
+      "multiHit": true
     }
   },
   {
@@ -20,22 +24,28 @@
       "motion": "QCF x 2 + Punch",
       "name": "Deadly Double Combination",
       "parry": "H+L",
-      "recovery": "65",
-      "startup": "1",
-      "stun": "20"
+      "recovery": "115",
+      "startup": "3",
+      "stun": "23",
+      "super": "SA2",
+      "gauge": "120 dots",
+      "stock": "1"
     }
   },
   {
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
+      "hit": "780 (13 seconds)",
       "motion": "QCF x 2 + Punch",
       "name": "Total Destruction",
       "parry": "-",
       "recovery": "-",
-      "startup": "18",
-      "stun": "-"
+      "startup": "19",
+      "stun": "-",
+      "super": "SA3",
+      "gauge": "104 dots",
+      "stock": "1"
     }
   },
   {
@@ -48,7 +58,10 @@
       "parry": "H+L",
       "recovery": "39",
       "startup": "12",
-      "stun": "24"
+      "stun": "24",
+      "super": "SA3",
+      "gauge": "104 dots",
+      "stock": "1"
     }
   },
   {
@@ -61,7 +74,10 @@
       "parry": "-",
       "recovery": "59",
       "startup": "6",
-      "stun": "20"
+      "stun": "20",
+      "super": "SA3",
+      "gauge": "104 dots",
+      "stock": "1"
     }
   }
 ]

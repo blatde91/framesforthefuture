@@ -3,26 +3,64 @@
     "move": {
       "blockAdv": "-10",
       "damage": "45",
-      "hit": "87",
-      "motion": "(Air) QCF x 2 + Punch",
-      "name": "Kasumi Suzaku",
+      "hit": "1",
+      "motion": "(Air) QCF x 2 + Jab",
+      "name": "Kasumi Suzaku (Jab)",
       "parry": "H",
-      "recovery": "N/A",
-      "startup": "3",
-      "stun": "0"
+      "recovery": "4",
+      "startup": "4",
+      "stun": "0",
+      "super": "SA1",
+      "gauge": "88 dots",
+      "stock": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "45",
+      "hit": "1",
+      "motion": "(Air) QCF x 2 + Strong",
+      "name": "Kasumi Suzaku (Strong)",
+      "parry": "H",
+      "recovery": "6",
+      "startup": "4",
+      "stun": "0",
+      "super": "SA1",
+      "gauge": "88 dots",
+      "stock": "3"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10",
+      "damage": "45",
+      "hit": "1",
+      "motion": "(Air) QCF x 2 + Fierce",
+      "name": "Kasumi Suzaku (Fierce)",
+      "parry": "H",
+      "recovery": "9",
+      "startup": "4",
+      "stun": "0",
+      "super": "SA1",
+      "gauge": "88 dots",
+      "stock": "3"
     }
   },
   {
     "move": {
       "blockAdv": "-",
       "damage": "77",
-      "hit": "15",
+      "hit": "1",
       "motion": "QCF x 2 + Punch",
       "name": "Yoroi Doushi",
       "parry": "-",
       "recovery": "65",
-      "startup": "0",
-      "stun": "12"
+      "startup": "1",
+      "stun": "12",
+      "super": "SA2",
+      "gauge": "120 dots",
+      "stock": "1"
     }
   },
   {
@@ -30,25 +68,64 @@
       "blockAdv": "-54",
       "damage": "48",
       "hit": "15",
-      "motion": "-",
+      "motion": "QCF x 2 + Punch",
       "name": "Whiffed Yoroi Doushi (Chi Blast)",
       "parry": "H+L",
       "recovery": "65",
-      "startup": "0",
-      "stun": "0"
+      "startup": "13",
+      "stun": "0",
+      "super": "SA2",
+      "gauge": "120 dots",
+      "stock": "1",
+      "multiHit": true
     }
   },
   {
     "move": {
       "blockAdv": "-10 ~ -6",
       "damage": "55",
-      "hit": "3",
-      "motion": "QCF x 2 + Punch",
-      "name": "Yami Shigure",
+      "hit": "1",
+      "motion": "QCF x 2 + Jab",
+      "name": "Yami Shigure (Jab)",
       "parry": "-",
-      "recovery": "30",
+      "recovery": "32",
       "startup": "2",
-      "stun": "23"
+      "stun": "23",
+      "super": "SA3",
+      "gauge": "80 dots",
+      "stock": "1"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10 ~ -6",
+      "damage": "55",
+      "hit": "1",
+      "motion": "QCF x 2 + Strong",
+      "name": "Yami Shigure (Strong)",
+      "parry": "-",
+      "recovery": "32",
+      "startup": "3",
+      "stun": "23",
+      "super": "SA3",
+      "gauge": "80 dots",
+      "stock": "1"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-10 ~ -6",
+      "damage": "55",
+      "hit": "1",
+      "motion": "QCF x 2 + Fierce",
+      "name": "Yami Shigure (Fierce)",
+      "parry": "-",
+      "recovery": "32",
+      "startup": "4",
+      "stun": "23",
+      "super": "SA3",
+      "gauge": "80 dots",
+      "stock": "1"
     }
   }
 ]

@@ -8,8 +8,11 @@
       "name": "Seichuusen Godanzuki",
       "parry": "H+L",
       "recovery": "65",
-      "startup": "0",
-      "stun": "20"
+      "startup": "1",
+      "stun": "20",
+      "super": "SA1",
+      "gauge": "120 dots",
+      "stock": "1"
     }
   },
   {
@@ -17,25 +20,63 @@
       "blockAdv": "-20",
       "damage": "59",
       "hit": "5",
-      "motion": "QCF x2 + Kick",
-      "name": "Abare Tosanami",
+      "motion": "QCF x2 + Short",
+      "name": "Abare Tosanami (Short)",
       "parry": "H",
       "recovery": "25",
-      "startup": "14 + 0",
-      "stun": "22"
+      "startup": "14",
+      "stun": "22",
+      "super": "SA2",
+      "gauge": "88 dots",
+      "stock": "2"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-20",
+      "damage": "59",
+      "hit": "6",
+      "motion": "QCF x2 + Strong",
+      "name": "Abare Tosanami (Strong)",
+      "parry": "H",
+      "recovery": "25",
+      "startup": "14",
+      "stun": "22",
+      "super": "SA2",
+      "gauge": "88 dots",
+      "stock": "2"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-20",
+      "damage": "59",
+      "hit": "9",
+      "motion": "QCF x2 + Fierce",
+      "name": "Abare Tosanami (Fierce)",
+      "parry": "H",
+      "recovery": "25",
+      "startup": "14",
+      "stun": "22",
+      "super": "SA2",
+      "gauge": "88 dots",
+      "stock": "2"
     }
   },
   {
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
+      "hit": "600 (10 seconds)",
       "motion": "QCF x2 + Punch",
       "name": "Tanden Renki",
       "parry": "-",
       "recovery": "-",
-      "startup": "-",
-      "stun": "-"
+      "startup": "0",
+      "stun": "-",
+      "super": "SA3",
+      "gauge": "96 dots",
+      "stock": "1"
     }
   }
 ]

@@ -9,7 +9,10 @@
       "parry": "-",
       "recovery": "36",
       "startup": "0",
-      "stun": "18"
+      "stun": "18",
+      "super": "SA1",
+      "gauge": "128 dots",
+      "stock": "1"
     }
   },
   {
@@ -21,8 +24,11 @@
       "name": "Megaton Press (LK)",
       "parry": "-",
       "recovery": "30",
-      "startup": "2",
-      "stun": "27"
+      "startup": "3",
+      "stun": "27",
+      "super": "SA2",
+      "gauge": "112 dots",
+      "stock": "2"
     }
   },
   {
@@ -34,8 +40,11 @@
       "name": "Megaton Press (MK)",
       "parry": "-",
       "recovery": "34",
-      "startup": "4",
-      "stun": "27"
+      "startup": "5",
+      "stun": "27",
+      "super": "SA2",
+      "gauge": "112 dots",
+      "stock": "2"
     }
   },
   {
@@ -48,7 +57,10 @@
       "parry": "-",
       "recovery": "36",
       "startup": "6",
-      "stun": "27"
+      "stun": "27",
+      "super": "SA2",
+      "gauge": "112 dots",
+      "stock": "2"
     }
   },
   {
@@ -61,7 +73,11 @@
       "parry": "H+L",
       "recovery": "47",
       "startup": "4",
-      "stun": "24"
+      "stun": "24",
+      "multiHit": true,
+      "super": "SA3",
+      "gauge": "88 dots",
+      "stock": "2"
     }
   }
 ]

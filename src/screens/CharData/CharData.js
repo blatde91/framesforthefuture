@@ -426,13 +426,13 @@ class CharData extends Component {
     } = directory;
     let cards;
     if (topActive === 'normals') {
-      cards = data.map((item, id) => {
+      cards = data.map((item) => {
         const {
           name, startup, hit, recovery, blockAdv, hitAdv, crHitAdv, parry, damage, stun,
         } = item.move;
         return (
           <MoveCard
-            key={`${name}${id}`}
+            key={`${name}${startup}`}
             name={name}
             startup={startup}
             hit={hit}
@@ -452,13 +452,13 @@ class CharData extends Component {
         );
       });
     } if (topActive === 'specials') {
-      cards = specials.map((item, id) => {
+      cards = specials.map((item) => {
         const {
           name, startup, hit, recovery, blockAdv, hitAdv, crHitAdv, parry, damage, stun, motion,
         } = item.move;
         return (
           <MoveCard
-            key={`${name}${id}`}
+            key={`${name}${startup}`}
             name={name}
             startup={startup}
             hit={hit}
@@ -477,13 +477,13 @@ class CharData extends Component {
         );
       });
     } if (topActive === 'supers') {
-      cards = supers.map((item, id) => {
+      cards = supers.map((item) => {
         const {
           name, startup, hit, recovery, blockAdv, hitAdv, crHitAdv, parry, damage, stun, motion,
         } = item.move;
         return (
           <MoveCard
-            key={`${name}${id}`}
+            key={`${name}${startup}`}
             name={name}
             startup={startup}
             hit={hit}
@@ -557,7 +557,7 @@ class CharData extends Component {
         >
           <BasicModal
             data={directory}
-            char={capChar}
+            char={char}
           />
         </Modal>
       </View>

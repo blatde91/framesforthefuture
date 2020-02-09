@@ -94,7 +94,7 @@
     "move": {
       "blockAdv": "-2",
       "damage": "27",
-      "hit": "15",
+      "hit": "9",
       "motion": "QCF + 2 Punches",
       "name": "Zesshou Hohou (EX)",
       "parry": "H",

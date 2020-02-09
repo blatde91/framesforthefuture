@@ -3,39 +3,63 @@
     "move": {
       "blockAdv": "-30",
       "damage": "50",
-      "hit": "17",
+      "hitArray": ["4", "5", "8"],
       "motion": "QCF x 2 + Kick",
       "name": "Spinning Beat",
       "parry": "H+L",
       "recovery": "43",
-      "startup": "0",
-      "stun": "14"
+      "startupArray": ["1", "21", "43"],
+      "hit": "4",
+      "startup": "1",
+      "stun": "14",
+      "multiHit": true,
+      "super": "SA1",
+      "gauge": "80 dots",
+      "stock": "3"
     }
   },
   {
     "move": {
       "blockAdv": "-12",
       "damage": "68",
-      "hit": "15",
+      "hitArray": [
+        "15.2",
+        "15.2",
+        "15.2",
+        "15.2",
+        "15.2",
+        "15.2",
+        "15.2",
+        "3",
+        "5"
+      ],
       "motion": "QCF x 2 + Kick",
       "name": "Brave Dance",
       "parry": "H+L",
       "recovery": "14",
-      "startup": "0",
-      "stun": "0"
+      "startup": "1",
+      "hit": "15",
+      "stun": "0",
+      "multiHit": true,
+      "super": "SA2",
+      "gauge": "104 dots",
+      "stock": "2"
     }
   },
   {
     "move": {
-      "blockAdv": "-",
-      "damage": "-",
-      "hit": "-",
+      "blockAdv": "N/A",
+      "damage": "N/A",
+      "hit": "75",
       "motion": "QCF x 2 + Kick",
       "name": "Healing",
-      "parry": "-",
+      "parry": "N/A",
       "recovery": "15",
-      "startup": "-",
-      "stun": "-"
+      "startup": "-33",
+      "stun": "N/A",
+      "super": "SA3",
+      "gauge": "1",
+      "stock": "128 dots"
     }
   }
 ]

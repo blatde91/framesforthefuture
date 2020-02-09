@@ -3,39 +3,51 @@
     "move": {
       "blockAdv": "-38",
       "damage": "69",
-      "hit": "34",
+      "hit": "1",
       "motion": "QCF x 2 + Punch",
-      "name": "Shoryureppa",
+      "name": "Shoryu-Reppa",
       "parry": "H+L",
-      "recovery": "45",
-      "startup": "0",
-      "stun": "6"
+      "recovery": "11",
+      "startup": "1",
+      "stun": "6",
+      "super": "SA1",
+      "gauge": "112 dots",
+      "stock": "2",
+      "multiHit": true
     }
   },
   {
     "move": {
       "blockAdv": "-80",
       "damage": "67",
-      "hit": "36",
+      "hit": "2",
       "motion": "QCF x 2 + Kick",
-      "name": "Shinryuken",
+      "name": "Shin-Ryuken",
       "parry": "H+L",
       "recovery": "61",
-      "startup": "1",
-      "stun": "0"
+      "startup": "2",
+      "stun": "0",
+      "super": "SA2",
+      "gauge": "104 dots",
+      "stock": "1",
+      "multiHit": true
     }
   },
   {
     "move": {
       "blockAdv": "-11",
       "damage": "51",
-      "hit": "9",
+      "hit": "2",
       "motion": "QCF x 2 + Kick",
-      "name": "Shipuujinrai Kyaku",
+      "name": "Shipuu-Jinrai Kyaku",
       "parry": "H",
       "recovery": "27",
-      "startup": "1",
-      "stun": "16"
+      "startup": "2",
+      "stun": "16",
+      "super": "SA1",
+      "gauge": "88 dots",
+      "stock": "3",
+      "multiHit": true
     }
   }
 ]

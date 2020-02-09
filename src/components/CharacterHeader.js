@@ -8,8 +8,6 @@ import {
   Platform,
   TouchableOpacity,
 } from 'react-native';
-// import Icon from 'react-native-vector-icons/Octicons';
-
 
 const styles = StyleSheet.create({
   stageContainer: {

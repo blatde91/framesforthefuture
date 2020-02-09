@@ -3,13 +3,32 @@
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
+      "hit": "420 (7 seconds)",
       "motion": "QCF x 2 + Punch",
       "name": "Kishin Riki",
       "parry": "-",
       "recovery": "-",
       "startup": "-",
-      "stun": "-"
+      "stun": "-",
+      "super": "SA1",
+      "gauge": "104 dots",
+      "stock": "1"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "71",
+      "hit": "1",
+      "motion": "QCF x 2 + Punch 2x",
+      "name": "Kishin Riki (EX)",
+      "parry": "-",
+      "recovery": "25",
+      "startup": "12",
+      "stun": "0",
+      "super": "SA1",
+      "gauge": "104 dots",
+      "stock": "1"
     }
   },
   {
@@ -18,11 +37,14 @@
       "damage": "58",
       "hit": "1",
       "motion": "Punch",
-      "name": "Ground Grab",
+      "name": "Kishin Riki Ground Grab",
       "parry": "-",
       "recovery": "18",
       "startup": "4",
-      "stun": "0"
+      "stun": "0",
+      "super": "SA1",
+      "gauge": "104 dots",
+      "stock": "1"
     }
   },
   {
@@ -31,63 +53,78 @@
       "damage": "52",
       "hit": "4",
       "motion": "Punch (Air)",
-      "name": "Air Grab",
+      "name": "Kishin Riki Air Grab",
       "parry": "-",
       "recovery": "-",
       "startup": "5",
-      "stun": "0"
+      "stun": "0",
+      "super": "SA1",
+      "gauge": "104 dots",
+      "stock": "1"
     }
   },
   {
     "move": {
-      "blockAdv": "-",
-      "damage": "71",
-      "hit": "1",
-      "motion": "QCF x 2 + 2 Punches",
-      "name": "EX Kishin Riki",
-      "parry": "-",
-      "recovery": "25",
-      "startup": "11",
-      "stun": "0"
-    }
-  },
-  {
-    "move": {
-      "blockAdv": "-",
+      "blockAdv": "27",
       "damage": "33",
-      "hit": "21",
+      "hit": "144",
       "motion": "QCF x 2 + Punch",
       "name": "Yagyou Dama",
       "parry": "H+L",
-      "recovery": "-",
+      "recovery": "19",
       "startup": "28",
-      "stun": "9"
+      "stun": "10",
+      "super": "SA2",
+      "gauge": "88 dots",
+      "stock": "3"
     }
   },
   {
     "move": {
-      "blockAdv": "-",
+      "blockAdv": "+73",
       "damage": "96",
-      "hit": "52",
+      "hit": "119",
       "motion": "QCF x 2 + 2 Punches",
       "name": "EX Yagyou Dama",
       "parry": "H+L",
-      "recovery": "-",
+      "recovery": "37",
       "startup": "27",
-      "stun": "19"
+      "stun": "19",
+      "super": "SA2",
+      "gauge": "264 dots",
+      "stock": "1"
     }
   },
   {
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
-      "motion": "QCF x 2 + Punch (2)",
-      "name": "Tengu Stones (Both Versions)",
+      "hit": "564 (9.4 seconds)",
+      "motion": "QCF x 2 + Punch",
+      "name": "Tengu Stones",
       "parry": "-",
       "recovery": "-",
-      "startup": "16",
-      "stun": "-"
+      "startup": "17",
+      "stun": "-",
+      "super": "SA3",
+      "gauge": "112 dots",
+      "stock": "1"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "damage": "-",
+      "hit": "283 (4.7 seconds)",
+      "motion": "QCF x2 + Punch x2",
+      "name": "Tengu Stones (EX)",
+      "parry": "-",
+      "recovery": "-",
+      "startup": "17",
+      "stun": "-",
+      "super": "SA3",
+      "gauge": "112 dots",
+      "stock": "1"
     }
   }
 ]

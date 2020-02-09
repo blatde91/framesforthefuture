@@ -3,26 +3,34 @@
     "move": {
       "blockAdv": "3",
       "damage": "52",
-      "hit": "-",
+      "hit": "1",
       "motion": "QCF x 2 + Punch",
       "name": "Light of Justice",
       "parry": "H",
-      "recovery": "N/A",
+      "recovery": "24",
       "startup": "1",
-      "stun": "14"
+      "stun": "14",
+      "super": "SA1",
+      "gauge": "104 dots",
+      "stock": "2",
+      "multiHit": true
     }
   },
   {
     "move": {
       "blockAdv": "-29",
       "damage": "61",
-      "hit": "16",
+      "hit": "1",
       "motion": "QCF x 2 + Kick",
       "name": "Supreme Rising Rage Flash",
       "parry": "H+L",
       "recovery": "53",
-      "startup": "0",
-      "stun": "14"
+      "startup": "1",
+      "stun": "14",
+      "super": "SA2",
+      "gauge": "120 dots",
+      "stock": "2",
+      "multiHit": true
     }
   },
   {
@@ -33,9 +41,12 @@
       "motion": "QCF x 2 + Kick",
       "name": "Blue Nocturne",
       "parry": "-",
-      "recovery": "27",
-      "startup": "0",
-      "stun": "14"
+      "recovery": "39",
+      "startup": "1",
+      "stun": "21",
+      "super": "SA3",
+      "gauge": "80 dots",
+      "stock": "1"
     }
   }
 ]

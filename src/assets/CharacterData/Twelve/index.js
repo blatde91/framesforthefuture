@@ -1,4 +1,4 @@
-const stage = require('./twelveStage.jpeg');
+const stage = require('./twelveStage.png');
 const idle = require('./twelveStance.gif');
 const data = require('./Twelve.json');
 const specials = require('./TwelveSpecials.json');

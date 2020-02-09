@@ -1,54 +1,53 @@
 [
   {
     "move": {
-      "blockAdv": "-",
+      "blockAdv": "N/A",
       "damage": "88",
       "hit": "2",
       "motion": "Rotate 360 + Punch",
       "name": "Hyper Bomb",
-      "parry": "-",
+      "parry": "N/A",
       "recovery": "33",
-      "startup": "1",
-      "stun": "18"
-    }
-  },
-  {
-    "move": {
-      "blockAdv": "-",
-      "damage": "99",
-      "hit": "2",
-      "motion": "Rotate 360 + Punch",
-      "name": "Reverse Hyper Bomb",
-      "parry": "-",
-      "recovery": "33",
-      "startup": "1",
-      "stun": "26"
+      "startup": "2",
+      "stun": "18",
+      "super": "SA1",
+      "gauge": "128 dots",
+      "stock": "1"
     }
   },
   {
     "move": {
       "blockAdv": "-",
       "damage": "59",
-      "hit": "14",
+      "hit": "3",
+      "hitArray": ["3", "3", "3", "3", "2"],
       "motion": "QCF x 2 + Punch",
       "name": "Boomerang Raid",
       "parry": "H",
       "recovery": "41",
-      "startup": "0",
-      "stun": "20"
+      "startup": "1",
+      "startupArray": ["1", "12", "25", "36", "57"],
+      "stun": "20",
+      "super": "SA2",
+      "gauge": "96 dots",
+      "stock": "2",
+      "multiHit": true
     }
   },
   {
     "move": {
-      "blockAdv": "-",
+      "blockAdv": "N/A",
       "damage": "31",
       "hit": "3",
       "motion": "QCF x 2 + Punch",
       "name": "Stun Gun Headbutt",
-      "parry": "-",
+      "parry": "N/A",
       "recovery": "17",
-      "startup": "24",
-      "stun": "57"
+      "startup": "25",
+      "stun": "57",
+      "super": "SA3",
+      "gauge": "80 dots",
+      "stock": "1"
     }
   }
 ]
