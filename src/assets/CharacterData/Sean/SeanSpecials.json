@@ -147,11 +147,37 @@
       "blockAdv": "-14",
       "damage": "30",
       "hit": "2",
-      "motion": "HCF + Punch, Tap Punch",
-      "name": "Tackle (All Versions)",
+      "motion": "HCF + Jab",
+      "name": "Tackle (Jab)",
       "parry": "L",
       "recovery": "28",
-      "startup": "18/22/26",
+      "startup": "18",
+      "stun": "16"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-14",
+      "damage": "30",
+      "hit": "2",
+      "motion": "HCF + Strong",
+      "name": "Tackle (Strong)",
+      "parry": "L",
+      "recovery": "28",
+      "startup": "22",
+      "stun": "16"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-14",
+      "damage": "30",
+      "hit": "2",
+      "motion": "HCF + Fierce",
+      "name": "Tackle (Fierce)",
+      "parry": "L",
+      "recovery": "28",
+      "startup": "26",
       "stun": "16"
     }
   },
@@ -160,7 +186,7 @@
       "blockAdv": "-14",
       "damage": "40",
       "hit": "2",
-      "motion": "HCF + 2 Punches, Tap Punch",
+      "motion": "HCF + 2 Punches",
       "name": "Tackle (EX)",
       "parry": "L",
       "recovery": "28",
@@ -186,7 +212,7 @@
       "blockAdv": "-24",
       "damage": "23",
       "hit": "6",
-      "motion": "DPM + Forward",
+      "motion": "DPM + Strong",
       "name": "Dragon Smash (Strong)",
       "parry": "H+L",
       "recovery": "36",

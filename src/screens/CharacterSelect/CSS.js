@@ -164,7 +164,7 @@ class CSS extends Component {
                 char: 'Chun-Li',
                 directory: character.Chun,
                 color: '#63b4f6',
-                textColor: '#ffffff',
+                textColor: '#000000',
                 altColor: '#ffcd02',
               })}
               img={require('../../assets/CSSAssets/CSS-ChunLi.png')}

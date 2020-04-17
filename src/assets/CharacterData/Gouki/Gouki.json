@@ -282,10 +282,10 @@
   {
     "move": {
       "blockAdv": "-15",
-      "crHitAdv": "28",
+      "crHitAdv": "D",
       "damage": "24",
       "hit": "5",
-      "hitAdv": "28",
+      "hitAdv": "D",
       "name": "Cr. Roundhouse",
       "parry": "L",
       "recovery": "25",

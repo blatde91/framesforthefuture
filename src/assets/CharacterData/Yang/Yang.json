@@ -286,7 +286,7 @@
       "damage": "12",
       "hit": "7",
       "hitAdv": "-2",
-      "name": "Neutral Forward",
+      "name": "Neutral J. Forward",
       "parry": "H",
       "recovery": "27",
       "startup": "6",
@@ -356,10 +356,38 @@
       "damage": "12",
       "hit": "-",
       "hitAdv": "-",
-      "name": "Dive Kicks",
+      "name": "Dive Kick Short",
       "parry": "H",
       "recovery": "-",
-      "startup": "6/6/8",
+      "startup": "6",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "12",
+      "hit": "-",
+      "hitAdv": "-",
+      "name": "Dive Kick Forward",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "6",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "12",
+      "hit": "-",
+      "hitAdv": "-",
+      "name": "Dive Kick Roundhouse",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "8",
       "stun": "7"
     }
   },
@@ -370,7 +398,7 @@
       "damage": "27",
       "hit": "1",
       "hitAdv": "D",
-      "name": "Neutral Throw",
+      "name": "Throw",
       "parry": "-",
       "recovery": "21",
       "startup": "2",

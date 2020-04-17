@@ -356,10 +356,38 @@
       "damage": "12",
       "hit": "-",
       "hitAdv": "-",
-      "name": "Dive Kicks",
+      "name": "Dive Kick Short",
       "parry": "H",
       "recovery": "-",
-      "startup": "6/8/6",
+      "startup": "6",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "12",
+      "hit": "-",
+      "hitAdv": "-",
+      "name": "Dive Kick Forward",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "8",
+      "stun": "7"
+    }
+  },
+  {
+    "move": {
+      "blockAdv": "-",
+      "crHitAdv": "-",
+      "damage": "12",
+      "hit": "-",
+      "hitAdv": "-",
+      "name": "Dive Kick Roundhouse",
+      "parry": "H",
+      "recovery": "-",
+      "startup": "6",
       "stun": "7"
     }
   },

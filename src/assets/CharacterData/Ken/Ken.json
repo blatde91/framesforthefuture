@@ -477,11 +477,11 @@
   },
   {
     "move": {
-      "blockAdv": "-5 ~ 0",
-      "crHitAdv": "+1 ~ +8",
+      "blockAdv": "0",
+      "crHitAdv": "8",
       "damage": "7",
       "hit": "8",
-      "hitAdv": "0 ~ +7",
+      "hitAdv": "7",
       "name": "Universal Overhead",
       "parry": "H",
       "recovery": "7",

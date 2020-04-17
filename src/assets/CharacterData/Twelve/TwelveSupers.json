@@ -19,7 +19,7 @@
     "move": {
       "blockAdv": "-26",
       "damage": "74",
-      "hit": "Until Landing",
+      "hit": "-",
       "motion": "(Air) QCF x 2 + Kick",
       "name": "X.F.L.A.T.",
       "parry": "H",
@@ -35,7 +35,7 @@
     "move": {
       "blockAdv": "-26",
       "damage": "40",
-      "hit": "Until Landing",
+      "hit": "-",
       "motion": "(Air) QCF x 2 + Kick",
       "name": "X.F.L.A.T. (Air hit)",
       "parry": "H",
@@ -51,7 +51,7 @@
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "1440 (24 Seconds)",
+      "hit": "1440",
       "motion": "QCF x 2 + Punch",
       "name": "X.C.O.P.Y.",
       "parry": "-",

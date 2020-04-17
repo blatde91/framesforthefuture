@@ -37,7 +37,7 @@
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "270 (4.5 seconds)",
+      "hit": "270",
       "motion": "QCF x 2 + Punch",
       "name": "Genei Jin",
       "parry": "-",

@@ -108,7 +108,7 @@
       "blockAdv": "-",
       "damage": "-",
       "hit": "-",
-      "motion": "HCF + K",
+      "motion": "HCF + Kick",
       "name": "Ducking Rush",
       "parry": "-",
       "recovery": "-",
@@ -121,7 +121,7 @@
       "blockAdv": "-7",
       "damage": "28",
       "hit": "4",
-      "motion": "Punch",
+      "motion": "Ducking Rush > Jab",
       "name": "Ducking Straight (Jab)",
       "parry": "H",
       "recovery": "19",
@@ -134,7 +134,7 @@
       "blockAdv": "-7",
       "damage": "28",
       "hit": "4",
-      "motion": "Punch",
+      "motion": "Ducking Rush > Strong",
       "name": "Ducking Straight (Strong)",
       "parry": "H",
       "recovery": "19",
@@ -147,7 +147,7 @@
       "blockAdv": "-7",
       "damage": "28",
       "hit": "4",
-      "motion": "Punch",
+      "motion": "Ducking Rush > Fierce",
       "name": "Ducking Straight (Fierce)",
       "parry": "H",
       "recovery": "19",
@@ -160,7 +160,7 @@
       "blockAdv": "-12",
       "damage": "30",
       "hit": "4",
-      "motion": "Kick",
+      "motion": "Ducking Rush > Short",
       "name": "Ducking Upper (Short)",
       "parry": "H",
       "recovery": "25",
@@ -173,7 +173,7 @@
       "blockAdv": "-12",
       "damage": "30",
       "hit": "4",
-      "motion": "Kick",
+      "motion": "Ducking Rush > Forward",
       "name": "Ducking Upper (Forward)",
       "parry": "H",
       "recovery": "25",
@@ -186,7 +186,7 @@
       "blockAdv": "-12",
       "damage": "30",
       "hit": "4",
-      "motion": "Kick",
+      "motion": "Ducking Rush > RH",
       "name": "Ducking Upper (RH)",
       "parry": "H",
       "recovery": "25",
@@ -198,12 +198,12 @@
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
+      "hit": "68",
       "motion": "HCB + Jab",
       "name": "Cross Counter (Jab)",
       "parry": "H+L",
-      "recovery": "-",
-      "startup": "-",
+      "recovery": "19",
+      "startup": "2",
       "stun": "-"
     }
   },
@@ -211,12 +211,12 @@
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
+      "hit": "49",
       "motion": "HCB + Strong",
       "name": "Cross Counter (Strong)",
       "parry": "H+L",
-      "recovery": "-",
-      "startup": "-",
+      "recovery": "19",
+      "startup": "2",
       "stun": "-"
     }
   },
@@ -224,12 +224,12 @@
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
+      "hit": "29",
       "motion": "HCB + Fierce",
       "name": "Cross Counter (Fierce)",
       "parry": "H+L",
-      "recovery": "-",
-      "startup": "-",
+      "recovery": "19",
+      "startup": "4",
       "stun": "-"
     }
   },
@@ -237,12 +237,12 @@
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "-",
+      "hit": "29",
       "motion": "HCB + 2 Punches",
       "name": "Cross Counter (EX)",
       "parry": "H+L",
-      "recovery": "-",
-      "startup": "-",
+      "recovery": "19",
+      "startup": "4",
       "stun": "-"
     }
   },
@@ -287,13 +287,13 @@
   },
   {
     "move": {
-      "blockAdv": "-",
+      "blockAdv": "-3",
       "damage": "33",
-      "hit": "10",
+      "hit": "2",
       "motion": "HCB + 2 Kicks",
       "name": "Short Swing Blow (EX)",
       "parry": "H",
-      "recovery": "-",
+      "recovery": "15",
       "startup": "17",
       "stun": "22"
     }

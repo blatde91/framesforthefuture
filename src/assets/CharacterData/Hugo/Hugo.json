@@ -272,7 +272,7 @@
       "damage": "17",
       "hit": "-",
       "hitAdv": "-",
-      "name": "Down + Fierce (Air)",
+      "name": "(Air) Down + Fierce",
       "parry": "H",
       "recovery": "-",
       "startup": "9",
@@ -309,11 +309,11 @@
   },
   {
     "move": {
-      "blockAdv": "-5 ~ +2",
-      "crHitAdv": "+1 ~ +9",
+      "blockAdv": "-5",
+      "crHitAdv": "+1",
       "damage": "7",
       "hit": "10",
-      "hitAdv": "0 ~ +8",
+      "hitAdv": "0",
       "name": "Universal Overhead",
       "parry": "H",
       "recovery": "5",

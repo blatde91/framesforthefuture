@@ -23,7 +23,7 @@
       "blockAdv": "-9",
       "damage": "60",
       "hit": "2",
-      "motion": "QCF x 2 + Punch (Rapidly)",
+      "motion": "QCF x 2 + Punch",
       "name": "Rolling Thunder",
       "parry": "H",
       "recovery": "20",

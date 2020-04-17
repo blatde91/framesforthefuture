@@ -36,7 +36,7 @@
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "780 (13 seconds)",
+      "hit": "780",
       "motion": "QCF x 2 + Punch",
       "name": "Total Destruction",
       "parry": "-",

@@ -4,7 +4,7 @@
       "blockAdv": "N/A",
       "damage": "88",
       "hit": "2",
-      "motion": "Rotate 360 + Punch",
+      "motion": "360 + Punch",
       "name": "Hyper Bomb",
       "parry": "N/A",
       "recovery": "33",

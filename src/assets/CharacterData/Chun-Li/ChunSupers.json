@@ -25,7 +25,7 @@
         "1",
         "1"
       ],
-      "motion": "QCF x2 + Punch",
+      "motion": "QCF x 2 + Punch",
       "name": "Kikoshou",
       "parry": "H+L",
       "recovery": "48",
@@ -82,7 +82,7 @@
         "1",
         "1"
       ],
-      "motion": "QCF x2 + Kick",
+      "motion": "QCF x 2 + Kick",
       "name": "Houyoku Sen",
       "parry": "H",
       "recovery": "35",
@@ -119,7 +119,7 @@
       "damage": "49",
       "hitArray": ["3.1", "3.1", "3.1", "3.1", "3.1", "3", "4", "1"],
       "hit": "3",
-      "motion": "QCF x2 + Kick",
+      "motion": "QCF x 2 + Kick",
       "name": "Tensei Ranka",
       "parry": "H+L",
       "recovery": "46",

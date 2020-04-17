@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import {
   View,
   Text,
-  TouchableOpacity,
-  Button,
   ScrollView,
   Modal,
   Image,
@@ -15,60 +13,8 @@ import CharacterHeader from '../../components/CharacterHeader';
 import MoveCard from '../../components/MoveCard';
 import BasicModal from '../../components/BasicModal';
 
+
 const styles = StyleSheet.create({
-  cells: {
-    flex: 1,
-    borderRightWidth: 0.5,
-    height: '100%',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  cellText: {
-    color: 'white',
-    textAlign: 'center',
-    marginRight: 5,
-    fontWeight: '600',
-    fontSize: 13,
-  },
-  cellRow: {
-    flex: 1,
-    flexDirection: 'row',
-    height: 50,
-    backgroundColor: '#282c33',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  cellRowAlt: {
-    flex: 1,
-    flexDirection: 'row',
-    height: 50,
-    backgroundColor: '#464D59',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  headerCell: {
-    flex: 1,
-    padding: 2,
-    borderRightWidth: 1,
-    borderBottomWidth: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#ea6204',
-  },
-  headerText: {
-    color: 'white',
-    fontSize: 18,
-    fontWeight: '600',
-  },
-  headerRow: {
-    flexDirection: 'row',
-    height: 50,
-  },
-  dataContainer: {
-    flexDirection: 'column',
-    flex: 1,
-    marginBottom: Platform.OS === 'ios' ? 40 : 0,
-  },
   cardContainer: {
     flexDirection: 'column',
     flex: 1,
@@ -142,13 +88,10 @@ class CharData extends Component {
     basics.map((item, id) => {
       const { type } = item.move;
       if (type === 'Jump') {
-        console.log(item);
         jumps.push(item);
       } if (type === 'Dash') {
-        console.log(item);
         dashes.push(item);
       } if (type === 'Wakeup') {
-        console.log(item);
         wakeups.push(item);
       }
     });
@@ -156,190 +99,7 @@ class CharData extends Component {
       jumps,
       dashes,
       wakeups,
-    }, () => console.log(this.state));
-  }
-
-
-  renderHeaders = () => {
-    const { topActive, lowActive } = this.state;
-    const frameHeaders = ['Move', 'Startup', 'Hit', 'Recovery'];
-    const advHeaders = ['Move', 'Blk Adv', 'Hit Adv', 'CrHit Adv'];
-    const otherHeaders = ['Move', 'Parry', 'Dmg', 'Stun'];
-    const specSupHeadersOne = ['Move', 'Motion', 'S', 'H', 'R'];
-    const specSupHeadersTwo = ['Move', 'Blk', 'Parry', 'Dmg', 'Stun'];
-    let items;
-
-    if (topActive === 'normals') {
-      if (lowActive === 'first') {
-        items = frameHeaders.map((item) => (
-          <View style={styles.headerCell}>
-            <Text style={styles.headerText}>{item}</Text>
-          </View>
-        ));
-      } if (lowActive === 'second') {
-        items = advHeaders.map((item) => (
-          <View style={styles.headerCell}>
-            <Text style={styles.headerText}>{item}</Text>
-          </View>
-        ));
-      } if (lowActive === 'third') {
-        items = otherHeaders.map((item) => (
-          <View style={styles.headerCell}>
-            <Text style={styles.headerText}>{item}</Text>
-          </View>
-        ));
-      }
-    }
-
-    if (topActive === 'specials' || topActive === 'supers') {
-      if (lowActive === 'first') {
-        items = specSupHeadersOne.map((item) => (
-          <View style={styles.headerCell}>
-            <Text style={styles.headerText}>{item}</Text>
-          </View>
-        ));
-      } if (lowActive === 'second') {
-        items = specSupHeadersTwo.map((item) => (
-          <View style={styles.headerCell}>
-            <Text style={styles.headerText}>{item}</Text>
-          </View>
-        ));
-      }
-    }
-    return <View style={styles.headerRow}>{items}</View>;
-  };
-
-  renderFrameData = (data) => {
-    const { topActive, lowActive } = this.state;
-    let rows;
-    if (lowActive === 'first') {
-      rows = data.map((item, id) => {
-        const {
-          name, startup, hit, recovery,
-        } = item.move;
-        return (
-          <View style={id % 2 === 0 ? styles.cellRow : styles.cellRowAlt}>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{name}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{startup}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{hit}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{recovery}</Text>
-            </View>
-          </View>
-        );
-      });
-    } if (lowActive === 'second') {
-      rows = data.map((item, id) => {
-        const {
-          name, blockAdv, hitAdv, crHitAdv,
-        } = item.move;
-        return (
-          <View style={id % 2 === 0 ? styles.cellRow : styles.cellRowAlt}>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{name}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={[styles.cellText, this.determineColor(blockAdv)]}>{this.addPlusSign(blockAdv)}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={[styles.cellText, this.determineColor(hitAdv)]}>{this.addPlusSign(hitAdv)}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={[styles.cellText, this.determineColor(crHitAdv)]}>{this.addPlusSign(crHitAdv)}</Text>
-            </View>
-          </View>
-        );
-      });
-    } if (lowActive === 'third') {
-      rows = data.map((item, id) => {
-        const {
-          name, parry, damage, stun,
-        } = item.move;
-        return (
-          <View style={id % 2 === 0 ? styles.cellRow : styles.cellRowAlt}>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{name}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{parry}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{damage}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{stun}</Text>
-            </View>
-          </View>
-        );
-      });
-    }
-    return (
-      <ScrollView style={styles.dataContainer}>
-        {rows}
-      </ScrollView>
-    );
-  };
-
-  renderSpecSup = (data) => {
-    const { topActive, lowActive } = this.state;
-    let rows;
-    if (lowActive === 'first') {
-      rows = data.map((item, id) => (
-        <View style={id % 2 === 0 ? styles.cellRow : styles.cellRowAlt}>
-          <View style={styles.cells}>
-            <Text style={styles.cellText}>{item.move.name}</Text>
-          </View>
-          <View style={styles.cells}>
-            <Text style={styles.cellText}>{item.move.motion}</Text>
-          </View>
-          <View style={styles.cells}>
-            <Text style={styles.cellText}>{item.move.startup}</Text>
-          </View>
-          <View style={styles.cells}>
-            <Text style={styles.cellText}>{item.move.hit}</Text>
-          </View>
-          <View style={styles.cells}>
-            <Text style={styles.cellText}>{item.move.recovery}</Text>
-          </View>
-        </View>
-      ));
-    } if (lowActive === 'second') {
-      rows = data.map((item, id) => {
-        const {
-          name, blockAdv, parry, damage, stun,
-        } = item.move;
-        return (
-          <View style={id % 2 === 0 ? styles.cellRow : styles.cellRowAlt}>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{name}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={[styles.cellText, this.determineColor(blockAdv)]}>{this.addPlusSign(blockAdv)}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{parry}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{damage}</Text>
-            </View>
-            <View style={styles.cells}>
-              <Text style={styles.cellText}>{stun}</Text>
-            </View>
-          </View>
-        );
-      });
-    }
-    return (
-      <ScrollView style={styles.dataContainer}>
-        {rows}
-      </ScrollView>
-    );
+    });
   }
 
   toggleDisplayOption = (option) => {
@@ -392,7 +152,7 @@ class CharData extends Component {
       return this.renderSpecSup(specials);
     } if (topActive === 'supers') {
       return this.renderSpecSup(supers);
-    }
+    } return null;
   }
 
   renderSecondButtonRow = () => {
@@ -415,7 +175,7 @@ class CharData extends Component {
   }
 
   renderCardView = () => {
-    const { topActive, basicModal } = this.state;
+    const { topActive } = this.state;
     const { navigation } = this.props;
     const directory = navigation.getParam('directory');
     const charColor = navigation.getParam('color');
@@ -505,6 +265,7 @@ class CharData extends Component {
     return (
       <ScrollView style={styles.cardContainer}>
         {cards}
+        <View style={{ marginTop: 75 }} />
       </ScrollView>
     );
   }
@@ -512,9 +273,9 @@ class CharData extends Component {
   render() {
     const { navigation } = this.props;
     const {
-      jumps,
-      dashes,
-      wakeups,
+      // jumps,
+      // dashes,
+      // wakeups,
       topActive,
       displayOption,
       basicModal,
@@ -540,11 +301,8 @@ class CharData extends Component {
           </View>
         </View>
         <View style={{ flex: 5, flexDirection: 'column' }}>
-          {/* {displayOption === 'list' && this.renderHeaders()}
-          {displayOption === 'list' && this.moveTypeRender()} */}
           {displayOption === 'card' && this.renderCardView()}
         </View>
-
         <Modal
           animationType="slide"
           transparent={false}
@@ -556,6 +314,7 @@ class CharData extends Component {
           }}
         >
           <BasicModal
+            modalClose={this.toggleModal}
             data={directory}
             char={char}
           />

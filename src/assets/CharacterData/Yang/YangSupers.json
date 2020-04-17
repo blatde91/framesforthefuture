@@ -35,7 +35,7 @@
     "move": {
       "blockAdv": "-",
       "damage": "-",
-      "hit": "300 (5 Seconds)",
+      "hit": "300",
       "motion": "QCF x 2 + Punch",
       "name": "Sei-ei Enbu",
       "parry": "-",

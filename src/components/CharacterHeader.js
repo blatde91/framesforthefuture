@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   characterText: {
     color: 'white',
     fontSize: 68,
-    fontWeight: Platform.OS === 'ios' ? '800' : '1000',
+    fontWeight: Platform.OS === 'ios' ? '800' : '900',
     fontStyle: 'italic',
   },
   contentRow: {
