@@ -5,7 +5,13 @@ import {
   ImageBackground,
   StyleSheet,
   Image,
+  Platform,
+  Text,
+  TouchableOpacity,
+  Modal,
 } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
+import CreditsModal from '../../components/CreditsModal';
 import { CharacterButton } from '../../components/Buttons';
 import * as character from '../../assets/CharacterData/index';
 
@@ -16,15 +22,36 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#555555',
   },
+  topContainer: {
+    flex: 2,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 80,
+    marginHorizontal: 40,
+  },
+  bottomContainer: {
+    flex: 2,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 80,
+    marginHorizontal: 60,
+  },
   cssContainer: {
-    flex: 1,
+    flex: 8,
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
     marginHorizontal: 80,
+    // marginTop: 90,
+  },
+  headerText: {
+    color: 'white',
+    fontSize: 36,
+    fontWeight: Platform.OS === 'ios' ? '800' : '900',
+    fontStyle: 'italic',
+    textAlign: 'center',
   },
   column: {
-    flex: 1,
     flexDirection: 'column',
   },
 });
@@ -36,14 +63,34 @@ class CSS extends Component {
     return { headerStyle, headerTitle };
   };
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      modalOpen: false,
+    };
+  }
+
+  toggleCredits = () => {
+    const { modalOpen } = this.state;
+    this.setState({
+      modalOpen: !modalOpen,
+    });
+  }
+
   render() {
     const { navigation } = this.props;
+    const { modalOpen } = this.state;
     return (
 
       <ImageBackground
         style={styles.background}
         source={require('../../assets/CSSAssets/Background.png')}
       >
+        <View style={styles.topContainer}>
+          <View style={styles.headerContainer}>
+            <Text style={styles.headerText}>Choose a Fighter</Text>
+          </View>
+        </View>
         <View style={styles.cssContainer}>
           <View style={styles.column}>
             <CharacterButton
@@ -281,6 +328,29 @@ class CSS extends Component {
             />
           </View>
         </View>
+        <View style={styles.bottomContainer}>
+          <View style={styles.aboutContainer}>
+            <TouchableOpacity onPress={this.toggleCredits}>
+              <Icon name="info-circle" size={30} color="white" />
+            </TouchableOpacity>
+          </View>
+        </View>
+        <Modal
+          animationType="slide"
+          transparent={false}
+          visible={modalOpen}
+          onRequestClose={() => {
+            this.setState({
+              modalOpen: false,
+            });
+          }}
+        >
+          <CreditsModal
+            modalClose={() => this.setState({
+              modalOpen: false,
+            })}
+          />
+        </Modal>
       </ImageBackground>
     );
   }

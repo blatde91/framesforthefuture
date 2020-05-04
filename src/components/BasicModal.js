@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {
   StyleSheet,
   Text,
-  ImageBackground,
   Image,
   View,
   Platform,
@@ -167,7 +166,6 @@ class BasicModal extends Component {
     });
 
     const supersArray = Array.from(supers);
-    console.log(supersArray);
     return supersArray;
   }
 
@@ -478,24 +476,24 @@ class BasicModal extends Component {
                     <Image source={idle} />
                   </View>
                   <View style={styles.imgContainer}>
-                    <Text style={styles.bodyText}>MP</Text>
-                    <Image source={MP} />
-                  </View>
-                </View>
-                <View style={styles.gifRow}>
-                  <View style={styles.imgContainer}>
-                    <Text style={styles.bodyText}>HP</Text>
-                    <Image source={HP} />
-                  </View>
-                  <View style={styles.imgContainer}>
                     <Text style={styles.bodyText}>LK</Text>
                     <Image source={LK} />
                   </View>
                 </View>
                 <View style={styles.gifRow}>
                   <View style={styles.imgContainer}>
+                    <Text style={styles.bodyText}>MP</Text>
+                    <Image source={MP} />
+                  </View>
+                  <View style={styles.imgContainer}>
                     <Text style={styles.bodyText}>MK</Text>
                     <Image source={MK} />
+                  </View>
+                </View>
+                <View style={styles.gifRow}>
+                  <View style={styles.imgContainer}>
+                    <Text style={styles.bodyText}>HP</Text>
+                    <Image source={HP} />
                   </View>
                   <View style={styles.imgContainer}>
                     <Text style={styles.bodyText}>HK</Text>

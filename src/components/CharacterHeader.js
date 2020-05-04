@@ -50,9 +50,6 @@ const CharacterHeader = (props) => (
     source={props.stage}
     style={styles.stageContainer}
   >
-    <TouchableOpacity style={styles.info} onPress={props.onPress}>
-      <Image style={styles.img} source={require('../assets/info.png')} />
-    </TouchableOpacity>
     <View style={styles.contentRow}>
       <Image source={props.idle} />
       <Text
@@ -61,6 +58,9 @@ const CharacterHeader = (props) => (
         {props.character}
       </Text>
     </View>
+    <TouchableOpacity style={styles.info} onPress={props.onPress}>
+      <Image style={styles.img} source={require('../assets/info.png')} />
+    </TouchableOpacity>
   </ImageBackground>
 );
 

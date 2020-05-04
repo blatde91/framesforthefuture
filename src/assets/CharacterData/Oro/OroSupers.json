@@ -81,7 +81,7 @@
   },
   {
     "move": {
-      "blockAdv": "+73",
+      "blockAdv": "73",
       "damage": "96",
       "hit": "119",
       "motion": "QCF x 2 + 2 Punches",

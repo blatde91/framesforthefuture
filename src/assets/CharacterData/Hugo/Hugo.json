@@ -310,7 +310,7 @@
   {
     "move": {
       "blockAdv": "-5",
-      "crHitAdv": "+1",
+      "crHitAdv": "1",
       "damage": "7",
       "hit": "10",
       "hitAdv": "0",
